@@ -1,0 +1,126 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load virtualmachines_extras %}
+{% load django_bootstrap_breadcrumbs %}
+
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "virtual machines" "virtualmachines.views.homepageView" %}
+{% endblock %}
+
+{% block content-space %}
+
+<div class="container">
+
+{% include "virtualmachines/virtualmachines_sidebar.html" %}
+
+
+<div class="col-sm-9 col-md-offset-1">
+
+
+     <div class="row">
+
+          <div class="col-md-12">
+
+
+  
+  
+     {{ about|safe}}
+      
+   
+
+ </div> 
+ 
+       </div>                
+         <div class="row">
+           <div class="divider-w">
+     <br>
+          </div> 
+
+
+                   
+      
+  
+          <div class="col-md-6">
+       
+      <h4>Last Updated</h4>
+   
+
+{% for last_modified in last_modified|slice:":2" %}
+
+<p><i class="fa fa-toggle-right" style="color:#0095DD"></i> <a class="btn btn-virtualmachines-blue" href="{{ last_modified.get_absolute_url }}">{{ last_modified.title|safe}} </a></p>
+{% endfor %}
+
+  <br>
+
+ </div> 
+
+
+
+          <div class="col-md-6">
+       
+      <h4>Most Popular</h4>
+   
+<p><i class="fa fa-toggle-right" style="color:#7E0B80"></i> <a class="btn btn-virtualmachines-purple" href="./omeka-213-neatline/">Omeka 2.1.3 (+ Neatline)</a></p>
+
+
+  <br>
+
+ </div> 
+
+     
+   </div> 
+
+   <div class="row">
+           <div class="divider-w">
+             <br>
+
+    <div class="col-md-6">
+    
+                          <h4>Launch </h4>
+                          <p class="x-small">Instantly launch a popular Amazon Machine Image (AMI). If you are logged into an Amazon Web Services account these links will launch straight into the startup wizard.</p>
+
+                          {% for quick_launch in quick_launch|slice:":3" %}
+
+<p> <i class="fa fa-bolt" style="color:#F2253C"></i><a class="btn btn-virtualmachines-red" href="{{ quick_launch.launch }}">{{ quick_launch.title|safe}} </a></p>
+{% endfor %}
+
+  
+         </div>   
+
+   
+
+               <div class="col-md-6">
+             
+                       <h4>Download </h4>
+                       {% for quick_download in quick_download|slice:":3" %}
+                       <p class="x-small">Download a complete Linux operating system, with DH tools useful for DH work installed (~ 9gb). Runs using <a href="https://www.virtualbox.org/">Virtualbox.</a> Click <a href="https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html">here</a> for instructions and <a href="/virtualmachines/{{ quick_download.slug }}">here</a> for a complete specification.</p>
+                       {% endfor %}
+
+{% for quick_download in quick_download|slice:":3" %}
+
+<p> <i class="fa fa-download" style="color:green"></i><a class="btn btn-virtualmachines-green" href="{{ quick_download.download }}">{{ quick_download.title|safe}} </a></p>
+{% endfor %}
+
+               </div>  
+      
+
+ 
+          </div>  </div> 
+   </div>    
+
+<br>
+
+    </div> 
+          <br><br><br>
+        </div> 
+ {% endblock %}
+        
+
+
+
+             
+    
+
+
+

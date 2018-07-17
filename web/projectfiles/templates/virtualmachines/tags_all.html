@@ -1,0 +1,5 @@
+
+{% for tag in tags %}{% if not forloop.first %} {% endif %} <a href="{{ tag.get_absolute_url }}"> {{ tag.title }}</a>{% empty %} No Tags {% endfor %} 
+
+
+

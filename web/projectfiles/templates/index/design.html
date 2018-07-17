@@ -1,0 +1,41 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+
+    <div class="container">
+ 
+<div class="navbar navbar-inverse navbar-fixed-top"> 
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "design" "" %}
+{% endblock %}
+
+
+
+      {% block landing-page %}
+   
+   
+
+<div class="col-sm-12">
+<div class="post-entry">
+     
+
+
+
+    <h4> {{ design.title|safe }}</h4>
+     {{ design.about|safe}}
+    
+
+
+    </div>
+
+    <br>  <br>  <br>  <br>  <br>
+    
+
+    </div>
+      </div>
+
+
+
+
+{% endblock %}

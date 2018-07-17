@@ -1,0 +1,61 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+
+
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "virtual machines" "/virtualmachines" %}
+    {% breadcrumb "types" "/virtualmachines/types" %}
+    {% breadcrumb type "virtualmachines.views.typesView" type.title %}
+{% endblock %}
+
+{% block tag_space %}
+ 
+ <div class="container">
+
+
+
+  <h5> Virtual Machines of type '{{type.title}}'</h5>
+
+
+
+
+{% for specification in type.specification_set.all %}
+
+
+
+
+<div class="well">
+  <div class="panel-body">
+     <h5><a href="{{ specification.get_absolute_url }}">{{ specification.title }}</a></h5></p>
+
+        {% if specification.about1 %}
+  <p>{{ specification.about1|safe }}</p>
+        {% endif %}
+
+        {% if specification.about2 %}
+  <p>{{ specification.about2|safe }}</p>
+        {% endif %}
+
+<p class="read-more"><a href="{{ specification.get_absolute_url }}"> Read full specification</a></p>
+
+  </div>
+</div>
+
+
+ 
+
+{% endfor %}
+
+ </div> </div>
+
+<br><br><br><br><br>
+
+  {% endblock %}
+
+
+
+
+ 
+

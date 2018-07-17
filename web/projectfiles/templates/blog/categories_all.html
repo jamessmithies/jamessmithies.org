@@ -1,0 +1,5 @@
+
+ {% for category in categories %}{% if not forloop.first %}, {% endif %} <a href="{{ category.get_absolute_url }}"> {{ category.title }}</a>{% empty %} No Categories {% endfor %} 
+
+
+

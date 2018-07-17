@@ -1,0 +1,8 @@
+
+  
+
+
+  {% for virtualmachinesLatest in virtualmachinesLatest %}{% if not forloop.first %}, {% endif %} <a href="{{ virtualmachinesLatest.get_absolute_url }}"> {{ virtualmachinesLatest.title }}</a>{% empty %} No Virtual Machines {% endfor %} 
+
+
+

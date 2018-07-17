@@ -1,0 +1,61 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+{% load blog_extras %}
+
+
+      <div class="navbar navbar-inverse navbar-fixed-top"> 
+
+      {% block breadcrumbs %}
+          {{ block.super }}
+          {% breadcrumb "blog" "/blog.views.blogindexView" %}
+      {% endblock %}
+
+      {% block blog_home %}
+
+          <div class="navbar-header pull-right">
+            <a id="nav-expander" class="nav-expander fixed">
+               <p class="small-black-text">Tweets &nbsp;<i class="fa fa-toggle-left"></i></p>
+            </a>
+          </div>
+      </div>
+
+            <nav>
+              <ul class="list-unstyled main-menu">
+              <li class="text-right"><a href="#" id="nav-close"></a></li>
+              <li> {% include "blog/twitter_sidebar.html" %}</li>
+            </nav>
+ <br> <br> <br>
+      <section class="module-small">
+        <div class="container">
+          <div class="col-sm-9 col-md-offset-1">
+            {% for entry in entries %}
+            <h1 class="post-title">{{ entry.title|safe}}</a></h1>
+              <div class="post-meta">Published on {{ entry.pub_date}}</div>
+                   
+              <div class="post-entry">
+                {% if entry.excerpt %}
+                  {{ entry.excerpt|safe}}
+                {% else %}
+                  {{ entry.body|truncatewords:50 }}
+                {% endif %}
+                  <p class="read-more"><a href="{{ entry.get_absolute_url }}"> Read Full Entry</a></p>
+                  <br><br>
+              </div>
+                {% endfor %}
+                <br>            
+              <div class="tags">
+                {% if page.has_previous %}
+                  <a href="/blog/{{ page.previous_page_number }}/">Previous Page</a> 
+                {% endif %}
+                {% if page.has_next %}
+                  <a href="/blog/{{ page.next_page_number }}/">Next Page</a> 
+                {% endif %}
+              </div>
+      </section>
+
+      <br> <br> <br> <br> <br> <br>
+
+      {% endblock %}
+
+

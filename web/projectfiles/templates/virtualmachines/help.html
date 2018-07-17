@@ -1,0 +1,57 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load virtualmachines_extras %}
+{% load django_bootstrap_breadcrumbs %}
+
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "virtual machines" "/virtualmachines" %}
+    {% breadcrumb help "virtualmachines.views.HelpView" help.title %}
+{% endblock %}
+
+    {% block about %}
+
+  <div class="container"> 
+    
+          <div class="col-md-9">
+        <h3>{{ help.title|safe }}</h3>
+
+   
+   <p>{{ help.content|safe }}</p>
+  
+ </div> 
+
+    {% endblock %}
+
+          {% block search %}
+              <div class="col-md-3">
+             <div class="sidebar_box">
+
+     
+
+    <h4>Specifications</h4>
+
+   <p class="tags">{% virtualmachines_taglist %}</p>
+
+    <h4>Formats</h4>
+
+ <p class="tags">{% virtualmachines_typelist %}</p>
+
+ </div> 
+
+  </div>  </div>  </div>  </div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+             
+    
+
+
+

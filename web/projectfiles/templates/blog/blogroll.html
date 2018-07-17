@@ -1,0 +1,1 @@
+{% for blogroll in blogroll %}{% if not forloop.first %} <br> {% endif %} <a href="{{ blogroll.url }}"> {{ blogroll.title }}</a>{% empty %} Empty blogroll {% endfor %}

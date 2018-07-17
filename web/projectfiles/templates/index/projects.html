@@ -1,0 +1,52 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+
+
+
+<div class="navbar navbar-custom navbar-fixed-top"> 
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "projects" "" %}
+{% endblock %}
+
+     {% block landing-page %}
+
+      <div class="container">
+
+
+ <div class="row">
+  <div class="col-sm-12">
+
+{% for overview in overview %}
+            <!-- Post start -->
+            <div class="post">
+<h1 class="post-title">Projects</h1>
+<div class="post-entry"> <p>{{ overview.about|safe}}</p> </div>
+{% endfor %}
+
+<!-- Project entries start -->
+     
+  
+    
+     {% for projectdetails in projectdetails %}
+              <div class="post-entry">
+                <h5>{{ projectdetails.title|safe}}</h5>
+                <p>{{ projectdetails.about|safe}}</p>
+              </div>
+  {% endfor %}
+         
+
+          </div>
+          <!-- Project items end -->
+  </div>
+    </div>
+ 
+</div></div>
+{% endblock %}
+
+
+
+
+ 
+

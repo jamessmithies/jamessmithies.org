@@ -1,0 +1,42 @@
+{% extends "shared/base.html" %}
+{% load static %}
+{% load django_bootstrap_breadcrumbs %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">      
+{% block entries_index %}
+ {% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "message sent" "" %}
+{% endblock %}
+  </div>
+
+
+
+<section class="module">
+ <div class="container">
+
+
+        <div class="col-md-12">
+
+
+  
+            <div class="alert alert-success" role="alert">
+<p>Thank you. Your message was sent.</p>
+
+
+
+   
+        </div>
+
+    </div>
+
+
+
+
+
+</div>
+</section>
+
+{% endblock %}
+
+

@@ -1,0 +1,160 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+{% load disqus_tags %}
+{% load virtualmachines_extras %}
+{% disqus_dev %}
+
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "virtual machines" "/virtualmachines" %}
+    {% breadcrumb specification "virtualmachines.views.SpecificationView" specification.title %}
+{% endblock %}
+
+
+{% block specification-space %}
+
+
+
+ <div class="container">
+
+<div class="col-sm-9">
+
+<h2>{{ specification.title|safe }}</h2>
+
+  
+      {% if specification.about1 %}
+            <p>{{ specification.about1|safe }}</p>
+{% endif %}
+     
+
+
+
+    {% if specification.about2 %}
+            <p> {{ specification.about2|safe }}</p>
+{% endif %}
+
+    {% if specification.vmType %}
+            <p> <strong>virtualmachines Type:</strong> <a class="categories-vm-spec" href="{{ specification.Type.get_absolute_url }}"> {{ specification.vmType.title }}</a></p>
+{% endif %}
+
+         {% if specification.name %}
+            <p> <strong>Name:</strong> {{ specification.name|safe }}</p>
+{% endif %}
+    
+ 
+
+
+     {% if specification.vmID %}
+            <p> <strong>ID:</strong> {{ specification.vmID|safe }}</p>
+{% endif %}
+  
+
+
+
+  {% if specification.description %}
+            <p> <strong>Description:</strong> {{ specification.description }}</p>
+{% endif %}
+    
+
+
+
+     {% if specification.server %}
+            <p> <strong>Server:</strong> {{ specification.server|safe }}</p>
+{% endif %}
+   
+
+   {% if specification.serverAdditions %}
+            <p> <strong>Server Additions:</strong> {{ specification.serverAdditions|safe }}</p>
+{% endif %}
+  
+
+     {% if specification.plugins %}
+            <p> <strong>Plugins:</strong> {{ specification.plugins|safe }}</p>
+{% endif %}
+     
+     {% if specification.lastModified %}
+               <p> <strong>Last Modified:</strong> {{ specification.lastModified|date:"M d, Y" }}</p>
+{% endif %}
+      
+
+     {% if specification.lastTested %}
+            <p> <strong>Last Tested:</strong> {{ specification.lastTested|date:"M d, Y" }}</p>
+{% endif %}
+    
+
+     {% if specification.views %}
+            <p> <strong>Views:</strong> {{ specification.views|safe }}</p>
+{% endif %}
+{% if specification.userTests %}
+            <p> <strong>User Tests:</strong> {{ specification.userTests|safe }}</p>
+{% endif %}
+           
+
+
+<p class="tags">
+{% for tag in specification.tags.all %}{% if not forloop.first %}{% endif %}<a href="{{ tag.get_absolute_url }}"> {{ tag }}{% empty %}No Tags{% endfor %}</a></p> 
+
+
+
+
+
+
+    {% if specification.notes %}
+
+<div class="alert virtualmachines-alert-info" role="alert">{{ specification.notes|safe }}</div>
+
+{% else %}
+  {% endif %}
+<br><br><br><br><br>
+
+   {% disqus_show_comments %}
+
+</div>
+
+
+
+
+
+<div class="col-sm-2">
+<br><br><br>
+
+{% if specification.launch %}
+    <p><a href='{{ specification.launch }}' > <button type="button" class="btn btn-virtualmachines-main" >Launch </button></p>
+  {% endif %}
+  {% if specification.readMe %}
+    <p><a href='{{ specification.readMe|safe }}'> <button type="button" class="btn btn-virtualmachines-main" >ReadMe </button> </p></a>
+      {% endif %}
+    {% if specification.download %}
+    <p><a href='{{ specification.download|safe }}'> <button type="button" class="btn btn-virtualmachines-main" >Download-{{ specification.fileSize|safe }} </button></p></a>
+      {% endif %}
+
+
+{% if specification.product1 %}
+        <div class="website">
+            <p><a href='{{ specification.website1 }}'> <button type="button" class="btn btn-virtualmachines-main" >{{ specification.product1 }}</button></a></p>
+
+        </div>
+  {% endif %}
+ 
+
+{% if specification.product2 %}
+
+        <div class="website">
+            <p><a href='{{ specification.website2 }}'> <button type="button" class="btn btn-virtualmachines-main" >{{ specification.product2 }}</button></a></p>
+
+        </div>
+        {% endif %}
+
+<br>
+
+   <p class="tags">{% virtualmachines_taglist %}</p>
+
+ </div> </div> </div>
+
+
+   {% endblock %}
+
+
+
+

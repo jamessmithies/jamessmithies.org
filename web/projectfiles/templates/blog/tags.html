@@ -1,0 +1,74 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+
+{% load django_bootstrap_breadcrumbs %}
+
+<div class="navbar navbar-inverse navbar-fixed-top"> 
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "blog" "/blog" %}
+    {% breadcrumb "tags" "b" %}
+
+{% endblock %}
+
+ <div class="container">
+{% block blog_home %}
+
+  <div class="navbar-header pull-right">
+      <a id="nav-expander" class="nav-expander fixed">
+        <p class="small-black-text">Tweets &nbsp;<i class="fa fa-toggle-left"></i></p>
+      </a>
+    </div>
+</div>
+
+
+<nav>
+
+  <ul class="list-unstyled main-menu">
+
+    <!--Include your navigation here-->
+    <li class="text-right"><a href="#" id="nav-close">X</a></li>
+    <li>  {% include "blog/twitter_sidebar.html" %}</li>
+
+</nav>
+
+ 
+
+
+<section class="module-small">
+<div class="container">
+
+<div class="col-sm-8 col-md-offset-1">
+
+
+
+   <div class="post-header font-alt">
+                <h1 class="post-title">Tags</h1>
+
+
+{% for tag in tags %}
+
+
+     <h5><a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a></h5>
+
+     
+{% endfor %}
+
+ <br><br><br><br><br>
+</div>
+</div>
+
+
+
+
+</div></div>
+
+
+
+  {% endblock %}
+
+
+
+
+ 
+

@@ -1,0 +1,91 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+
+    <div class="container">
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-top"> 
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "influences" "" %}
+{% endblock %}
+
+
+
+      {% block landing-page %}
+<style type="text/css" id="zoterostylesheet" scoped>
+.bibshowhide {display:none;}
+.abstract {display:none;}
+.blink {margin:0;margin-right:15px;padding:0;display:none;}
+</style>
+<script type="text/javascript">
+ function downloadFile(elem) {
+  filename = "article.ris"
+  if (elem.parentNode) {
+    var elems = elem.parentNode.getElementsByTagName('*');
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+           {
+  var ee = elems[i]
+  if (ee.childNodes[0]) { ee = ee.childNodes[0] } 
+  var pom = document.createElement('a');
+  pom.href = window.URL.createObjectURL(new Blob([ee.innerHTML], {type: 'text/plain;charset=utf-8'}));
+  pom.download = filename;
+  document.body.appendChild(pom);
+  pom.click();
+  document.body.removeChild(pom);
+}}}}
+function show(elem) {
+  if (elem.parentNode) {
+   var elems = elem.parentNode.getElementsByTagName('*'), i;
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+           { if (elems[i].style.display == 'block') {elems[i].style.display = 'none';} else {elems[i].style.display = 'block';}}}}
+  return(void(0));}
+function changeCSS() {
+    if (!document.styleSheets) return;
+    var theRules = new Array();
+    //ss = document.styleSheets[document.styleSheets.length-1];
+    var ss = document.getElementById('zoterostylesheet');
+    if (ss) {
+    ss = ss.sheet
+    if (ss.cssRules)
+        theRules = ss.cssRules
+    else if (ss.rules)
+        theRules = ss.rules
+    else return;
+    theRules[theRules.length-2].style.display = 'inline';
+    theRules[theRules.length-1].style.display = 'inline';
+    }
+    }
+changeCSS();</script><a id='7A9I5HEZ' style='{display: block; position: relative; top: -150px; visibility: hidden;}'></a>
+   
+
+<div class="col-sm-12">
+<div>
+      <h2>{{ influences.displayName|safe }}</h2>
+
+
+
+
+     {{ influences.about|safe}}
+    
+
+
+    </div>
+{% include "zotero/zotero-library.html" %} 
+
+
+       <br>  <br>  
+ 
+    
+
+    </div>
+
+      </div>
+
+
+
+{% endblock %}

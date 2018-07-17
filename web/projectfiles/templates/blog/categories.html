@@ -1,0 +1,77 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+
+{% load django_bootstrap_breadcrumbs %}
+
+{% block tag_space %}
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "blog" "/blog" %}
+    {% breadcrumb "categories" "" %}
+{% endblock %}
+
+    <div class="navbar-header pull-right">
+      <a id="nav-expander" class="nav-expander fixed">
+        <p class="small-black-text">Tweets &nbsp;<i class="fa fa-toggle-left"></i></p>
+      </a>
+    </div>
+</div>
+
+
+<nav>
+  <ul class="list-unstyled main-menu">
+
+    <!--Include your navigation here-->
+    <li class="text-right"><a href="#" id="nav-close">X</a></li>
+    <li> {% include "blog/twitter_sidebar.html" %}</li>
+
+</nav>
+
+ 
+
+<section class="module-small">
+<div class="container">
+
+<div class="col-sm-9 col-md-offset-1">
+
+
+
+   <div class="post-header font-alt">
+                <h1 class="post-title">Categories</h1>
+
+
+
+{% for category in categories %}
+
+
+     <h5><a href="{{ category.get_absolute_url }}">{{ category.title }}</a></h5>
+
+     
+{% endfor %}
+
+ 
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</div></div>
+
+
+
+
+
+  {% endblock %}
+
+
+
+
+ 
+
+
+
+
+
+ 
+

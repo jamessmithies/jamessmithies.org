@@ -1,0 +1,67 @@
+
+{% load blog_extras %}
+					
+			
+
+
+
+
+					<!-- Sidebar column start -->
+					<div class="col-sm-4 col-md-2 sidebar">
+
+						<!-- Widget start -->
+	<div class="widget">
+
+<div class="search-box">
+<form onsubmit="window.location = '/search/?q=' + search.value; return false;">
+             
+<input id="search" placeholder="Search..." type="search" name="search" class="form-control" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" /></input>
+
+								
+									<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+
+ </form>
+</div></div>
+						<!-- Widget end -->
+
+											<!-- Widget start -->
+						<div class="widget">
+				
+	<a href="http://twitter.com/jamessmithies"><i class="fa fa-twitter fa-2x"></i></a> <a href="http://github.com/jamessmithies"><i class="fa fa-github fa-2x"></i></a> &nbsp;<a href="/contact"><i class="fa fa-envelope fa-fw fa-2x"></i></a> 
+<a href="/feed"><i class="fa fa-rss fa-2x"></i></a>&nbsp;<a href="/about/jamessmithies"><i class="fa fa-info fa-fw fa-2x"></i></a>
+						</div>
+						<!-- Widget end -->
+
+
+											<!-- Widget start -->
+						<div class="widget">
+							<h5 class="widget-title font-alt">Categories</h5>
+							<div class="categories-sidebar">{% blog_categorylist %}</div>
+						</div>
+						<!-- Widget end -->
+
+											<!-- Widget start -->
+						<div class="widget">
+							<h5 class="widget-title font-alt">Tags</h5>
+							<div class="tags">{% blog_taglist %}</div>
+						</div>
+						<!-- Widget end -->
+					
+						<!-- Widget start -->
+						<div class="widget">
+							<h5 class="widget-title font-alt">Links</h5>
+							<div class="post-meta">{% blog_blogroll %} </div>
+						</div>
+						<!-- Widget end -->
+					
+						
+
+					</div>
+					<!-- Sidebar column end -->
+
+ 
+
+
+
+
+

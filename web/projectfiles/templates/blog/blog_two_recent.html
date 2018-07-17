@@ -1,0 +1,49 @@
+{% load blog_extras %}
+ 
+	<!-- Latest blog posts start -->
+	
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+						<h2 class="module-title font-alt">Latest blog posts</h2>
+						
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row multi-columns-row post-columns">
+
+					<!-- Post item start -->
+					 {% for entry in two_recent %}
+					<div class="col-sm-6">
+
+						<div class="post mb-20">
+							<div class="post-header font-alt">
+								<h2 class="post-title"><a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a></h2>
+								<div class="post-meta">
+									By <a href="#">{{ entry.author }}</a> | {{ entry.pub_date}} 
+								</div>
+							</div>
+							<div class="post-entry">
+								<p>{{ entry.excerpt|safe|truncatechars:210 }}</p>
+							</div>
+							<div class="post-more">
+								<a href="{{ entry.get_absolute_url }}" class="more-link">Read more</a>
+							</div>
+						</div>
+
+					</div>
+					<!-- Post item end -->
+			 {% endfor %} 
+		
+
+				</div><!-- .row -->
+
+			</div>
+
+		<!-- Latest blog posts end -->
+

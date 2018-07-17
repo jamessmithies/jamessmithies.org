@@ -1,0 +1,102 @@
+{% extends "shared/base.html" %}
+{% load static from staticfiles %}
+{% load django_bootstrap_breadcrumbs %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">  
+{% block entries_index %}
+{% block breadcrumbs %}
+    {{ block.super }}
+    {% breadcrumb "blog" "/blog" %}
+    {% breadcrumb "tags" "/blog/tags" %}
+    {% breadcrumb request.path|slice:"10:"|cut:"/" ""  %}
+  {% endblock %}
+
+      <!--Include your brand here-->
+  
+
+
+
+  <div class="navbar-header pull-right">
+      <a id="nav-expander" class="nav-expander fixed">
+        <p class="small-black-text">Tweets &nbsp;<i class="fa fa-toggle-left"></i></p>
+      </a>
+    </div>
+</div>
+
+
+<nav>
+  <ul class="list-unstyled main-menu">
+
+    <!--Include your navigation here-->
+    <li class="text-right"><a href="#" id="nav-close">X</a></li>
+    <li>  {% include "blog/twitter_sidebar.html" %}</li>
+
+</nav>
+
+
+<section class="module-small">
+<div class="container">
+
+<div class="col-sm-8 col-md-offset-1">
+
+
+
+   <div class="post-header font-alt">
+                <h3 class="black-background-title"> Entries tagged '{{ tag.title|lower }}'</h3>
+              </div>
+                <br>
+
+                   {% for entry in tag.entry_set.all %}
+                    <h1 class="post-title">{{ entry.title }}</h1>
+                <div class="post-meta">
+                  Published on {{ entry.pub_date}} Filed under  {% for slug in entry.categories.all %}{% if not forloop.first %},{% endif %}<a class="category" href="{% url 'category_list' slug=slug.slug %}"> {{ slug }}{% empty %}  No Categories    {% endfor %}</a>
+                </div>
+          
+
+      {% if entry.excerpt %}
+
+      <div class="post-entry">
+
+<p>{{ entry.excerpt|safe }}</p>
+
+
+{% else %}
+
+{{ entry.body|truncatewords:200 }}
+
+</div>
+{% endif %}
+
+<p class="read-more"><a href="{{ entry.get_absolute_url }}"> Read Full Entry</a></p>
+ 
+    {% endfor %}
+
+        <br />
+   <div class="tags">
+        {% if page.has_previous %}
+
+    <a href="/blog/tags/{{ tags.slug }}/{{ page.previous_page_number }}/">Previous Page</a>  
+
+        {% endif %}
+
+        {% if page.has_next %}
+
+        <a href="/blog/tags/{{ tags.slug }}/{{ page.next_page_number }}/">Next Page</a> 
+
+        {% endif %}
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+</section>
+
+
+
+{% endblock %}
+
+    
+
+
+
