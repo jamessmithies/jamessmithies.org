@@ -2,6 +2,9 @@
 secrets.py
 zot.py
 env
+*.cert 
+*.key
+*.pem
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
