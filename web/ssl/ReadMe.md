@@ -1,11 +1,11 @@
 
 https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
 
-#####For dev you just need to make sure fullchain.pem + privkey.pem are in /docker-volumes/etc/letsencrypt. 
+#####For dev you just need to make sure fullchain.pem + privkey.pem are in /docker-volumes/etc/letsencrypt/live/jsorg.space. 
 
 #####Boot up the temporary cert-issue-site
 
-cd web/ssl/cert-issue-site
+cd web/ssl/
 make cert-site-up
 
 #####Run the staging command for issuing a new certificate:
