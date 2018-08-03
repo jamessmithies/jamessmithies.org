@@ -1,7 +1,16 @@
 
-https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
+Based on: https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
 
-#####For dev you just need to make sure fullchain.pem + privkey.pem are in /docker-volumes/etc/letsencrypt/live/jsorg.space. 
+#####For prod deployment to arm64v8 see ReadMe.arm64v8.md.
+
+#####To prepare for test depoyment to x86, rename / toggle to x86 and/or edit:
+* .docker-compose.yml; 
+* nginx/default.conf; 
+* nginx/Dockerfile; 
+* ssl/nginx.conf. 
+* Be sure to find/replace jamessmithies.org with jsorg.space in those files EXCEPT IN "-v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/ \" BELOW"
+
+#####For dev you just need to make sure fullchain.pem + privkey.pem are in /docker-volumes/etc/letsencrypt/live/jsorg.space, rather than going through cert-issue process via the temporary site.
 
 #####Boot up the temporary cert-issue-site
 
@@ -44,6 +53,12 @@ certonly --webroot \
 
 make cert-site-down
 
+#####Boot up the dev site
+cd ../
+make build-up
+make load
+
 #####Ensure cron is set to renew certs
 sudo crontab -e
-0 23 * * * docker run --rm -it --name certbot -v "/docker-volumes/etc/letsencrypt:/etc/letsencrypt" -v "/docker-volumes/var/lib/letsencrypt:/var/lib/letsencrypt" -v "/docker-volumes/data/letsencrypt:/data/letsencrypt" -v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt" certbot/certbot renew --webroot -w /data/letsencrypt --quiet && docker kill --signal=HUP production-nginx-container
+0 23 * * * docker run --rm -it --name certbot -v "/docker-volumes/etc/letsencrypt:/etc/letsencrypt" -v "/docker-volumes/var/lib/letsencrypt:/var/lib/letsencrypt" -v "/docker-volumes/data/letsencrypt:/data/letsencrypt" -v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt" certbot/certbot renew --webroot -w /data/letsencrypt --quiet && docker kill --signal=HUP nginx
+
