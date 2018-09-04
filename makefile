@@ -11,7 +11,7 @@ dump-fixtures:
 	python manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > jsorg_dev.json
 
 load-fixtures:
-	python manage.py loaddata --settings=settings.base ./fixtures/jsorg_dev.json
+	python manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
 
 destroy:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all

@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-07-08T12:54:57.021Z",
+        "last_login": "2018-07-08T14:03:31.405Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -341,6 +341,17 @@
         "title": "King's College London eResearch",
         "slug": "kings-college-london-eresearch",
         "about": "<p>King&#39;s eResearch is a new initiative at College London led by Director, Jacky Pallas. I am Deputy Director, working primarily on the development of Research Software Engineering career paths, training, and best practice. I am also exploring funding opportunities, for cross-disciplinary projects.</p>"
+    }
+},
+{
+    "model": "index.projects",
+    "pk": 13,
+    "fields": {
+        "display_name": "Critical Infrastructure Studies",
+        "position": 4,
+        "title": "Critical Infrastructure Studies",
+        "slug": "critical-infrastructure-studies",
+        "about": "<p>This initiative has been evolving for several years, through workshops held in New Zealand and later London. I am part of the <a href=\"http://cistudies.org/ci-collective/\" target=\"_blank\">planning group</a>. A related <a href=\"https://www.zotero.org/groups/704687/critical_infrastructure_collective\" target=\"_blank\">Zotero group</a> also exists, along with an evolving series of workshops and other activities.</p>\r\n\r\n<p><a href=\"http://cistudies.org\" target=\"_blank\"><em>Explore the Critical Infrastructure Studes Collective</em></a></p>"
     }
 },
 {
@@ -10464,6 +10475,19 @@
         "object_repr": "Influences",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 679,
+    "fields": {
+        "action_time": "2018-07-11T19:17:02.632Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Critical Infrastructure Studies",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
