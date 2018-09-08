@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-07-08T14:03:31.405Z",
+        "last_login": "2018-09-04T07:30:43.257Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -495,6 +495,15 @@
     }
 },
 {
+    "model": "blog.category",
+    "pk": 5,
+    "fields": {
+        "title": "Research Software Engineering",
+        "slug": "research-software-engineering",
+        "description": "Research Software Engineering (RSE)"
+    }
+},
+{
     "model": "blog.tag",
     "pk": 1,
     "fields": {
@@ -600,6 +609,15 @@
         "title": "Digital GLAM",
         "slug": "digital-glam",
         "description": "Digital Cultural heritage / GLAM"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 15,
+    "fields": {
+        "title": "HR & Careers",
+        "slug": "hr-careers",
+        "description": "HR & Careers"
     }
 },
 {
@@ -1392,6 +1410,28 @@
         "tags": [
             12,
             14
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 39,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "From Lab to University: Towards an Institutional RSE Career Pathway",
+        "excerpt": "<p>Slides for my talk &#39;From Lab to University: Towards an Institutional RSE Career Pathway&#39;, delivered at <a href=\"https://rse.ac.uk/conf2018/\" target=\"_blank\">Research Software Engineering 2018</a>, Birmingham University, 03 September 2018.</p>",
+        "body": "<p>Slides for my talk &#39;From Lab to University: Towards an Institutional RSE Career Pathway&#39;, delivered at <a href=\"https://rse.ac.uk/conf2018/\" target=\"_blank\">Research Software Engineering 2018</a>, Birmingham University, 03 September 2018.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSzvj0Ocql6lizlGVXOUIo5VDjRR76rvn4Y0V9MmpssIExhJZfh9fskg23DEJFWIaccPrSyY3QizG2c/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2018-09-03T17:47:54Z",
+        "slug": "lab-university-towards-institutional-rse-career-pathway-rse-2018",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            5
+        ],
+        "tags": [
+            15
         ]
     }
 },
@@ -10488,6 +10528,71 @@
         "object_repr": "Critical Infrastructure Studies",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 680,
+    "fields": {
+        "action_time": "2018-09-03T17:51:08.611Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "Research Software Engineering",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 681,
+    "fields": {
+        "action_time": "2018-09-03T17:51:27.854Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "15",
+        "object_repr": "HR & Careers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 682,
+    "fields": {
+        "action_time": "2018-09-03T17:51:36.414Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "39",
+        "object_repr": "From Lab to University: Towards an Institutional RSE Career Pathway, RSE 2018.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 683,
+    "fields": {
+        "action_time": "2018-09-03T17:52:43.766Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "39",
+        "object_repr": "From Lab to University: Towards an Institutional RSE Career Pathway",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"title\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 684,
+    "fields": {
+        "action_time": "2018-09-03T17:55:39.933Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "39",
+        "object_repr": "From Lab to University: Towards an Institutional RSE Career Pathway",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
     }
 }
 ]
