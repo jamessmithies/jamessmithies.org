@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-09-04T07:30:43.257Z",
+        "last_login": "2018-09-08T18:29:08.088Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -391,7 +391,7 @@
         "display_name": "Site Credits",
         "title": "Site Credits",
         "slug": "site-credits",
-        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the <a href=\"/publications\">Publications</a> and <a href=\"/influences\">Influences</a> pages are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the <a href=\"/publications\">Publications</a> and <a href=\"/influences\">Influences</a> pages are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The cookie popup on this site is built by <a href=\"https://cookieconsent.insites.com/\" target=\"_blank\">Insites</a>.</div>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -10593,6 +10593,32 @@
         "object_repr": "From Lab to University: Towards an Institutional RSE Career Pathway",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 685,
+    "fields": {
+        "action_time": "2018-09-08T18:34:47.516Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Site Credits",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 686,
+    "fields": {
+        "action_time": "2018-09-08T18:35:05.059Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Site Credits",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }
 }
 ]
