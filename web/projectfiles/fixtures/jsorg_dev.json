@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-09-13T18:55:18.420Z",
+        "last_login": "2018-11-08T21:09:17.552Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1454,6 +1454,29 @@
         ],
         "tags": [
             2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 41,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Research Software Careers: Establishing Local, National & International Pathways",
+        "excerpt": "<p>Slides for my talk &#39;Research Software Careers: Establishing Local, National &amp; International Pathways&#39;, at the launch of <a href=\"https://rslondon.ac.uk/\" target=\"_blank\">Research Software London</a>, Imperial College London, October 18, 2018.</p>",
+        "body": "<p>Slides for my talk &#39;Research Software Careers: Establishing Local, National &amp; International Pathways&#39;, at the launch of <a href=\"https://rslondon.ac.uk/\" target=\"_blank\">Research Software London</a>, Imperial College London, October 18, 2018.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vTvmcubY2TY_03xHrv8uXDnj0MYpa2Z4yX9IEBdbAIB6FHWmzm1Het0PtPiu3ShIyDFBjkfNtGPRVOh/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2018-10-18T21:09:22Z",
+        "slug": "research-software-careers-establishing-local-national-international-pathways",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            5
+        ],
+        "tags": [
+            8,
+            15
         ]
     }
 },
@@ -10628,6 +10651,32 @@
         "object_repr": "The Epistemology of the Machine: Natural Philosophy, Digital Laboratories, and Cultural Heritage",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 686,
+    "fields": {
+        "action_time": "2018-11-08T21:12:20.794Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "41",
+        "object_repr": "Research Software Careers: Establishing Local, National & International Pathways",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 687,
+    "fields": {
+        "action_time": "2018-11-08T21:13:50.693Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "41",
+        "object_repr": "Research Software Careers: Establishing Local, National & International Pathways",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
     }
 }
 ]

@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-09-08T18:29:08.088Z",
+        "last_login": "2018-09-13T18:55:18.420Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -391,7 +391,7 @@
         "display_name": "Site Credits",
         "title": "Site Credits",
         "slug": "site-credits",
-        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the <a href=\"/publications\">Publications</a> and <a href=\"/influences\">Influences</a> pages are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The cookie popup on this site is built by <a href=\"https://cookieconsent.insites.com/\" target=\"_blank\">Insites</a>.</div>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the <a href=\"/publications\">Publications</a> and <a href=\"/influences\">Influences</a> pages are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -1432,6 +1432,28 @@
         ],
         "tags": [
             15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 40,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "The Epistemology of the Machine: Natural Philosophy, Digital Laboratories, and Cultural Heritage",
+        "excerpt": "<p>Slides for my talk &#39;The Epistemology of the Machine: Natural Philosophy, Digital Laboratories, and Cultural Heritage&#39;, at the Northwest Digital Research Methods Festival, University of Liverpool, 12 September, 2018.</p>",
+        "body": "<p>Slides for my talk &#39;The Epistemology of the Machine: Natural Philosophy, Digital Laboratories, and Cultural Heritage&#39;, at the Northwest Digital Research Methods Festival, University of Liverpool, 12 September, 2018.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vQKLc1y5Jeu6A4PCyeq54NpuMIjTXLAPTYARrNc1-Y_E51JUsmgJydXcyZ8dFb7Y0nXDHf5SVDcwOZB/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2018-09-13T18:55:28Z",
+        "slug": "epistemology-machine-natural-philosophy-digital-laboratories-and-cultural-heritage",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            2
         ]
     }
 },
@@ -10599,26 +10621,13 @@
     "model": "admin.logentry",
     "pk": 685,
     "fields": {
-        "action_time": "2018-09-08T18:34:47.516Z",
+        "action_time": "2018-09-13T18:58:58.653Z",
         "user": 1,
-        "content_type": 14,
-        "object_id": "1",
-        "object_repr": "Site Credits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 686,
-    "fields": {
-        "action_time": "2018-09-08T18:35:05.059Z",
-        "user": 1,
-        "content_type": 14,
-        "object_id": "1",
-        "object_repr": "Site Credits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+        "content_type": 16,
+        "object_id": "40",
+        "object_repr": "The Epistemology of the Machine: Natural Philosophy, Digital Laboratories, and Cultural Heritage",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
