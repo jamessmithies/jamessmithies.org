@@ -10,7 +10,8 @@ urlpatterns = [
     url(r'^projects/$', views.projectsView, name='projects'),
     url(r'^bio/$', views.bioView, name='bio'),
     url(r'^influences/$', views.influencesView, name='influences'),
-    url(r'^publications/$', views.publicationsView, name='publications'),
+    url(r'^writing/$', views.writingView, name='writing'),
+    url(r'^presentations/$', views.presentationsView, name='presentations'),
     url(r'^design/$', views.designView, name='design'),
     url(r'^credits/$', views.creditsView, name='credits'),
 ]

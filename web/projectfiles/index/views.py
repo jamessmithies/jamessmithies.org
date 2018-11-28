@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render, get_object_or_404, render_to_response
 from django.core.management import call_command
-from index.models import Projects, Bio, Influences, Credits, Design, Publications
+from index.models import Projects, Bio, Influences, Credits, Design, Writing, Presentations
 
 def index(request):
     return render(request, 'index/index.html',)
@@ -20,9 +20,14 @@ def bioView(request):
         'bio': get_object_or_404(Bio)
     })
 
-def publicationsView(request):
-    return render(request, 'index/publications.html', {
-        'publications': get_object_or_404(Publications,)
+def writingView(request):
+    return render(request, 'index/writing.html', {
+        'publications': get_object_or_404(Writing,)
+    })
+
+def presentationsView(request):
+    return render(request, 'index/presentations.html', {
+        'presentations': get_object_or_404(Presentations,)
     })
 
 def designView(request):

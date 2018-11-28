@@ -68,14 +68,27 @@ class Credits(models.Model):
     def __unicode__(self):
         return self.title
 
-class Publications(models.Model):
+class Writing(models.Model):
     display_name = models.CharField(max_length=128, blank=True)
     title = models.CharField(max_length=128)
     slug = models.SlugField(max_length=100, unique=True, verbose_name="Slug", help_text='Suggested value automatically generated from title. Must be unique.')
     about = RichTextUploadingField("About", blank=True)
     
     class Meta:
-        verbose_name_plural = "Publications"
+        verbose_name_plural = "Writing"
+        app_label = 'index'  
+    
+    def __unicode__(self):
+        return self.title
+
+class Presentations(models.Model):
+    display_name = models.CharField(max_length=128, blank=True)
+    title = models.CharField(max_length=128)
+    slug = models.SlugField(max_length=100, unique=True, verbose_name="Slug", help_text='Suggested value automatically generated from title. Must be unique.')
+    about = RichTextUploadingField("About", blank=True)
+    
+    class Meta:
+        verbose_name_plural = "Presentations"
         app_label = 'index'  
     
     def __unicode__(self):
