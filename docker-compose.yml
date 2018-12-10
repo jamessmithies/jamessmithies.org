@@ -49,10 +49,8 @@ redis:
     - "6379"
 
 data:
-  container_name: data
   restart: always
-  image: alpine
+  image: arm64v8/alpine:3.5
   volumes:
     - /var/lib/postgresql
   command: "true"
-

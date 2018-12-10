@@ -42,9 +42,12 @@ intrepidde/rpi-certbot certbot certonly --webroot -w /data/web/ssl/cert-issue-si
 make cert-site-down
 
 #####Boot prod
+##Create env and secrets files
+sudo nano env
+sudo nano web/projectfiles/settings/secrets.py
 cd ../../
 make build-up
-male load
+make load
 
 #####Ensure cron is set to renew certs
 sudo crontab -e
