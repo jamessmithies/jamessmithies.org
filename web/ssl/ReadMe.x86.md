@@ -8,9 +8,9 @@ Based on: https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from
 * nginx/default.conf; 
 * nginx/Dockerfile; 
 * ssl/nginx.conf. 
-* Be sure to find/replace jamessmithies.org with jsorg.space in those files EXCEPT IN "-v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/ \" BELOW"
 
-#####For dev you just need to make sure fullchain.pem + privkey.pem are in /docker-volumes/etc/letsencrypt/live/jsorg.space, rather than going through cert-issue process via the temporary site.
+
+#####For dev - unless you are developing on jsorg.space VM (in which case replace all instances of jamessmithies.org with jsorg.space) - you just need to make sure old fullchain.pem + privkey.pem files are in /docker-volumes/etc/letsencrypt/live/jamessmithies.org on the local machine, rather than going through cert-issue process via the temporary site. 
 
 #####Boot up the temporary cert-issue-site
 

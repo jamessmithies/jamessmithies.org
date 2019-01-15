@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-11-29T20:25:02.257Z",
+        "last_login": "2019-01-25T23:26:20.951Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1487,6 +1487,29 @@
         "tags": [
             8,
             15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 42,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Curating our Technological Ruins: Towards an Aesthetics of Disaster Archiving",
+        "excerpt": "<p>Slides for my talk &#39;Curating our Technological Ruins: Towards an Aesthetics of Disaster Archiving&#39;, delivered at the &#39;<a href=\"https://hrc.rice.edu/node/792\" target=\"_blank\">Public Humanities Infrastructure: A Post-Harvey Introduction to Critical Infrastructure Studies</a>&#39; event at the Humanities Research Centre, Rice University, January 25th, 2019. Readings are available on the <a href=\"https://cistudies.org/events/public-humanities-infrastructure-a-post-harvey-introduction-to-critical-infrastructure-studies/\" target=\"_blank\">Critical Infrastructure Studies</a> site.</p>",
+        "body": "<p>Slides for my talk &#39;Curating our Technological Ruins: Towards an Aesthetics of Disaster Archiving&#39;, delivered at the &#39;<a href=\"https://hrc.rice.edu/node/792\" target=\"_blank\">Public Humanities Infrastructure: A Post-Harvey Introduction to Critical Infrastructure Studies</a>&#39; event at the Humanities Research Centre, Rice University, January 25th, 2019. Readings are available on the <a href=\"https://cistudies.org/events/public-humanities-infrastructure-a-post-harvey-introduction-to-critical-infrastructure-studies/\" target=\"_blank\">Critical Infrastructure Studies</a> site.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vQiSYKmJTKATVmlws7bLLvPHGcN6cfBhg1pOErZYDTXIhy-abUyFNiVP4WaMG5nqjmAoXA4XjlJoA26/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2019-01-25T23:13:04Z",
+        "slug": "curating-our-technological-ruins-towards-aesthetics-disaster-archiving",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            12,
+            7
         ]
     }
 },
@@ -10830,6 +10853,19 @@
         "object_repr": "James Smithies",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 699,
+    "fields": {
+        "action_time": "2019-01-25T23:20:18.891Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "42",
+        "object_repr": "Curating our Technological Ruins: Towards an Aesthetics of Disaster Archiving",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]

@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2018-11-29T20:06:32.498Z",
+        "last_login": "2018-11-29T20:25:02.257Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -361,7 +361,7 @@
         "display_name": "James Smithies",
         "title": "James Smithies",
         "slug": "jamessmithies",
-        "about": "<p>I am Director of King&rsquo;s Digital Lab (KDL) and Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History and have worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>will be published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/writing\">writing</a> and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>\r\n\r\n<p><a href=\"https://www.palgrave.com/gb/book/9781137499431\" target=\"_blank\"><img alt=\"\" src=\"/media/uploads/2018/07/07/dh_and_dm-small.png\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p>I am Director of King&rsquo;s Digital Lab (KDL) and Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History and have worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>will be published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/writing\">writing</a>, <a href=\"/presentations\">presentations</a> and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>\r\n\r\n<p><a href=\"https://www.palgrave.com/gb/book/9781137499431\" target=\"_blank\"><img alt=\"\" src=\"/media/uploads/2018/07/07/dh_and_dm-small.png\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -371,7 +371,7 @@
         "display_name": "Influences",
         "title": "Influences",
         "slug": "influences",
-        "about": "<p>These readings have been selected to offer an insight into influences on my research and digital practice. Being overt about intellectual influences is important for most disciplines but it is especially important for digital humanities, where research goals and practices vary widely.</p>\r\n\r\n<p>My <a href=\"/bio\">biography</a>, <a href=\"./writing\">writing</a>, and <a href=\"./talks\">talks</a> are also available on this site.</p>"
+        "about": "<p>These readings have been selected to offer an insight into influences on my research and digital practice. Being overt about intellectual influences is important for most disciplines but it is especially important for digital humanities, where research goals and practices vary widely.</p>\r\n\r\n<p>My <a href=\"/bio\">biography</a>, <a href=\"/writing\">writing</a>, and <a href=\"/presentations\">presentations</a> are also available on this site.</p>"
     }
 },
 {
@@ -401,7 +401,7 @@
         "display_name": "Writing",
         "title": "Writing",
         "slug": "writing",
-        "about": "<p>My <a href=\"./bio\">biography</a>, <a href=\"./writing\">writing</a>, and scholarly <a href=\"./influences\">influences</a> are also available on this site.</p>"
+        "about": "<p>My <a href=\"/bio\">biography</a>, <a href=\"/presentations\">presentations</a>, and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>"
     }
 },
 {
@@ -411,7 +411,7 @@
         "display_name": "presentations",
         "title": "Presentations",
         "slug": "presentations",
-        "about": "<p>Selected conference papers and talks. My <a href=\"./bio\">biography</a>, <a href=\"./writing\">writing</a>, and scholarly <a href=\"./influences\">influences</a> are also available on this site.</p>"
+        "about": "<p>Selected conference papers and talks. My <a href=\"/bio\">biography</a>, <a href=\"/writing\">writing</a>, and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>"
     }
 },
 {
@@ -10763,6 +10763,71 @@
         "content_type": 13,
         "object_id": "1",
         "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 694,
+    "fields": {
+        "action_time": "2018-11-29T20:25:38.254Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Influences",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 695,
+    "fields": {
+        "action_time": "2018-11-29T20:26:31.154Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Influences",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 696,
+    "fields": {
+        "action_time": "2018-11-29T20:27:06.510Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Presentations",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 697,
+    "fields": {
+        "action_time": "2018-11-29T20:27:53.383Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 698,
+    "fields": {
+        "action_time": "2018-11-29T20:28:35.591Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "James Smithies",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }
