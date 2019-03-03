@@ -29,7 +29,7 @@ certonly --webroot \
 --register-unsafely-without-email --agree-tos \
 --webroot-path=/data/web/ssl/cert-issue-site/ \
 --staging \
--d jsorg.space -d www.jsorg.space
+-d jamessmithies.org -d www.jamessmithies.org
 
 #####Clean up staging artifacts:
 
@@ -46,7 +46,7 @@ certbot/certbot \
 certonly --webroot \
 --email jamessmithies.smtp@gmail.com --agree-tos --no-eff-email \
 --webroot-path=/data/web/ssl/cert-issue-site/ \
--d jsorg.space -d www.jsorg.space
+-d jamessmithies.org -d www.jamessmithies.org
 
 
 #####If everything ran successfully, run a docker-compose down command to stop the temporary Nginx site
