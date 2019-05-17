@@ -16,7 +16,7 @@ PROJECT_PATH = os.getcwd()
 
 # Toggle between settings.dev & settings.prod as required.
 # settings.secrets is not in version control.
-from settings.prod import *
+from settings.dev import *
 from settings.secrets import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +26,7 @@ TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
-ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', '.jsorg.space', 'web']
+ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web']
 
 SECURE_SSL_REDIRECT = True 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -87,7 +87,7 @@ INSTALLED_APPS = (
     'ckeditor',
     'ckeditor_uploader',
     'disqus',
-    'contact_form',
+    'contactform',
     'twitter_tag',
     'captcha',
 )
@@ -191,13 +191,6 @@ HAYSTACK_CONNECTIONS = {
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 
-
-
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'james.smithies@protonmail.ch'
-DEFAULT_TO_EMAIL = 'james.smithies@protonmail.ch'
 
 
 # Local time zone for this installation. Choices can be found here:
