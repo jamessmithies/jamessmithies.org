@@ -2,6 +2,7 @@
 {% load static %}
 {% load django_bootstrap_breadcrumbs %}
 
+
 <div class="navbar navbar-inverse navbar-fixed-top">      
 
  {% block breadcrumbs %}
@@ -46,7 +47,7 @@
     <p> Message <br> {{ form.message }}</p>
 
  
-    
+    <p> <br> {{ form.captcha }}</p>
 
     <div class="form-actions">
        <input type="submit" class="btn btn-block btn-round btn-d" value="Submit">
@@ -66,4 +67,5 @@
 
       </div>
     </section>
+ 
 {% endblock %}

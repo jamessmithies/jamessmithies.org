@@ -90,6 +90,11 @@ INSTALLED_APPS = (
     'contactform',
     'twitter_tag',
     'captcha',
+    'antispam',
+
+  # 'antispam.akismet',
+  # 'antispam.honeypot',
+  # 'antispam.captcha',
 )
 
 MIDDLEWARE_CLASSES = (
