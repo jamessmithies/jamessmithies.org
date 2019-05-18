@@ -11,7 +11,7 @@ def blogindexView(request, selected_page=1):
 	entries = Entry.objects.all().order_by('-pub_date')
 	tags = Tag.objects.all()
 	categories = Category.objects.all()
-	pages = Paginator(entries, 2)
+	pages = Paginator(entries, 5)
 	returned_page = pages.page(selected_page) 
 
 	context = {'entries':returned_page.object_list,'page':returned_page, 'tags':tags, 'categories': categories,}
