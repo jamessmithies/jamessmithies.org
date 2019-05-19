@@ -30,7 +30,7 @@ make load
 STOP
 
 #####If you need a new cert: Boot up the temporary cert-issue-site
-cd web/ssl/
+cd /webapps/jamessmithies.org/web/ssl/
 make cert-site-up
 
 #####If you need a new cert: Run the staging command for issuing a new certificate (uses intrepidde/rpi-certbot):
