@@ -13,10 +13,10 @@ def emailView(request):
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email, ['james.smithies@protonmail.ch'])
+                send_mail(subject, message, from_email, ['jsmithies@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return redirect('success')
+            return redirect('contactform:success')
     return render(request, 'contactform/form.html', {'form': form})
 
 def successView(request):

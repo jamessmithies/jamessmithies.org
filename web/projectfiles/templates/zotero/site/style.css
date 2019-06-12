@@ -1,0 +1,222 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* The bibliography */
+div.bibliography 
+{
+    font-family: Lato;
+       /* font-family:'Lato',Arial,Geneva, sans-serif; */
+       font-weight:300;
+       line-height:1.4em;
+   }
+
+@media print
+{
+    #bib-preamble {display:none !important;}
+}
+
+/* Collection titles */
+div.bibliography h1, div.bibliography h2, div.bibliography h3, div.bibliography h4
+   {
+       font-family:Century Gothic,Times New Roman,Optima,sans-serif;
+       font-weight:1000;
+       color:Gray;
+   }
+
+/* Search term highlighted */
+#searchTermSectionTitle, #searchTermSectionTitle a {
+    color:DarkGreen;
+}
+
+/* Collections */
+
+div.bibliography div.collection { }
+div.bibliography div.collection div.collection { /* nested collection */ }
+
+/* The entire bibliographic item */
+div.bib-item {
+}
+div.full-bib-section div.bib-item {
+    margin-bottom:25px;
+}
+/* the short format (selected works) */
+div.short-bib-section div.bib-item {
+    margin-bottom:5px;
+}
+
+/* numbered citations */
+
+div.full-bib-section li {
+    margin-bottom:10px;
+}
+div.short-bib-section li {
+    margin-bottom:5px;
+    /* list-style-type: none; */    /* Use this to turn off numbering */
+}
+
+
+/* the abbreviated conference or journal title in the short format section */
+div.short-bib-section .containertitle {
+    font-style:italic;
+}
+
+/* details (e.g., collection, editors, years, pages, etc.) of a bib item */
+div.bib-details{
+    
+}
+
+
+
+/* Rendering the "extra" field */
+div.bib-details div.bib-extra {
+    display: inline;
+    font-weight: bold;
+}
+
+/* Venue, where published (e.g., proceedings title, journal */
+div.bib-item div.bib-venue {
+    display:none;
+}
+
+/* Short venue (e.g., conference acronym, journal abbreviation)
+Is hidden by default.  CSS specificity is used to override default. */
+div.bib-item div.bib-venue-short {
+    display:none;  /* change to block or inline to display */
+    /* See demo/style3.css for an example on formatting this. */
+}
+
+/* Citation (when visible) */
+div.cite {
+    width: 600px;
+}
+
+/* The actual BibTeX record (when visible) */
+div.bib {
+    font-family:Menlo,Courier,monospaced;
+    color:brown;
+    white-space: pre-wrap;
+}
+
+/* Text "bib", "abstract", and other buttons */
+.blinkitems .blink a {
+    font-variant: small-caps;
+    font-family:Arial,sans-serif;
+
+    text-decoration: none;
+    clear: both;
+    padding:0;
+    margin:0;
+}
+
+/* Show/hide  area */
+div.blinkitems .bibshowhide {
+    background: white;
+    padding: 20px;
+    margin-left:40px;
+    z-index: 5;
+    position: absolute;
+    width: 600px;
+
+}
+
+/* grey border inside the white padding */
+div.blinkitems .bibshowhide:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid grey;
+}
+
+
+/* the .blink p style is a hack because Wordpress seems to insert <p> at times. */
+.blink p {
+    display:inline;
+}
+
+div.full-bib-section .blinkitems .blink {
+    margin-bottom:-30px;
+    font-size:80%;
+}
+div.short-bib-section .blinkitems .blink {
+    display:inline-block; /* needed to make margin-top work (collapsed margins) */
+    margin-bottom:10px;
+    font-size:80%;
+}
+
+
+/* The actual abstract (when visible) */
+div.abstract {
+    color:black;
+    line-height:120%;
+    font-size:120%;
+}
+
+
+/* Document titles */
+.doctitle {
+    font-weight:200;
+}
+
+/* Document titles linking to a PDF or somewhere else */
+a.doctitle:link,a.doctitle:visited,a.doctitle,a.doctitle:hover,a.doctitle.active {
+    color:blue;
+    font-weight:200;
+    text-decoration:none; /* do not underline */ 
+}
+
+/* Document titles where shorted, e.g. "selected works" */
+.doctitle-short {
+}
+
+/* Display publication titles in their own lines.
+Remove to disable. */
+span.doctitle {
+    display:block;
+}
+
+/* Search box */
+#pubSearchButton {
+    /* border: 0 solid #d4d0ba; */
+    font-family: inherit;
+    padding: 0;
+}
+#pubSearchBox {
+    position:static;
+    text-align:right;
+    right:10px; top:100px;
+    display:block;
+}
+
+
+/* Categories at top of the bibliography */
+.bib-cat {
+    display: inline;
+    list-style: none;
+    text-indent: 0;
+    margin: 0; padding: 0; 
+}
+
+.bib-cat li {
+    display: inline;
+}
+.bib-cat:not(:first-child):before, .bib-cat li:not(:last-child):after {
+    content: " | ";
+}

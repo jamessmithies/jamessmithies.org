@@ -1,6 +1,6 @@
 from django.db import models 
 from ckeditor.fields import RichTextField
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 class Home(models.Model):
     display_name = models.CharField(max_length=128, blank=True)
@@ -67,7 +67,7 @@ class Specification(models.Model):
     display_name = models.CharField(max_length=128, blank=True)
     title = models.CharField(max_length=128)
     slug = models.SlugField(max_length=100, unique=True, verbose_name="Slug", help_text='Suggested value automatically generated from title. Must be unique.')
-    type = models.ForeignKey(Type)
+    type = models.ForeignKey(Type, on_delete = models.CASCADE)
     product1 = models.CharField("Product1 Name", max_length=128, blank=True)
     website1 = models.URLField("Website1", blank=True)
     about1 = RichTextField("About1", blank=True)

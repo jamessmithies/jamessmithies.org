@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-  
+
 # provides tex2unicode and unicode2tex
-  
-  
+
+
 ################################################################
 # LaTeX accents replacement
 latexAccents = [
@@ -88,7 +88,7 @@ latexAccents = [
   ( u"„", ",," ),
   ( u"", ",," )
 ]
-  
+
 mathModeLaTeX = [
   ( u'≥', '\\ge' ),   # Math operators
   ( u'≤', '\\le' ),
@@ -142,38 +142,35 @@ mathModeLaTeX = [
   ( u'Ψ', '\\Psi' ),
   ( u'Ω', '\\Omega')
 ]
-  
+
 def addDollar(list):
     return [u"$%s$"%x for x in list]
-  
-from string import maketrans   # Required to call maketrans function.
-  
+
 latexAccentsDict = dict(latexAccents)
 latexAccentsDictR = dict (zip(latexAccentsDict.values(),latexAccentsDict.keys()))
-  
+
 tmp = dict(mathModeLaTeX)
 mathModeLaTeXDictR = dict (zip(tmp.values(),tmp.keys()))
 mathModeLaTeXDictR["$"] = ""  # just kill all inline math
-  
+
 mathModeLaTeXDict = dict(mathModeLaTeX)
 mathModeLaTeXDict = dict (zip(mathModeLaTeXDict.keys(), addDollar(mathModeLaTeXDict.values())))
-  
+
 def string_replace(dct,text):
     keys = dct.keys()
     for n in keys:
         # if '%' not in text: break
         text = text.replace(n,dct[n])
     return text
-  
-  
+
+
 def tex2unicode(s):
    s= string_replace(latexAccentsDictR, s)
    s= string_replace(mathModeLaTeXDictR, s)
    return s
-  
-  
+
+
 def unicode2tex(s):
    s= string_replace(latexAccentsDict, s)
    s= string_replace(mathModeLaTeXDict, s)
    return s
-  

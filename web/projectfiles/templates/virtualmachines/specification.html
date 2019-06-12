@@ -93,7 +93,7 @@
 
 
 <p class="tags">
-{% for tag in specification.tags.all %}{% if not forloop.first %}{% endif %}<a href="{{ tag.get_absolute_url }}"> {{ tag }}{% empty %}No Tags{% endfor %}</a></p> 
+{% for tag in specification.tags.all %}{% if not forloop.first %}{% endif %}<a href="{{ tag.get_absolute_url }}"> {{ tag.slug }}{% empty %}No Tags{% endfor %}</a></p> 
 
 
 

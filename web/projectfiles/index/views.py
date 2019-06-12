@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render, get_object_or_404, render_to_response
 from django.core.management import call_command
-from index.models import Projects, Bio, Influences, Credits, Design, Writing, Presentations
+from .models import Projects, Bio, Influences, Credits, Design, Writing, Presentations
 
 def index(request):
     return render(request, 'index/index.html',)
