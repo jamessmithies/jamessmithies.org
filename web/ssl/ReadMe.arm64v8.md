@@ -61,11 +61,6 @@ intrepidde/rpi-certbot certbot certonly --webroot -w /data/web/ssl/cert-issue-si
 make cert-site-down
 
 #####If you need a new cert: Boot prod
-sudo nano env
-sudo nano web/projectfiles/settings/secrets.py
-cd /webapps/jamessmithies.org/web/projectfiles/templates/zotero/
-sudo mv zot.py_default zot.py (large file: Only copy secrets)
-sudo nano zot.py (large file: Only copy secrets)
 cd ../../
 make build-up
 make load
