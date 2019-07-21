@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM arm64v8/nginx
 ADD default.conf /etc/nginx/conf.d/
 EXPOSE 80
 EXPOSE 443

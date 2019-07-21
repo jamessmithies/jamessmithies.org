@@ -7,7 +7,6 @@ Based on: https://hub.docker.com/r/intrepidde/rpi-certbot/
 * nginx/default.conf; 
 * nginx/Dockerfile; 
 * ssl/nginx.conf. 
-* Be sure to find/replace jsorg.space with jamessmithies.org in those files.
 
 #####Destroy images, back up current install, and fetch new version
 cd /webapps/jamessmithies.org
