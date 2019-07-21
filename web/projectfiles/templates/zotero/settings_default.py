@@ -16,7 +16,7 @@ verbosity = 0
 
 # group_collection(160464, collection='MGID93AS')
 
-user_collection(id='24279', api_key='wjQI9tfc18l2OzExbiH40ciK', collection='Q9VCFP3V')
+user_collection(id='<DEFAULT>', api_key='<DEFAULT>', collection='<DEFAULT>')
 
 # group_collection(id, api_key=None, collection=None, top_level=False)
 #user_collection(id, api_key=None, collection=None, top_level=False)
