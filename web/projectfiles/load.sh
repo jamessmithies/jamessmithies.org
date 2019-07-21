@@ -1,4 +1,4 @@
 #!/bin/sh
-python manage.py migrate
-python manage.py loaddata --settings=settings.base ./fixtures/jsorg_dev.json
-python manage.py rebuild_index --settings=settings.base --noinput
+python3 manage.py migrate
+python3 manage.py loaddata --settings=settings.base ./fixtures/jsorg_dev.json
+python3 manage.py rebuild_index --settings=settings.base --noinput

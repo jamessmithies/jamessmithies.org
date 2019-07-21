@@ -5,6 +5,8 @@ from django.conf.urls.static import static
 from . import models
 from . import views
 
+app_name = "virtualmachines"
+
 urlpatterns = [
     url(r'^$', views.homepageView, name='home'),
     url(r'^tags/(?P<slug>[-\w]+)/$', views.virtualmachines_taglistView.as_view(), name="virtualmachines_tag_list"),

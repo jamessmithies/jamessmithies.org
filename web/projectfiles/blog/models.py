@@ -64,7 +64,7 @@ class Entry(models.Model):
 	body = RichTextUploadingField(blank=True,)
 	pub_date = models.DateTimeField(default=datetime.datetime.now)
 	slug = models.SlugField(max_length=250, unique_for_date='pub_date', help_text='Suggested value automatically generated from title.')
-	author = models.ForeignKey(User)
+	author = models.ForeignKey(User, on_delete = models.CASCADE)
 	enable_comments = models.BooleanField(default=True)
 	featured = models.BooleanField(default=False)
 	categories = models.ManyToManyField(Category)

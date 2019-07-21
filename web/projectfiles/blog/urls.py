@@ -7,6 +7,8 @@ from . import views
 from . import models
 from . import feeds
 
+app_name = "blog"
+
 urlpatterns = [
     url(r'^$', views.blogindexView, name='home_list'), 
     url(r'^(?P<selected_page>\d+)/?$', views.blogindexView, name='home_list'), 

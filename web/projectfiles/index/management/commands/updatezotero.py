@@ -5,5 +5,5 @@ import subprocess
 
 class Command(BaseCommand):
 	def handle(self, *args, **options):
-		subprocess.call(["python", "zot.py"], cwd='templates/zotero')
+		subprocess.call(["python3", "zot.py"], cwd='templates/zotero')
 	

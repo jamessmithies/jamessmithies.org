@@ -33,7 +33,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ROOT_URLCONF = 'urls'
 
-FILE_UPLOAD_PERMISSIONS = 0644
+# FILE_UPLOAD_PERMISSIONS = 0644
 
 WSGI_APPLICATION = 'wsgi.application'
 
@@ -79,7 +79,6 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'storages',
     'haystack',
-    'dbbackup',
     'django_bootstrap_breadcrumbs',
     'index',
     'blog',
@@ -87,22 +86,21 @@ INSTALLED_APPS = (
     'ckeditor',
     'ckeditor_uploader',
     'disqus',
-    'contactform',
     'twitter_tag',
     'captcha',
     'antispam',
+    'google_analytics',
 
   # 'antispam.akismet',
   # 'antispam.honeypot',
   # 'antispam.captcha',
 )
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -135,13 +133,13 @@ TEMPLATES = [
                 'django.template.context_processors.tz',
                 'django.template.context_processors.request',             
                 'django.contrib.messages.context_processors.messages',
-                'custom_additions.custom_context_processors.google_analytics',
+                # CANNOT INSTALL 'custom_additions.custom_context_processors.google_analytics',
             ],
             'loaders': [
                 # List of callables that know how to import templates from various sources.
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
-                'django.template.loaders.eggs.Loader',
+                # DEPRECATED 'django.template.loaders.eggs.Loader',
             ]
         },
     },

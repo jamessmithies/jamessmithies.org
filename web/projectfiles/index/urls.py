@@ -4,6 +4,8 @@ from django.conf.urls.static import static
 
 from . import views
 
+app_name = "index"
+
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/update-zotero/$', views.updatezoteroView, name='update_zotero'),
