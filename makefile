@@ -2,16 +2,16 @@ build-up:
 	docker-compose build && docker-compose up -d
 
 zot:
-	docker-compose exec web python manage.py updatezotero
+	docker-compose exec web python3 manage.py updatezotero
 
 load:
 	docker-compose exec web "./load.sh"  
 
 dump-fixtures:
-	python manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > jsorg_dev.json
+	python3 manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > fixtures/jsorg_dev.json
 
 load-fixtures:
-	python manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
+	python3 manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
 
 destroy:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all

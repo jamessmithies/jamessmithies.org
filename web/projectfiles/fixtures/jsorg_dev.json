@@ -2,8 +2,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$36000$JTyyZ1uXvQOT$Qao/D/NOTw6ePgNzNtmaoXqRStuf7AXnW+O1JohmRW8=",
-        "last_login": "2019-03-03T17:07:39.844Z",
+        "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
+        "last_login": "2019-07-27T21:08:57.089Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -230,7 +230,7 @@
         "position": 0,
         "title": "Overview",
         "slug": "overview",
-        "about": "<p><span style=\"font-size:14px\">This page lists the projects and initiatives I&#39;m working on, or involved in. Sometimes they&#39;re little more than an attempt to learn a new tool or method. Sometimes they represent an attempt to answer a specific research question. Sometimes the goal is to contribute to a local, national, or international community. They often involve collaborations with colleagues, software vendors, IT support staff, and team members with considerably more technical skills than I have. The results are variable. I make no claim that the digital humanities are radically transformative or always useful for teaching or research; the digital arts, social sciences, and humanities remain a work in progress. I have a strong preference for open source technologies. For a list of my other research outputs please refer to my <a href=\"/writing\">Writing</a> page. </span></p>"
+        "about": "<p><span style=\"font-size:14px\">This page lists the projects and initiatives I&#39;m working on, or involved in. Sometimes they&#39;re little more than an attempt to learn a new tool or method. Sometimes they represent an attempt to answer a specific research question. Sometimes the goal is to contribute to a local, national, or international community. They often involve collaborations with colleagues, software vendors, IT support staff, and team members with considerably more technical skills than I have. The results are variable. I make no claim that the digital humanities are radically transformative or always useful for teaching or research; the digital arts, social sciences, and humanities remain a work in progress. I have a strong preference for open source technologies. For a list of my other research outputs please refer to my <a href=\"/outputs\">outputs</a> page. </span></p>"
     }
 },
 {
@@ -241,7 +241,7 @@
         "position": 1,
         "title": "jamessmithies.org",
         "slug": "jsorg",
-        "about": "<p>This project is based on the notion of &#39;full-stack digital humanities&#39;, where the entire technology stack - from server to application to DNS routing - is built and maintained by the author. This is informed in some ways by the DH craft ethos, but also by a desire to embed scholarly values in every layer of the technical process. By using open source code and a minimal computer, I not only regain a sense of control I lose when using commercial products, but I&#39;m learning useful skills and deepening my understanding of technology.</p>\r\n\r\n<p><em><a href=\"http://jamessmithies.org/\">Explore jamessmithies.org</a></em></p>"
+        "about": "<p>This project is based on the notion of &#39;full-stack digital humanities&#39;, where the entire technology stack - from server to application to DNS routing - is built and maintained by the author. This is informed in some ways by the DH craft ethos, but also by a desire to embed scholarly values in every layer of the technical process. By using open source code and hosting it on a minimal computer (for 5 years), I not only regained a sense of control I lose when using commercial products, but learned useful skills and deepened my understanding of technology.</p>\r\n\r\n<p><em><a href=\"http://jamessmithies.org/\">Explore jamessmithies.org</a></em></p>"
     }
 },
 {
@@ -249,7 +249,7 @@
     "pk": 4,
     "fields": {
         "display_name": "UC CEISMIC Digital Archive",
-        "position": 5,
+        "position": 7,
         "title": "UC CEISMIC Digital Archive",
         "slug": "ceismic",
         "about": "<p>I helped design and build the UC CEISMIC Digital Archive in my capacity as Project Manager and later Associate Director of the project. CEISMIC was established to collect and preserve content associated with the Canterbury earthquakes of 2010 - 2012. The archive is federated, with a main repository on site at the University of Canterbury (<a href=\"http://quakestudies.canterbury.ac.nz\" target=\"_blank\">UC QuakeStudies)</a> and many others federated at a national level using the services of <a href=\"http://digitalnz.org\">DigitalNZ</a>, a unit of the National Library. The CEISMIC Consortium includes 12 local and national cultural heritage agencies from across New Zealand.</p>\r\n\r\n<p><a href=\"http://ceismic.org.nz\" target=\"_blank\"><em>Explore CEISMIC</em></a></p>"
@@ -260,7 +260,7 @@
     "pk": 5,
     "fields": {
         "display_name": "UC QuakeStudies",
-        "position": 6,
+        "position": 8,
         "title": "UC QuakeStudies",
         "slug": "quakestudies",
         "about": "<p>I helped design and build the UC QuakeStudies repository in my capacity as Project Manager and later Associate Director of the CEISMIC Digital Archive project. UC QuakeStudies is the repository at the heart of the CEISMIC national federation, storing almost 80% of its content. It was built using Fedora Commons and Drupal, and is maintained by the UC CEISMIC Programme Office, and Catalyst IT. It was recently migrated to Islandora. There are still plans to gain funding to extend the platform in many different ways.</p>\r\n\r\n<p><a href=\"http://quakestudies.canterbury.ac.nz\" target=\"_blank\"><em>Explore UC QuakeStudies</em></a></p>"
@@ -282,7 +282,7 @@
     "pk": 7,
     "fields": {
         "display_name": "Academic AMIs",
-        "position": 7,
+        "position": 9,
         "title": "Academic AMIs",
         "slug": "academic-ami",
         "about": "<p>This site provides &lsquo;ready to eat&rsquo; academic infrastructure, with an emphasis on the digital humanities, in the form of Amazon Machine Images (AMIs). Each AMI provides a base LAMP (Linux, Apache, MySQL, PHP) server stack, along with a pre-configured academic web application. They can be booted up very easily, providing &#39;virtualmachiness&#39; to experiment with new technologies or run workshops. They are not configured for production use, but could be upgraded to allow for this. The same AMIs can be found on this site at <a href=\"/virtualmachines\">Virtual Machines</a>.</p>\r\n\r\n<p><em><a href=\"http://academicami.org\" target=\"_blank\">Explore Academic AMIs</a> | <a href=\"/virtualmachines\">Explore jamessmithies.org/virtualmachines</a></em></p>"
@@ -293,7 +293,7 @@
     "pk": 8,
     "fields": {
         "display_name": "UCDH Boilerplate",
-        "position": 9,
+        "position": 11,
         "title": "UCDH Boilerplate",
         "slug": "ucdh-boilerplate",
         "about": "<p>This project was used for a talk at Digital Humanities 2014, Nebraska. The talk outlined the development of the <a href=\"http://dh.canterbury.ac.nz\" target=\"_blank\">University of Canterbury Digital Humanities Programme</a> curriculum, including both pedagogical principles and the administrative processes required at University and national level. The site is hosted on GitHub pages. It includes detailed administrative material, and course outlines.</p>\r\n\r\n<p><em><a href=\"http://www.ucdhboilerplate.info/\" target=\"_blank\">Explore UCDH Boilerplate</a></em></p>"
@@ -304,7 +304,7 @@
     "pk": 9,
     "fields": {
         "display_name": "Humanities Machine",
-        "position": 10,
+        "position": 12,
         "title": "humanitiesmachine.org.nz",
         "slug": "humanitiesmachineorgnz",
         "about": "<p>This is an archived project, which ran from 2012 - 2015. The goal was to produce a digital humanities portal for New Zealand, so people could learn what that term meant and explore our country&#39;s digital heritage. It was built using Drupal and was hosted on the <a href=\"https://www.nesi.org.nz/\" target=\"_blank\">National eScience Infrastructure</a> (NeSI, formerly BeSTGrid) at the University of Auckland. It is archived at the Internet Archive Wayback Machine, minus the RSS feed on the front page.</p>\r\n\r\n<p><em><a href=\"https://web.archive.org/web/20130520154121/http://humanitiesmachine.org.nz/\" target=\"_blank\">Explore Humanities Machine</a></em></p>"
@@ -315,7 +315,7 @@
     "pk": 10,
     "fields": {
         "display_name": "Georgian Papers Programme",
-        "position": 4,
+        "position": 6,
         "title": "Georgian Papers Programme",
         "slug": "georgian-papers-programme",
         "about": "<p>I provide advice to the Georgian Papers Programme in my capacity as Director of King&#39;s Digital Lab. King&#39;s College London and the Royal Archives established the Georgian Papers Programme (GPP) to enrich public historical understanding of Britain, George III, British monarchy and a crucial period in British and world history. The GPP is a partnership between the Royal Collection Trust and King&rsquo;s College London, and is joined by primary United States partners the Omohundro Institute of Early American History and Culture and the College of William &amp; Mary. The project hopes to transform the understanding of eighteenth-century North America and Georgian Britain and its monarchy, at a time of profound cultural, political, economic and social change which created the modern nation.</p>\r\n\r\n<p><a href=\"http://georgianpapersprogramme.com/\" target=\"_blank\">Explore the Georgian Papers Programme</a></p>"
@@ -326,7 +326,7 @@
     "pk": 11,
     "fields": {
         "display_name": "Sudan Memory",
-        "position": 4,
+        "position": 6,
         "title": "Sudan Memory",
         "slug": "sudan-memory",
         "about": "<p>I provide occasional technical advice to the Sudan Memory project, led by Prof. Marilyn Deegan and funded by the British Council, in my capacity as Director of King&#39;s Digital Lab. In this project, a register of cultural institutions and artefacts will be compiled, and a priority schedule for conservation and digitisation will be drawn up. A professional cataloguing and digitisation service will be set up in Khartoum, with roving facilities available for other regions. This service will continue once the project ends, being offered at an affordable cost to institutions within Sudan.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.britishcouncil.org/arts/culture-development/cultural-protection-fund/projects/sudan-library\" target=\"_blank\"><em>Explore Sudan Memory</em></a></p>"
@@ -355,6 +355,28 @@
     }
 },
 {
+    "model": "index.projects",
+    "pk": 14,
+    "fields": {
+        "display_name": "MaDiH (\u0645\u062f\u064a\u062d)",
+        "position": 5,
+        "title": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Cultural Heritage in Jordan, is an AHRC",
+        "slug": "madih-mdyh-mapping-digital-cultural-heritage-jordan-ahrc",
+        "about": "<p>I am UK Principal Investigator for <em>MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Cultural Heritage in Jordan</em>, an AHRC / Newton funded collaborative project between King&rsquo;s Digital Lab (KDL), the Hashemite University, the Council for British Research in the Levant (CBRL), the Department of Antiquities of Jordan, the Jordanian Open Source Association, and the Endangered Archaeology in the Middle East and North Africa (EAMENA) project. It is scheduled to run for two years, from February 2019 - February 2021. The project will contribute to the long-term sustainable development of Jordan&rsquo;s digital cultural heritage, identifying key systems, datasets, standards, and policies, and aligning them to government digital infrastructure capabilities and strategies. Read more about the project <a href=\"https://www.kdl.kcl.ac.uk/blog/mapping-digital-cultural-heritage-jordan/\" target=\"_blank\">here</a>.</p>"
+    }
+},
+{
+    "model": "index.projects",
+    "pk": 15,
+    "fields": {
+        "display_name": "Applying AI to storytelling",
+        "position": 6,
+        "title": "Applying AI to storytelling - bringing computational research into creative industries",
+        "slug": "applying-ai-storytelling-bringing-computational-research-creative-industries",
+        "about": "<p>I was part of the King&#39;s College London team on the Innovate UK funded project <em>Applying AI to storytelling - bringing computational research into creative industries</em>, which ran from 2018 - 2019. <em>Applying AI</em> aimed to understand what the impact of artificially-intelligent memory is on storytelling and narrative structure, and how to transfer the resulting research into industry using the kind of Research Software Engineers (RSE) found in King&#39;s Digital Lab. The project was led by <a href=\"https://www.toplayfor.com/\" target=\"_blank\">To Play For</a>, a pioneer in interactive storytelling developing the <a href=\"https://charisma.ai/\" target=\"_blank\">charisma.ai</a> immersive story-telling platform. Read more <a href=\"https://gtr.ukri.org/projects?ref=133687\" target=\"_blank\">here</a>.</p>"
+    }
+},
+{
     "model": "index.bio",
     "pk": 2,
     "fields": {
@@ -365,23 +387,13 @@
     }
 },
 {
-    "model": "index.influences",
-    "pk": 1,
-    "fields": {
-        "display_name": "Influences",
-        "title": "Influences",
-        "slug": "influences",
-        "about": "<p>These readings have been selected to offer an insight into influences on my research and digital practice. Being overt about intellectual influences is important for most disciplines but it is especially important for digital humanities, where research goals and practices vary widely.</p>\r\n\r\n<p>My <a href=\"/bio\">biography</a>, <a href=\"/writing\">writing</a>, and <a href=\"/presentations\">presentations</a> are also available on this site.</p>"
-    }
-},
-{
     "model": "index.design",
     "pk": 1,
     "fields": {
         "display_name": "Site Design",
         "title": "Site Design",
         "slug": "site-design",
-        "about": "<p><span style=\"color:#ff0000\">Update:</span> This site has been running on a <a href=\"https://www.pine64.org/?page_id=7147\" target=\"_blank\">Rock64</a> since late 2017. This page will be updated to reflect that, eventually.</p>\r\n\r\n<p>jamessmithies.org is designed according to &#39;full-stack DH&#39; principles, which seek to embed values of quality, control, transparency, teachability, and verifiability at every level of the architecture. The purpose is less about rejecting the many excellent online services available to humanities researchers, and more about embracing the possibilities inherent in our contemporary global computing ecosystem: a system that remains heterogenous and empowering even as it trends towards commercialism, and governmental command and control. In that sense full-stack DH is an attempt to remind us that technical knowledge can be empowering as well as exclusionary, and that architectural choices can create products that align well to our older traditions.</p>\r\n\r\n<p>Aside from the <a href=\"https://www.raspberrypi.org/\" target=\"_blank\">Raspberry Pi</a> minimal computer the open source virtualmachines used are all commercial-grade and capable of scaling up to support extraordinary levels of demand. While such technologies do not completely circumvent issues associated with the technology industry, they align well to scholarly values inherited from the humanities and social science traditions. They are also well suited to research contexts that require verifiability, falsification, and reproducibility.</p>\r\n\r\n<p>The <a href=\"https://www.djangoproject.com/\" target=\"_blank\">Django</a> web framework - developed to support large newspaper sites - has been used for web development. Django is an open source project written in Python, a language frequently used to teach programming, and widely used in academic research in the social sciences, hard sciences, engineering, and the humanities.</p>\r\n\r\n<p>The site has been built by an amateur programmer and remains under &#39;heavy development&#39;. There are plenty of things to tidy up and improve under the hood, including some embarassments. The intention is to make it available on&nbsp;<a href=\"http://127.0.0.1:8001/#\" target=\"_blank\">the author&#39;s GitHub account</a>&nbsp;when a little more house-keeping has been done.</p>\r\n\r\n<p><img alt=\"\" src=\"http://jsorg-docker-static.s3.amazonaws.com/media/uploads/2017/12/21/figure1_architecture-small.jpg\" style=\"height:482px; width:715px\" /></p>"
+        "about": "<p><span style=\"color:#ff0000\">Update:</span> This site was migrated to a virtual private server in late 2019, mainly to reduce security risk to my home network. The project has been fulfilling, but I don&#39;t always have time to install updates as promptly as I&#39;d like.</p>\r\n\r\n<p><span style=\"color:#ff0000\">Update:</span> This site has been running on a <a href=\"https://www.pine64.org/?page_id=7147\" target=\"_blank\">Rock64</a> since late 2017. It was hosted on a Raspberry Pi from late 2014.</p>\r\n\r\n<p>jamessmithies.org was designed according to &#39;full-stack DH&#39; principles, which seek to embed values of quality, control, transparency, teachability, and verifiability at every level of the architecture. The purpose is less about rejecting the many excellent online services available to humanities researchers, and more about embracing the possibilities inherent in our contemporary global computing ecosystem: a system that remains heterogenous and empowering even as it trends towards commercialism, and governmental command and control. In that sense full-stack DH is an attempt to remind us that technical knowledge can be empowering as well as exclusionary, and that architectural choices can create products that align well to our older traditions.</p>\r\n\r\n<p>Aside from initally using a <a href=\"https://www.raspberrypi.org/\" target=\"_blank\">Raspberry Pi</a> minimal computer, the open source technology used is all commercial-grade and capable of scaling up to support extraordinary levels of demand. While such technologies do not completely circumvent issues associated with the technology industry, they align well to scholarly values inherited from the humanities and social science traditions. They are also well suited to research contexts that require verifiability, falsification, and reproducibility.</p>\r\n\r\n<p>The <a href=\"https://www.djangoproject.com/\" target=\"_blank\">Django</a> web framework - developed to support large newspaper sites - has been used for web development. Django is an open source project written in Python, a language frequently used to teach programming, and widely used in academic research in the social sciences, hard sciences, engineering, and the humanities.</p>\r\n\r\n<p>The site has been built by an amateur programmer. There are plenty of things to tidy up and improve under the hood, including some embarassments. The code is available on&nbsp;<a href=\"http://127.0.0.1:8001/#\" target=\"_blank\">the author&#39;s GitHub account</a>. The original architecture was as follows:</p>\r\n\r\n<p><img alt=\"\" src=\"http://jsorg-docker-static.s3.amazonaws.com/media/uploads/2017/12/21/figure1_architecture-small.jpg\" style=\"height:482px; width:715px\" /></p>"
     }
 },
 {
@@ -391,27 +403,17 @@
         "display_name": "Site Credits",
         "title": "Site Credits",
         "slug": "site-credits",
-        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the <a href=\"/writing\">Writing</a> and <a href=\"/influences\">Influences</a> pages are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the<a href=\"/outputs\"> outputs</a> page are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
-    "model": "index.writing",
+    "model": "index.outputs",
     "pk": 1,
     "fields": {
-        "display_name": "Writing",
-        "title": "Writing",
-        "slug": "writing",
-        "about": "<p>My <a href=\"/bio\">biography</a>, <a href=\"/presentations\">presentations</a>, and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>"
-    }
-},
-{
-    "model": "index.presentations",
-    "pk": 1,
-    "fields": {
-        "display_name": "presentations",
-        "title": "Presentations",
-        "slug": "presentations",
-        "about": "<p>Selected conference papers and talks. My <a href=\"/bio\">biography</a>, <a href=\"/writing\">writing</a>, and scholarly <a href=\"/influences\">influences</a> are also available on this site.</p>"
+        "display_name": "Outputs",
+        "title": "Outputs",
+        "slug": "outputs",
+        "about": "<p><span style=\"font-size:14px\">This page lists my more traditional research outputs. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
     }
 },
 {
@@ -11122,6 +11124,279 @@
         "object_repr": "Digital History and the Digital Modern",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 717,
+    "fields": {
+        "action_time": "2019-07-27T19:41:06.237Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Outputs object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 718,
+    "fields": {
+        "action_time": "2019-07-27T19:41:41.890Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Projects object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 719,
+    "fields": {
+        "action_time": "2019-07-27T19:41:58.099Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Projects object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 720,
+    "fields": {
+        "action_time": "2019-07-27T19:42:57.686Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Projects object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 721,
+    "fields": {
+        "action_time": "2019-07-27T19:43:09.141Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Projects object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 722,
+    "fields": {
+        "action_time": "2019-07-27T19:43:17.196Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Projects object (8)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 723,
+    "fields": {
+        "action_time": "2019-07-27T19:43:26.750Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Projects object (9)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 724,
+    "fields": {
+        "action_time": "2019-07-27T19:43:37.331Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Projects object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 725,
+    "fields": {
+        "action_time": "2019-07-27T19:43:49.035Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "Projects object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 726,
+    "fields": {
+        "action_time": "2019-07-27T19:44:25.880Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Projects object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 727,
+    "fields": {
+        "action_time": "2019-07-27T19:47:05.389Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "Projects object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 728,
+    "fields": {
+        "action_time": "2019-07-27T19:52:08.156Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "Projects object (15)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 729,
+    "fields": {
+        "action_time": "2019-07-27T19:52:53.611Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Projects object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 730,
+    "fields": {
+        "action_time": "2019-07-27T19:54:14.960Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Outputs object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 731,
+    "fields": {
+        "action_time": "2019-07-27T20:41:51.002Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Outputs object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 732,
+    "fields": {
+        "action_time": "2019-07-27T20:48:17.159Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Design object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 733,
+    "fields": {
+        "action_time": "2019-07-27T20:55:04.939Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Design object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 734,
+    "fields": {
+        "action_time": "2019-07-27T20:58:16.818Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Design object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 735,
+    "fields": {
+        "action_time": "2019-07-27T21:03:23.999Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Design object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 736,
+    "fields": {
+        "action_time": "2019-07-27T21:05:56.417Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Credits object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 737,
+    "fields": {
+        "action_time": "2019-07-27T21:09:13.465Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Projects object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }
 }
 ]

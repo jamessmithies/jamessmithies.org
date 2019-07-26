@@ -7,13 +7,26 @@
 <div class="navbar navbar-inverse navbar-fixed-top"> 
 {% block breadcrumbs %}
     {{ block.super }}
-    {% breadcrumb "writing" "" %}
+    {% breadcrumb "outputs" "" %}
 {% endblock %}
 
+  {% block landing-page %}
+
+        <div class="container">
 
 
-      {% block landing-page %}
-    <style type="text/css" id="zoterostylesheet" scoped>
+ <div class="row">
+  <div class="col-sm-12">
+
+    {% for outputs in outputs %}
+            <!-- Post start -->
+                        <div class="post">
+<h1 class="post-title">Outputs</h1>
+<div class="post-entry"> <p>{{ outputs.about|safe}}</p> </div>
+{% endfor %}
+
+
+     <style type="text/css" id="zoterostylesheet" scoped>
 .bibshowhide {display:none;}
 .abstract {display:none;}
 .blink {margin:0;margin-right:15px;padding:0;display:none;}
@@ -59,28 +72,26 @@ function changeCSS() {
 changeCSS();</script>
    
 
-<div class="col-sm-12">
-<div class="post-entry">
-     
+  
 
 
 
 
-     {{ publications.about|safe}}
+   
     
 
 
-    </div>
+   
   
 {% include "zotero/zotero-about-library.html" %}
 
-    <br>  <br>  <br>  <br>  <br>
+  
     
 
     </div>
       </div>
 
-
+</div></div> </div>
 
 
 {% endblock %}

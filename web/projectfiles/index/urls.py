@@ -11,9 +11,7 @@ urlpatterns = [
     url(r'^admin/update-zotero/$', views.updatezoteroView, name='update_zotero'),
     url(r'^projects/$', views.projectsView, name='projects'),
     url(r'^bio/$', views.bioView, name='bio'),
-    url(r'^influences/$', views.influencesView, name='influences'),
-    url(r'^writing/$', views.writingView, name='writing'),
-    url(r'^presentations/$', views.presentationsView, name='presentations'),
+    url(r'^outputs/$', views.outputsView, name='outputs'),
     url(r'^design/$', views.designView, name='design'),
     url(r'^credits/$', views.creditsView, name='credits'),
 ]
