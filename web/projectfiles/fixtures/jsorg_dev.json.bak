@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2019-07-27T21:05:26.571Z",
+        "last_login": "2019-07-27T21:08:57.089Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -241,7 +241,7 @@
         "position": 1,
         "title": "jamessmithies.org",
         "slug": "jsorg",
-        "about": "<p>This project is based on the notion of &#39;full-stack digital humanities&#39;, where the entire technology stack - from server to application to DNS routing - is built and maintained by the author. This is informed in some ways by the DH craft ethos, but also by a desire to embed scholarly values in every layer of the technical process. By using open source code and hosting it on a minimal computer (for 5 years), I not only regained a sense of control I lose when using commercial products, but learned useful skills and deepening my understanding of technology.</p>\r\n\r\n<p><em><a href=\"http://jamessmithies.org/\">Explore jamessmithies.org</a></em></p>"
+        "about": "<p>This project is based on the notion of &#39;full-stack digital humanities&#39;, where the entire technology stack - from server to application to DNS routing - is built and maintained by the author. This is informed in some ways by the DH craft ethos, but also by a desire to embed scholarly values in every layer of the technical process. By using open source code and hosting it on a minimal computer (for 5 years), I not only regained a sense of control I lose when using commercial products, but learned useful skills and deepened my understanding of technology.</p>\r\n\r\n<p><em><a href=\"http://jamessmithies.org/\">Explore jamessmithies.org</a></em></p>"
     }
 },
 {
@@ -11382,6 +11382,19 @@
         "content_type": 9,
         "object_id": "1",
         "object_repr": "Credits object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 737,
+    "fields": {
+        "action_time": "2019-07-27T21:09:13.465Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Projects object (3)",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }

@@ -20,8 +20,8 @@ cd jamessmithies.org
 sudo nano env
 sudo nano web/projectfiles/settings/secrets.py
 cd /webapps/jamessmithies.org/web/projectfiles/templates/zotero/
-sudo mv zot.py_default zot.py (large file: Only copy secrets)
-sudo nano zot.py (large file: Only copy secrets)
+sudo mv settings_default.py settings.py (large file: Only copy secrets)
+sudo nano settings.py (large file: Only copy secrets)
 
 #####If you don't need a new cert
 make build-up
