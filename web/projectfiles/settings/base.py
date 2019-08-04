@@ -184,6 +184,8 @@ CACHES = {
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
+SESSION_COOKIE_HTTPONLY = True
+CSRF_COOKIE_SECURE = True
 
 HAYSTACK_CONNECTIONS = {
     'default': {
@@ -192,7 +194,8 @@ HAYSTACK_CONNECTIONS = {
     },
 }
 
-SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+
+
 
 
 
