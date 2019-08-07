@@ -54,7 +54,7 @@ certonly --webroot \
 make cert-site-down
 
 #####Boot up the dev site
-cd ../
+cd ../../
 make build-up
 make load
 

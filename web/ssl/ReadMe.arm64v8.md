@@ -10,11 +10,10 @@ Based on: https://hub.docker.com/r/intrepidde/rpi-certbot/
 
 #####Destroy images, back up current install, and fetch new version
 cd /webapps/jamessmithies.org
-make destroy
 cd ../
-sudo mv jamessmithies.org jamessmithies.bak
+sudo mv jamessmithies.org jamessmithies.org.bak
 sudo git clone https://github.com/jamessmithies/jamessmithies.org.git
-cd jamessmithies.org
+cd jsorg.xyz
 
 ##Create env and secrets files (using secret content from local repository)
 sudo nano env
@@ -29,7 +28,7 @@ make load
 STOP
 
 #####If you need a new cert: Boot up the temporary cert-issue-site
-cd /webapps/jamessmithies.org/web/ssl/
+cd /webapps/jsorg.xyz/web/ssl/
 make cert-site-up
 
 #####If you need a new cert: Run the staging command for issuing a new certificate (uses intrepidde/rpi-certbot):
