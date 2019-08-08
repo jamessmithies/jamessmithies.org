@@ -18,8 +18,7 @@ cd jsorg.xyz
 ##Create env and secrets files (using secret content from local repository)
 sudo nano env
 sudo nano web/projectfiles/settings/secrets.py
-cd /webapps/jamessmithies.org/web/projectfiles/templates/zotero/
-sudo mv settings_default.py settings.py (large file: Only copy secrets)
+sudo mv /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings_default.py /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings.py 
 sudo nano settings.py (large file: Only copy secrets)
 
 #####If you don't need a new cert

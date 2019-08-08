@@ -3,7 +3,7 @@ Based on: https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from
 
 #####For prod deployment to arm64v8 see ReadMe.arm64v8.md.
 
-#####To prepare for test depoyment to x86, rename / toggle to x86 and/or edit:
+#####If necessary rename / toggle to x86 and/or edit:
 * .docker-compose.yml; 
 * nginx/default.conf; 
 * nginx/Dockerfile; 
@@ -11,6 +11,12 @@ Based on: https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from
 
 
 #####For dev - unless you are developing on jsorg.space VM (in which case replace all instances of jamessmithies.org with jsorg.space) - you just need to make sure old fullchain.pem + privkey.pem files are in /docker-volumes/etc/letsencrypt/live/jamessmithies.org on the local machine, rather than going through cert-issue process via the temporary site. 
+
+#####Create env and secrets files (using secret content from local repository)
+sudo nano env
+sudo nano web/projectfiles/settings/secrets.py
+sudo mv /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings_default.py /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings.py 
+sudo nano /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings.py (large file: Only copy secrets)
 
 #####Boot up the temporary cert-issue-site
 
