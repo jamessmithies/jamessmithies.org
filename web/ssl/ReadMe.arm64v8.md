@@ -19,7 +19,7 @@ cd jsorg.xyz
 sudo nano env
 sudo nano web/projectfiles/settings/secrets.py
 sudo mv /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings_default.py /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings.py 
-sudo nano settings.py (large file: Only copy secrets)
+sudo nano /webapps/jamessmithies.org/web/projectfiles/templates/zotero/settings.py (large file: Only copy secrets)
 
 #####If you don't need a new cert
 make build-up
