@@ -12,7 +12,7 @@ class Blogroll (models.Model):
 		verbose_name_plural = "Blogroll"
 		app_label = 'blog' 
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.title
 
 class Category (models.Model):
@@ -25,7 +25,7 @@ class Category (models.Model):
 		verbose_name_plural = "Categories"
 		app_label = 'blog' 
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.title
 
 	def get_absolute_url(self):
@@ -41,7 +41,7 @@ class Tag (models.Model):
 		verbose_name_plural = "Tags"
 		app_label = 'blog' 
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.title
 
 	def get_absolute_url(self):
@@ -75,7 +75,7 @@ class Entry(models.Model):
 		ordering = ['-pub_date']
 		app_label = "blog"
 
-	def __unicode__(self):
+	def __str__(self):
 		return self.title
 
 	def get_absolute_url(self):

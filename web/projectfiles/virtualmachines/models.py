@@ -11,7 +11,7 @@ class Home(models.Model):
         verbose_name_plural = "Home"
         app_label = 'virtualmachines'  
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Help(models.Model):
@@ -27,7 +27,7 @@ class Help(models.Model):
         verbose_name_plural = "Help Topics"
         app_label = 'virtualmachines'  
 
-    def __unicode__(self):
+    def __str__(self):
         return self.slug
 
 class Type(models.Model):
@@ -43,7 +43,7 @@ class Type(models.Model):
         verbose_name_plural = "Types"
         app_label = 'virtualmachines'
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Tag (models.Model):
@@ -56,7 +56,7 @@ class Tag (models.Model):
         verbose_name_plural = "Tags"
         app_label = 'virtualmachines' 
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     def get_absolute_url(self):
@@ -103,6 +103,6 @@ class Specification(models.Model):
         verbose_name_plural = "Specifications"
         app_label = 'virtualmachines'  
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 

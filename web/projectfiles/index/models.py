@@ -13,7 +13,7 @@ class Projects(models.Model):
         verbose_name_plural = "Projects"
         app_label = 'index'  
     
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Bio(models.Model):
@@ -26,7 +26,7 @@ class Bio(models.Model):
         verbose_name_plural = "Bio"
         app_label = 'index'  
     
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Design(models.Model):
@@ -39,7 +39,7 @@ class Design(models.Model):
         verbose_name_plural = "Site Design"
         app_label = 'index'  
     
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Credits(models.Model):
@@ -52,7 +52,7 @@ class Credits(models.Model):
         verbose_name_plural = "Site Credits"
         app_label = 'index'  
     
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Outputs(models.Model):
@@ -65,6 +65,6 @@ class Outputs(models.Model):
         verbose_name_plural = "Outputs"
         app_label = 'index'  
     
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
