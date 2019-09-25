@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2019-08-04T18:20:09.621Z",
+        "last_login": "2019-09-11T18:22:28.772Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1547,6 +1547,56 @@
             4,
             3,
             2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 44,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Innovation at the Intersection: Using STS to enable University \u2013 Technology Sector Collaboration",
+        "excerpt": "<p>Slides of my talk &#39;Innovation at the Intersection: Using STS to enable University &ndash; Technology Sector Collaboration&#39;, delivered at the 4S Society for the Social Studies of Science conference, New Orleans, 04 September 2019.</p>",
+        "body": "<p>Slides of my talk &#39;Innovation at the Intersection: Using STS to enable University &ndash; Technology Sector Collaboration&#39;, delivered at the 4S Society for the Social Studies of Science conference, New Orleans, 04 September 2019.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vTA9mzE5lw17yeChMYs9V8FZEKD9jzZc0fBMOyq-QSj0lfG7YUwKMdjl3OWSZjRKA/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2019-09-11T18:23:05Z",
+        "slug": "innovation-intersection-using-sts-enable-university-technology-sector-collaboration",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            15,
+            7,
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 45,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Research Software Engineering in Jordan: The MaDiH (\u0645\u062f\u064a\u062d) Project",
+        "excerpt": "<p>Slides of &#39;Research Software Engineering in Jordan: The MaDiH (\u0645\u062f\u064a\u062d) Project&#39;, delivered at RSE2019, 18 September, 2019.</p>",
+        "body": "<p>Slides of &#39;Research Software Engineering in Jordan: The MaDiH (\u0645\u062f\u064a\u062d) Project&#39;, delivered at RSE2019, 18 September, 2019.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSMSTThC4nyPHoTJTeHedEvQd6XVzcH5GX5UjJdXWVcFBkTEhe5bdIuXicwk-fi-g/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2019-09-11T18:31:58Z",
+        "slug": "research-software-engineering-jordan-madih-mdyh-project",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            8,
+            15,
+            7
         ]
     }
 },
@@ -11423,6 +11473,32 @@
         "object_repr": "Design object (1)",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 740,
+    "fields": {
+        "action_time": "2019-09-11T18:27:10.150Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "44",
+        "object_repr": "Entry object (44)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 741,
+    "fields": {
+        "action_time": "2019-09-11T18:40:47.355Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "45",
+        "object_repr": "Entry object (45)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
