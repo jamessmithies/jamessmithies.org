@@ -1,7 +1,6 @@
 ### Secrets ###
 settings.py
 secrets.py
-zot.py
 env
 *.cert 
 *.key
