@@ -35,7 +35,6 @@ postgres:
     - data
   volumes:
     - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-    - ./backups/postgresql:/backup
   env_file:
     - env
   expose:
