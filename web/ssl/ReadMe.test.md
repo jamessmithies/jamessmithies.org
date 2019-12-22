@@ -13,7 +13,7 @@ cd /webapps/jamessmithies.org
 cd ../
 sudo mv jamessmithies.org jamessmithies.org.bak
 sudo git clone https://github.com/jamessmithies/jamessmithies.org.git
-cd jsorg.xyz
+cd jamessmithies.org
 
 ##Create env and secrets files (using secret content from local repository)
 sudo nano env
@@ -27,18 +27,22 @@ make load
 STOP
 
 #####If you need a new cert: Boot up the temporary cert-issue-site
-cd /webapps/jsorg.xyz/web/ssl/
+cd /webapps/jamessmithies.org/web/ssl/
 make cert-site-up
 
 #####If you need a new cert: Run the staging command for issuing a new certificate (uses intrepidde/rpi-certbot):
 
-docker run -ti --rm \
---name certbot-nginx --hostname certbot-nginx \
--v /docker-volumes/etc/letsencrypt:/etc/letsencrypt \
+sudo docker run -it --rm \
+-v /docker-volumes/etc/letsencrypt:/etc/letsencrypt/ \
 -v /docker-volumes/var/lib/letsencrypt:/var/lib/letsencrypt \
 -v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/ \
--v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt"/ \
-intrepidde/rpi-certbot certbot certonly --staging --webroot -w /data/web/ssl/cert-issue-site/ -d jamessmithies.org -d www.jamessmithies.org -m jamessmithies.smtp@gmail.com --agree-tos
+-v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt" \
+certbot/certbot \
+certonly --webroot \
+--register-unsafely-without-email --agree-tos \
+--webroot-path=/data/web/ssl/cert-issue-site/ \
+--staging \
+-d jsorg.xyz -d www.jsorg.xyz
 
 #####If you need a new cert: Clean up staging artifacts:
 
@@ -46,12 +50,16 @@ sudo rm -rf /docker-volumes/
 
 #####If you need a new cert: Request a production certificate:
 
-docker run -ti --rm \
---name certbot-nginx --hostname certbot-nginx \
--v /docker-volumes/etc/letsencrypt:/etc/letsencrypt:rw \
--v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/:rw \
--v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt"/:rw \
-intrepidde/rpi-certbot certbot certonly --webroot -w /data/web/ssl/cert-issue-site/ -d jamessmithies.org -d www.jamessmithies.org -m jamessmithies.smtp@gmail.com --agree-tos
+sudo docker run -it --rm \
+-v /docker-volumes/etc/letsencrypt:/etc/letsencrypt \
+-v /docker-volumes/var/lib/letsencrypt:/var/lib/letsencrypt \
+-v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/ \
+-v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt" \
+certbot/certbot \
+certonly --webroot \
+--email jamessmithies.smtp@gmail.com --agree-tos --no-eff-email \
+--webroot-path=/data/web/ssl/cert-issue-site/ \
+-d jsorg.xyz -d www.jsorg.xyz
 
 
 #####If you need a new cert: If everything ran successfully, run a docker-compose down command to stop the temporary Nginx site

@@ -26,7 +26,7 @@ TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
-ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web']
+ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web', 'jsorg.xyz']
 
 SECURE_SSL_REDIRECT = True 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
