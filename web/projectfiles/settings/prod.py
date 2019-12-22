@@ -26,5 +26,5 @@ MEDIA_ROOT = "media/"
 
 
 # DB Backup 
-DBBACKUP_STORAGE = 'dbbackup.storage.s3_storage'
-DBBACKUP_S3_BUCKET = 'dbbackup'
+#DBBACKUP_STORAGE = 'dbbackup.storage.s3_storage'
+#DBBACKUP_S3_BUCKET = 'dbbackup'
