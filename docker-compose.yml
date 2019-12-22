@@ -55,4 +55,3 @@ data:
   volumes:
     - /var/lib/postgresql
   command: "true"
-
