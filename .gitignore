@@ -6,6 +6,10 @@ env
 *.key
 *.pem
 
+### Whoosh index ###
+/web/projectfiles/settings/whoosh_index/**
+*.toc
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
