@@ -49,6 +49,7 @@ sudo docker run -it --rm \
 -v /webapps/jamessmithies.org/web/ssl/cert-issue-site:/data/web/ssl/cert-issue-site/ \
 -v "/docker-volumes/var/log/letsencrypt:/var/log/letsencrypt" \
 certbot/certbot \
+--force-renew \
 certonly --webroot \
 --email jamessmithies.smtp@gmail.com --agree-tos --no-eff-email \
 --webroot-path=/data/web/ssl/cert-issue-site/ \
