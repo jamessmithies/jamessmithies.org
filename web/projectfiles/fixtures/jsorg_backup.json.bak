@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2019-09-11T18:22:28.772Z",
+        "last_login": "2020-02-04T19:04:47.152Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1597,6 +1597,73 @@
             8,
             15,
             7
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 46,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Digital Humanities Labs & Global Cyber-infrastructure",
+        "excerpt": "<p>Slides of my talk &#39;Digital Humanities Labs &amp; Global Cyber-infrastructure&#39;, presented at the Rebuilding Laboratories Workshop, University of Birmingham, Institute of Advanced Studies, 19th November 2019.</p>",
+        "body": "<p>Slides of my talk &#39;Digital Humanities Labs &amp; Global Cyber-infrastructure&#39;, presented at the Rebuilding Laboratories Workshop, University of Birmingham, Institute of Advanced Studies, 19th November 2019.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ6LlmU155ziNuaH8hhnTDWgUBkcZ2Q1y6tkpcpGBctAPf3JUDBamBIIwpew-OQEQ/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2019-11-19T19:26:26Z",
+        "slug": "digital-humanities-labs-global-cyber-infrastructure",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            7
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 47,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "King\u2019s Digital Lab Research Software Engineering Career Paths",
+        "excerpt": "<p>The slides of my talk &#39;King&rsquo;s Digital Lab Research Software Engineering Career Paths&#39;, presented at the Russell Universities Group IT Directors Forum (RUGIT), 19 September 2019.</p>",
+        "body": "<p>The slides of my talk &#39;King&rsquo;s Digital Lab Research Software Engineering Career Paths&#39;, presented at the Russell Universities Group IT Directors Forum (RUGIT), 19 September 2019. See also&nbsp;Smithies, James. &lsquo;Research Software (RS) Careers: Generic Learnings from King&rsquo;s Digital Lab, King&rsquo;s College London&rsquo;. <em>Zenodo</em>, 7 February 2019. <a href=\"https://doi.org/10.5281/zenodo.2564790\">https://doi.org/10.5281/zenodo.2564790</a>.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSoPSt7rPfstkpHnzrJom2tbCgZ0mccdBCIt2qSygejvcRmtu1RiGRYRef7m4OqRg/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2019-09-18T19:36:37Z",
+        "slug": "kings-digital-lab-research-software-engineering-career-paths",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            5
+        ],
+        "tags": [
+            15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 48,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Life in New Times: Artificial Intelligence and Modernity",
+        "excerpt": "<p>Slides of my talk &#39;Life in New Times: Artificial Intelligence and Modernity&#39;, presented at the NIght of Ideas, Alliance Fran&ccedil;aise, Jersey,&nbsp;January 30th, 2020.</p>",
+        "body": "<p>Slides of my talk &#39;Life in New Times: Artificial Intelligence and Modernity&#39;, presented at the NIght of Ideas, Alliance Fran&ccedil;aise, Jersey,&nbsp;January 30th, 2020.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vT84jACGDyGbVW3bjtjCS-Ug8ve_E_n01mI_V5Oz9yDz_JAVJ5qi1Ao3LtGlGt95g/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2020-01-30T19:42:43Z",
+        "slug": "life-new-times-artificial-intelligence-and-modernity",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            13,
+            2
         ]
     }
 },
@@ -11499,6 +11566,97 @@
         "object_repr": "Entry object (45)",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 742,
+    "fields": {
+        "action_time": "2020-02-04T19:28:07.703Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "46",
+        "object_repr": "Digital Humanities Labs & Global Cyber-infrastructure",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 743,
+    "fields": {
+        "action_time": "2020-02-04T19:28:56.382Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "46",
+        "object_repr": "Digital Humanities Labs & Global Cyber-infrastructure",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 744,
+    "fields": {
+        "action_time": "2020-02-04T19:38:12.967Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "47",
+        "object_repr": "King\u2019s Digital Lab Research Software Engineering Career Paths",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 745,
+    "fields": {
+        "action_time": "2020-02-04T19:38:52.914Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "47",
+        "object_repr": "King\u2019s Digital Lab Research Software Engineering Career Paths",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 746,
+    "fields": {
+        "action_time": "2020-02-04T19:39:37.387Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "47",
+        "object_repr": "King\u2019s Digital Lab Research Software Engineering Career Paths",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 747,
+    "fields": {
+        "action_time": "2020-02-04T19:44:38.922Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "48",
+        "object_repr": "Life in New Times: Artificial Intelligence and Modernity",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 748,
+    "fields": {
+        "action_time": "2020-02-04T19:45:11.894Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "48",
+        "object_repr": "Life in New Times: Artificial Intelligence and Modernity",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
     }
 }
 ]
