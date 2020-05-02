@@ -42,7 +42,7 @@ certonly --webroot \
 --register-unsafely-without-email --agree-tos \
 --webroot-path=/data/web/ssl/cert-issue-site/ \
 --staging \
--d jsorg.xyz -d www.jsorg.xyz
+-d jsorgtest.site -d www.jsorgtest.site
 
 #####If you need a new cert: Clean up staging artifacts:
 
@@ -59,7 +59,7 @@ certbot/certbot \
 certonly --webroot \
 --email jamessmithies.smtp@gmail.com --agree-tos --no-eff-email \
 --webroot-path=/data/web/ssl/cert-issue-site/ \
--d jsorg.xyz -d www.jsorg.xyz
+-d jsorgtest.site -d www.jsorgtest.site
 
 
 #####If you need a new cert: If everything ran successfully, run a docker-compose down command to stop the temporary Nginx site
