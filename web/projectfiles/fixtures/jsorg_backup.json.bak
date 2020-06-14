@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-06-13T16:42:41.863Z",
+        "last_login": "2020-06-14T19:01:15.290Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -323,17 +323,6 @@
 },
 {
     "model": "index.projects",
-    "pk": 11,
-    "fields": {
-        "display_name": "Sudan Memory",
-        "position": 6,
-        "title": "Sudan Memory",
-        "slug": "sudan-memory",
-        "about": "<p>I provide occasional technical advice to the Sudan Memory project, led by Prof. Marilyn Deegan and funded by the British Council, in my capacity as Director of King&#39;s Digital Lab. In this project, a register of cultural institutions and artefacts will be compiled, and a priority schedule for conservation and digitisation will be drawn up. A professional cataloguing and digitisation service will be set up in Khartoum, with roving facilities available for other regions. This service will continue once the project ends, being offered at an affordable cost to institutions within Sudan.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.britishcouncil.org/arts/culture-development/cultural-protection-fund/projects/sudan-library\" target=\"_blank\"><em>Explore Sudan Memory</em></a></p>"
-    }
-},
-{
-    "model": "index.projects",
     "pk": 12,
     "fields": {
         "display_name": "King's College London eResearch",
@@ -383,7 +372,7 @@
         "display_name": "James Smithies",
         "title": "James Smithies",
         "slug": "jamessmithies",
-        "about": "<p>I am Director of King&rsquo;s Digital Lab (KDL) and Reader &amp; Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History and have worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>was published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/outputs\">writing and presentations</a> and <a href=\"/projects\">projects</a> are available on this site.</p>\r\n\r\n<p><a href=\"https://www.palgrave.com/gb/book/9781137499431\" target=\"_blank\"><img alt=\"\" src=\"/media/uploads/2018/07/07/dh_and_dm-small.png\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p>I am Director of King&rsquo;s Digital Lab (KDL) and Reader &amp; Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History and have worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>was published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/outputs\">writing and presentations</a> and <a href=\"/projects\">projects</a> are available on this site.</p>\r\n\r\n<p><a href=\"https://link.springer.com/book/10.1057/978-1-137-49944-8\" target=\"_blank\"><img alt=\"\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2020/06/14/dh_dm_small.jpg\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -11696,6 +11685,45 @@
         "object_repr": "James Smithies",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 752,
+    "fields": {
+        "action_time": "2020-06-14T19:04:30.814Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 753,
+    "fields": {
+        "action_time": "2020-06-14T19:05:43.576Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 754,
+    "fields": {
+        "action_time": "2020-06-14T19:13:48.606Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "Sudan Memory",
+        "action_flag": 3,
+        "change_message": ""
     }
 }
 ]
