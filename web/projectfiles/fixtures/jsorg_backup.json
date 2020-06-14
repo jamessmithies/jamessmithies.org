@@ -323,17 +323,6 @@
 },
 {
     "model": "index.projects",
-    "pk": 11,
-    "fields": {
-        "display_name": "Sudan Memory",
-        "position": 6,
-        "title": "Sudan Memory",
-        "slug": "sudan-memory",
-        "about": "<p>I provide occasional technical advice to the Sudan Memory project, led by Prof. Marilyn Deegan and funded by the British Council, in my capacity as Director of King&#39;s Digital Lab. In this project, a register of cultural institutions and artefacts will be compiled, and a priority schedule for conservation and digitisation will be drawn up. A professional cataloguing and digitisation service will be set up in Khartoum, with roving facilities available for other regions. This service will continue once the project ends, being offered at an affordable cost to institutions within Sudan.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.britishcouncil.org/arts/culture-development/cultural-protection-fund/projects/sudan-library\" target=\"_blank\"><em>Explore Sudan Memory</em></a></p>"
-    }
-},
-{
-    "model": "index.projects",
     "pk": 12,
     "fields": {
         "display_name": "King's College London eResearch",
@@ -11722,6 +11711,19 @@
         "object_repr": "James Smithies",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 754,
+    "fields": {
+        "action_time": "2020-06-14T19:13:48.606Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "Sudan Memory",
+        "action_flag": 3,
+        "change_message": ""
     }
 }
 ]
