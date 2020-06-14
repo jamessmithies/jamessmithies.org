@@ -17,7 +17,7 @@ RUN pip3 install -r requirements.txt
 
 # Clean
 WORKDIR /data/web
-RUN apk del -r python-dev postgresql
+RUN apk del -r python3-dev postgresql
 
 # Prepare
 COPY . /data/web/
