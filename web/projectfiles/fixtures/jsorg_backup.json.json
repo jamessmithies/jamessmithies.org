@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-06-14T19:01:15.290Z",
+        "last_login": "2020-09-29T17:59:00.059Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -661,8 +661,8 @@
         "status": 1,
         "hero_image": "",
         "title": "Digital Humanists as Master Builders",
-        "excerpt": "<p>I&rsquo;ve been thinking about the now relatively long-standing debate in Digital Humanities about &lsquo;who&rsquo;s in and who&rsquo;s out&rsquo; and wondering if there&rsquo;s an angle we haven&rsquo;t been considering (by writing &lsquo;we&rsquo; this makes an assumption I&rsquo;m &lsquo;in&rsquo;, of course, which I have to admit feels both presumptive given there&rsquo;s a chance I don&rsquo;t fit someone else&rsquo;s criteria and odd given I&rsquo;m a Senior Lecturer in Digital Humanities). My suggestion is that we need to stop <em>only</em> thinking about the specific technical skills a digital humanist needs, and consider the function the (extra)discipline plays in the broader community, as well as the role(s) it is likely to need to play in the future.</p>\r\n",
-        "body": "<p>I&rsquo;ve been thinking about the now relatively long-standing debate in Digital Humanities about &lsquo;who&rsquo;s in and who&rsquo;s out&rsquo; and wondering if there&rsquo;s an angle we haven&rsquo;t been considering (by writing &lsquo;we&rsquo; this makes an assumption I&rsquo;m &lsquo;in&rsquo;, of course, which I have to admit feels both presumptive given there&rsquo;s a chance I don&rsquo;t fit someone else&rsquo;s criteria and odd given I&rsquo;m a Senior Lecturer in Digital Humanities). My suggestion is that we need to stop <em>only</em> thinking about the specific technical skills a digital humanist needs, and consider the function the (extra)discipline plays in the broader community, as well as the role(s) it is likely to need to play in the future. It&rsquo;s becoming clearer, even to a natural pessimist like myself, that humanists are only going to build more digital virtualmachines, methods and services as the years progress. I&rsquo;m contacted fairly regularly by people considering starting digital projects but unsure either how to start or what standards are expected. In New Zealand, if they were building a house, they might contact a Master Builder &ndash; a builder accredited by a trade organisation that the customer can trust will either do a good job or be held accountable (to some degree) if they don&rsquo;t. Often they&rsquo;ll coordinate subcontractors like plumbers and electricians, to make sure everyone does a good job at the right time, or work with a project manager performing that role. Some Master Builders might be old hands who built houses for years but are now a bit creaky and prefer to manage teams of younger builders who do the work under their guidance. The younger builders (quite possibly accredited themselves) are probably keen on the flash new materials and techniques, and possibly more up to date than their older colleague, but as their elder and better he would probably be the person you&rsquo;d prefer to go to in a pinch.</p>\r\n\r\n<p>So what&rsquo;s my point? My point is that there might be a layer on top of the list of DH skills you need to display to be &lsquo;in&rsquo;, and that layer might be almost as important as the list itself. If our practice is to be useful to our peers, they (humanities students, teachers and researchers, and perhaps cultural heritage and influences professionals who haven&rsquo;t done much digital work) need to know i] Who to contact if they&rsquo;re interested in developing a digital project to good standards and ii] That the person they&rsquo;re talking to will &ndash; if they can&rsquo;t do it themselves for whatever reason &ndash; guide them in the right direction. What characteristics might a &lsquo;card carrying&rsquo; (that could be a weird idea) DHer exhibit, in no particular order?</p>\r\n\r\n<ul>\r\n\t<li>Membership in ADHO or a Constituent Organisation, and evidence of participation in ADHO or CO events, THATCamps etc.</li>\r\n\t<li>An awarenes of the range of digital virtualmachines, methods and services used across the digital humanities community, and the standards required for them. (The layer underneath this is obviously crucially important, but it will shift over the decades and is best discussed within the community, as regularly happens and will hopefully never stop. Geoffrey Rockwell&rsquo;s suggestions in a recent edition of Humanist prompted this post to some degree, leading to this list overlapping in places).</li>\r\n\t<li>A degree in the humanities, a record of ongoing engagement with one or more fields, and an understanding of the broad intellectual terrain.</li>\r\n\t<li>Evidence of publication in quality scholarly publications. (This one is difficult. It&rsquo;s important to indicate an understanding of traditional scholarly norms and an ability to implement them to trade standard, but I don&rsquo;t want to give the impression I&rsquo;m referring to a narrow range of traditional analog academic publishing options. It&rsquo;s also debatable, because I know of several people who I doubt have published but I respect very highly as digital humanists. What I can say is that if it isn&rsquo;t a current expectation it probably will be in the future, at least for practising within universities.)</li>\r\n\t<li>Experience building and consulting on digital humanities projects.</li>\r\n\t<li>An understanding of project management methodologies and software development best practices.</li>\r\n\t<li>An understanding of the requirements digital archiving, preservation, and data management present.</li>\r\n\t<li>An awareness of local and international funding agencies, and an understanding of how to gain funding for digital projects.</li>\r\n\t<li>An awareness of the history of digital humanities and humanities computing.</li>\r\n\t<li>An awareness of significant digital humanities projects and key people in the local and international communities.</li>\r\n\t<li>Engagement with the digital humanities community via trade publications, social media, and online seminars.</li>\r\n\t<li><strong>Update (a fairly fundamental oversight, actually):</strong> Understanding and support for community values like the importance of learning to code, inclusiveness, egalitarianism,&nbsp;and the broader DIY ethos.</li>\r\n</ul>\r\n\r\n<p>Lists like this are sometimes embarassingly self-serving, but you get the idea. I guess it boils down to the fact that I&rsquo;m more concerned about the type of person someone gets when they make that phonecall to engage a digital humanist than the specific skills that DHer might have. If we (only) try to legislate for a narrow range of skills we&rsquo;ll find ourselves in the same position computer scientists did in the 1960s, when Ceruzzi notes there were heated debates about who could call themselves a &lsquo;computer programmer&rsquo; or not. The rate of change was so great back then that every time they identified a skill requirement another would pop up.<sup>1&nbsp;</sup>Although defining a list of trade skills is crucial for training purposes, it&rsquo;s possibly more important to ensure people who represent themselves as DHers are capable of guiding our colleagues in the right direction. Let&rsquo;s face it, it&rsquo;s quite conceivable that someone could engage an expert in TEI or topic modelling and get very poor advice for their digital project on 3D modelling of paper ships. What would be worse for our community: that someone who doesn&rsquo;t have a specific skill represents us well, or that someone with it makes us all look bad?</p>\r\n\r\n<p><u>References</u></p>\r\n\r\n<div>\r\n<div>P.E. Ceruzzi, <em>A history of modern computing</em>, MIT Press; Cambridge, Mass., 2003, p.105.</div>\r\n</div>\r\n",
+        "excerpt": "<p>I&rsquo;ve been thinking about the now relatively long-standing debate in Digital Humanities about &lsquo;who&rsquo;s in and who&rsquo;s out&rsquo; and wondering if there&rsquo;s an angle we haven&rsquo;t been considering (by writing &lsquo;we&rsquo; this makes an assumption I&rsquo;m &lsquo;in&rsquo;, of course, which I have to admit feels both presumptive given there&rsquo;s a chance I don&rsquo;t fit someone else&rsquo;s criteria and odd given I&rsquo;m a Senior Lecturer in Digital Humanities). My suggestion is that we need to stop <em>only</em> thinking about the specific technical skills a digital humanist needs, and consider the function the (extra)discipline plays in the broader community, as well as the role(s) it is likely to need to play in the future.</p>",
+        "body": "<p>I&rsquo;ve been thinking about the now relatively long-standing debate in Digital Humanities about &lsquo;who&rsquo;s in and who&rsquo;s out&rsquo; and wondering if there&rsquo;s an angle we haven&rsquo;t been considering (by writing &lsquo;we&rsquo; this makes an assumption I&rsquo;m &lsquo;in&rsquo;, of course, which I have to admit feels both presumptive given there&rsquo;s a chance I don&rsquo;t fit someone else&rsquo;s criteria and odd given I&rsquo;m a Senior Lecturer in Digital Humanities). My suggestion is that we need to stop <em>only</em> thinking about the specific technical skills a digital humanist needs, and consider the function the (extra)discipline plays in the broader community, as well as the role(s) it is likely to need to play in the future. It&rsquo;s becoming clearer, even to a natural pessimist like myself, that humanists are only going to build more digital tools, methods and services as the years progress. I&rsquo;m contacted fairly regularly by people considering starting digital projects but unsure either how to start or what standards are expected. In New Zealand, if they were building a house, they might contact a Master Builder &ndash; a builder accredited by a trade organisation that the customer can trust will either do a good job or be held accountable (to some degree) if they don&rsquo;t. Often they&rsquo;ll coordinate subcontractors like plumbers and electricians, to make sure everyone does a good job at the right time, or work with a project manager performing that role. Some Master Builders might be old hands who built houses for years but are now a bit creaky and prefer to manage teams of younger builders who do the work under their guidance. The younger builders (quite possibly accredited themselves) are probably keen on the flash new materials and techniques, and possibly more up to date than their older colleague, but as their elder and better he would probably be the person you&rsquo;d prefer to go to in a pinch.</p>\r\n\r\n<p>So what&rsquo;s my point? My point is that there might be a layer on top of the list of DH skills you need to display to be &lsquo;in&rsquo;, and that layer might be almost as important as the list itself. If our practice is to be useful to our peers, they (humanities students, teachers and researchers, and perhaps cultural heritage and influences professionals who haven&rsquo;t done much digital work) need to know i] Who to contact if they&rsquo;re interested in developing a digital project to good standards and ii] That the person they&rsquo;re talking to will &ndash; if they can&rsquo;t do it themselves for whatever reason &ndash; guide them in the right direction. What characteristics might a &lsquo;card carrying&rsquo; (that could be a weird idea) DHer exhibit, in no particular order?</p>\r\n\r\n<ul>\r\n\t<li>Membership in ADHO or a Constituent Organisation, and evidence of participation in ADHO or CO events, THATCamps etc.</li>\r\n\t<li>An awarenes of the range of digital tools, methods and services used across the digital humanities community, and the standards required for them. (The layer underneath this is obviously crucially important, but it will shift over the decades and is best discussed within the community, as regularly happens and will hopefully never stop. Geoffrey Rockwell&rsquo;s suggestions in a recent edition of Humanist prompted this post to some degree, leading to this list overlapping in places).</li>\r\n\t<li>A degree in the humanities, a record of ongoing engagement with one or more fields, and an understanding of the broad intellectual terrain.</li>\r\n\t<li>Evidence of publication in quality scholarly publications. (This one is difficult. It&rsquo;s important to indicate an understanding of traditional scholarly norms and an ability to implement them to trade standard, but I don&rsquo;t want to give the impression I&rsquo;m referring to a narrow range of traditional analog academic publishing options. It&rsquo;s also debatable, because I know of several people who I doubt have published but I respect very highly as digital humanists. What I can say is that if it isn&rsquo;t a current expectation it probably will be in the future, at least for practising within universities.)</li>\r\n\t<li>Experience building and consulting on digital humanities projects.</li>\r\n\t<li>An understanding of project management methodologies and software development best practices.</li>\r\n\t<li>An understanding of the requirements digital archiving, preservation, and data management present.</li>\r\n\t<li>An awareness of local and international funding agencies, and an understanding of how to gain funding for digital projects.</li>\r\n\t<li>An awareness of the history of digital humanities and humanities computing.</li>\r\n\t<li>An awareness of significant digital humanities projects and key people in the local and international communities.</li>\r\n\t<li>Engagement with the digital humanities community via trade publications, social media, and online seminars.</li>\r\n\t<li><strong>Update (a fairly fundamental oversight, actually):</strong> Understanding and support for community values like the importance of learning to code, inclusiveness, egalitarianism,&nbsp;and the broader DIY ethos.</li>\r\n</ul>\r\n\r\n<p>Lists like this are sometimes embarassingly self-serving, but you get the idea. I guess it boils down to the fact that I&rsquo;m more concerned about the type of person someone gets when they make that phonecall to engage a digital humanist than the specific skills that DHer might have. If we (only) try to legislate for a narrow range of skills we&rsquo;ll find ourselves in the same position computer scientists did in the 1960s, when Ceruzzi notes there were heated debates about who could call themselves a &lsquo;computer programmer&rsquo; or not. The rate of change was so great back then that every time they identified a skill requirement another would pop up.<sup>1&nbsp;</sup>Although defining a list of trade skills is crucial for training purposes, it&rsquo;s possibly more important to ensure people who represent themselves as DHers are capable of guiding our colleagues in the right direction. Let&rsquo;s face it, it&rsquo;s quite conceivable that someone could engage an expert in TEI or topic modelling and get very poor advice for their digital project on 3D modelling of paper ships. What would be worse for our community: that someone who doesn&rsquo;t have a specific skill represents us well, or that someone with it makes us all look bad?</p>\r\n\r\n<p><u>References</u></p>\r\n\r\n<div>\r\n<div>P.E. Ceruzzi, <em>A history of modern computing</em>, MIT Press; Cambridge, Mass., 2003, p.105.</div>\r\n</div>",
         "pub_date": "2013-09-07T08:20:49Z",
         "slug": "digital-humanists-as-master-builders",
         "author": 1,
@@ -1653,6 +1653,30 @@
         "tags": [
             13,
             2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 49,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "King\u2019s Digital Lab as Experiment  and Lifecycle",
+        "excerpt": "<p>This <a href=\"https://sorse.github.io/\" target=\"_blank\">SORSE</a>&nbsp;talk, delivered with KDL Deputy Director Arianna Ciula,&nbsp;describes King&rsquo;s Digital Lab (KDL), a Research Software Engineering lab operating within the Faculty of Arts and Humanities at King&rsquo;s College London (UK).&nbsp;</p>",
+        "body": "<p>This <a href=\"https://sorse.github.io/\" target=\"_blank\">SORSE</a>&nbsp;talk, delivered with KDL Deputy Director Arianna Ciula,&nbsp;describes King&rsquo;s Digital Lab (KDL), a Research Software Engineering lab operating within the Faculty of Arts and Humanities at King&rsquo;s College London (UK).&nbsp; The KDL team of 18 project managers, analysts, designers, engineers, and systems managers specialise in arts &amp; humanities, cultural heritage, and creative industries research and development. The talk provides a current state overview of the lab, and describes our RSE HR roles (see <a href=\"https://zenodo.org/record/2564790\" target=\"_blank\">https://zenodo.org/record/2564790</a>) and a relatively recent trial initiative that defines the different ways the team can contribute to research. A more technically-oriented overview of our ongoing work in refining the fundamental components of KDL Software Development Lifecycle (see https://github.com/kingsdigitallab/sdlc-for-rse/) is also&nbsp;provided, including descriptions of our modelling workflows, processes, and efforts to increase sustainability, reproducibility, and research data management best practice (<a href=\"https://zenodo.org/record/3361580#.X09x6mdKhhE\" target=\"_blank\">https://zenodo.org/record/3361580#.X09x6mdKhhE</a>).</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vTnLzOnfqiW3mfOsky9bSyMkKbPyyG3sd6eHB48g_X3TD9LZ03OIfHhNoKSdOXWVQ/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>\r\n\r\n<p>&nbsp;</p>",
+        "pub_date": "2020-09-29T14:39:45Z",
+        "slug": "kings-digital-lab-as-experiment-and-lifecycle",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            15,
+            7
         ]
     }
 },
@@ -11724,6 +11748,71 @@
         "object_repr": "Sudan Memory",
         "action_flag": 3,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 755,
+    "fields": {
+        "action_time": "2020-09-03T07:24:24.336Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Digital Humanists as Master Builders",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 756,
+    "fields": {
+        "action_time": "2020-09-29T16:46:35.920Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "49",
+        "object_repr": "King\u2019s Digital Lab as experiment  and lifecycle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 757,
+    "fields": {
+        "action_time": "2020-09-29T16:47:53.164Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "49",
+        "object_repr": "King\u2019s Digital Lab as experiment  and lifecycle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 758,
+    "fields": {
+        "action_time": "2020-09-29T16:49:24.744Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "49",
+        "object_repr": "King\u2019s Digital Lab as experiment  and lifecycle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 759,
+    "fields": {
+        "action_time": "2020-09-29T17:59:22.628Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "49",
+        "object_repr": "King\u2019s Digital Lab as Experiment  and Lifecycle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
     }
 }
 ]

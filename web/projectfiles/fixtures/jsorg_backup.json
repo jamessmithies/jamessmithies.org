@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-09-29T17:59:00.059Z",
+        "last_login": "2020-10-22T18:38:49.534Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -511,6 +511,15 @@
         "title": "Digital History",
         "slug": "digital-history",
         "description": "Digital History"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 7,
+    "fields": {
+        "title": "Digital Cultural Heritage",
+        "slug": "digital-cultural-heritage",
+        "description": "Digital Cultural Heritage"
     }
 },
 {
@@ -1676,6 +1685,53 @@
         ],
         "tags": [
             15,
+            7
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 50,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "DHN2021 Archiving & Sustainability in King's Digital Lab",
+        "excerpt": "<p>Slides of my talk &#39;Archiving &amp; Sustainability in King&#39;s Digital Lab&#39;, presented at DHN2021 as part of the panel discussion&nbsp;&#39;Towards deterioration, disappearance or destruction?&nbsp;Discussing the critical issue of&nbsp;long-term sustainability of digital&nbsp;humanities projects&#39;, chaired by&nbsp;Mats Fridlund (University of Gothenburg) and with&nbsp;Jessica Parland-von Essen (Senior Coordinator at CSC&ndash; IT Center for Science, Finland) and&nbsp;Victoria Johansson (Deputy Director of Lund University Humanities Lab, Sweden).</p>",
+        "body": "<p>Slides of my talk &#39;Archiving &amp; Sustainability in King&#39;s Digital Lab&#39;, presented at DHN2021 as part of the panel discussion&nbsp;&#39;Towards deterioration, disappearance or destruction?&nbsp;Discussing the critical issue of&nbsp;long-term sustainability of digital&nbsp;humanities projects&#39;, chaired by&nbsp;Mats Fridlund (University of Gothenburg) and with&nbsp;Jessica Parland-von Essen (Senior Coordinator at CSC&ndash; IT Center for Science, Finland) and&nbsp;Victoria Johansson (Deputy Director of Lund University Humanities Lab, Sweden).</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vQz-fQxpevBGT8s8_xm9_82ODRmQhExFWq6hV_Z6DqcarnnyFkZOXeiPBpufSP-QA/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2020-10-22T18:38:54Z",
+        "slug": "dhn2021-archiving-sustainability-kings-digital-lab",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            12
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 51,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: Update & Issues",
+        "excerpt": "<p>Slides of my Zoom talks with Prof. Fadi Balaawi &#39;MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update&#39;, and &#39;Risks, Challenges &amp; Opportunities&#39; presented at our MaDiH (\u0645\u062f\u064a\u062d) project workshop &#39;Identifying datasets on Jordanian Cultural Heritage: User feedback&#39; on October 13th 2020,&nbsp;hosted by the Council for British Research in the Levant (CBRL).</p>\r\n\r\n<div id=\"gtx-trans\" style=\"left:204px; position:absolute; top:58px\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>",
+        "body": "<p>Slides of my Zoom talks with Prof. Fadi Balaawi &#39;MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update&#39;, and &#39;Risks, Challenges &amp; Opportunities&#39; presented at our MaDiH (\u0645\u062f\u064a\u062d) project workshop &#39;Identifying datasets on Jordanian Cultural Heritage: User feedback&#39; on October 13th 2020,&nbsp;hosted by the Council for British Research in the Levant (CBRL).</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vS7YrW4l0hqz7CkBl9Cejmsm18XbPce2MRdyayJp5om2KzaCWfM8dY-0ZjoY53bsA/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSdCkJXrPTeeATMNjAsYZmsbozEXOo_CoXyTy0QGGidTAhbzCNzj1E_vS40OiQgPA/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2020-10-13T18:59:01Z",
+        "slug": "madih-mapping-digital-heritage-jordan-brief-update",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            7,
+            5
+        ],
+        "tags": [
+            13,
             7
         ]
     }
@@ -11813,6 +11869,136 @@
         "object_repr": "King\u2019s Digital Lab as Experiment  and Lifecycle",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 760,
+    "fields": {
+        "action_time": "2020-10-22T18:46:49.147Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "50",
+        "object_repr": "DHN2021 Archiving & Sustainability in King's Digital Lab",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 761,
+    "fields": {
+        "action_time": "2020-10-22T18:47:36.176Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "50",
+        "object_repr": "DHN2021 Archiving & Sustainability in King's Digital Lab",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 762,
+    "fields": {
+        "action_time": "2020-10-22T19:01:47.701Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "7",
+        "object_repr": "Digital Cultural Heritage",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 763,
+    "fields": {
+        "action_time": "2020-10-22T19:02:15.610Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 764,
+    "fields": {
+        "action_time": "2020-10-22T19:02:31.494Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"pub_date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 765,
+    "fields": {
+        "action_time": "2020-10-22T19:03:47.626Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 766,
+    "fields": {
+        "action_time": "2020-10-22T19:04:10.958Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 767,
+    "fields": {
+        "action_time": "2020-10-22T19:08:45.943Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: A Brief Update",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 768,
+    "fields": {
+        "action_time": "2020-10-22T19:09:59.321Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: Update & Issues",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"title\", \"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 769,
+    "fields": {
+        "action_time": "2020-10-22T19:10:23.193Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "51",
+        "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: Update & Issues",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
     }
 }
 ]
