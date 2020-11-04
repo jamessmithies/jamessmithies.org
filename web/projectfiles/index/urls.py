@@ -8,10 +8,10 @@ app_name = "index"
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^admin/update-zotero/$', views.updatezoteroView, name='update_zotero'),
+    url(r'^admin/update-zotero-writing/$', views.updatezoterowritingView, name='update_zotero_writing'),
     url(r'^projects/$', views.projectsView, name='projects'),
     url(r'^bio/$', views.bioView, name='bio'),
-    url(r'^outputs/$', views.outputsView, name='outputs'),
+    url(r'^writing/$', views.writingView, name='writing'),
     url(r'^design/$', views.designView, name='design'),
     url(r'^credits/$', views.creditsView, name='credits'),
 ]

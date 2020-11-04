@@ -55,14 +55,14 @@ class Credits(models.Model):
     def __str__(self):
         return self.title
 
-class Outputs(models.Model):
+class Writing(models.Model):
     display_name = models.CharField(max_length=128, blank=True)
     title = models.CharField(max_length=128)
     slug = models.SlugField(max_length=100, unique=True, verbose_name="Slug", help_text='Suggested value automatically generated from title. Must be unique.')
     about = RichTextUploadingField("About", blank=True)
     
     class Meta:
-        verbose_name_plural = "Outputs"
+        verbose_name_plural = "Writing"
         app_label = 'index'  
     
     def __str__(self):

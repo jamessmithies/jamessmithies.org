@@ -7,7 +7,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top"> 
 {% block breadcrumbs %}
     {{ block.super }}
-    {% breadcrumb "outputs" "" %}
+    {% breadcrumb "writing" "" %}
 {% endblock %}
 
   {% block landing-page %}
@@ -18,12 +18,12 @@
  <div class="row">
   <div class="col-sm-12">
 
-    {% for outputs in outputs %}
+
             <!-- Post start -->
                         <div class="post">
-<h1 class="post-title">Outputs</h1>
-<div class="post-entry"> <p>{{ outputs.about|safe}}</p> </div>
-{% endfor %}
+<h1 class="post-title">Writing</h1>
+<div class="post-entry"> <p>{{ writing.about|safe}}</p> </div>
+
 
 
      <style type="text/css" id="zoterostylesheet" scoped>
@@ -71,7 +71,7 @@ function changeCSS() {
     }
 changeCSS();</script>
    
-{% include "zotero/zotero-bib.html" %}
+{% include "zotero/zotero-writing.html" %}
 
   
     

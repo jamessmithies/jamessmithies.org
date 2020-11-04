@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.db import models
-from index.models import Projects, Bio, Outputs, Design, Credits
+from index.models import Projects, Bio, Writing, Design, Credits
 
 
 class DesignAdmin(admin.ModelAdmin):
@@ -13,10 +13,10 @@ class CreditsAdmin(admin.ModelAdmin):
 
 admin.site.register(Credits, CreditsAdmin)
 
-class OutputsAdmin(admin.ModelAdmin):
+class WritingAdmin(admin.ModelAdmin):
 	prepopulated_fields = { 'slug': ['title']}
 
-admin.site.register(Outputs, OutputsAdmin)
+admin.site.register(Writing, WritingAdmin)
 
 class BioAdmin(admin.ModelAdmin):
 	prepopulated_fields = { 'slug': ['title']}

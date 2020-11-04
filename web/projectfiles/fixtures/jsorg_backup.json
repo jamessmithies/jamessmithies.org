@@ -396,12 +396,12 @@
     }
 },
 {
-    "model": "index.outputs",
+    "model": "index.writing",
     "pk": 1,
     "fields": {
-        "display_name": "Outputs",
-        "title": "Outputs",
-        "slug": "outputs",
+        "display_name": "Writing",
+        "title": "Writing",
+        "slug": "writing",
         "about": "<p><span style=\"font-size:14px\">This page lists my more traditional research outputs. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
     }
 },
