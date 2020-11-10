@@ -1,14 +1,17 @@
 build:
 	docker-compose build
 
-migrate:
-	docker-compose exec web python3 manage.py migrate
+migrations:
+	docker-compose exec web python3 manage.py makemigrations
 
 build-up:
 	docker-compose build && docker-compose up -d
 
-zot:
+zotwriting:
 	docker-compose exec web python3 manage.py updatezoterowriting
+
+zottalks:
+	docker-compose exec web python3 manage.py updatezoterotalks
 
 load:
 	docker-compose exec web "./load.sh"  
