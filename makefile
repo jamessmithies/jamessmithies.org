@@ -13,6 +13,9 @@ zotwriting:
 zottalks:
 	docker-compose exec web python3 manage.py updatezoterotalks
 
+zotero:
+	docker-compose exec web python3 manage.py updatezotero
+
 load:
 	docker-compose exec web "./load.sh"  
 
