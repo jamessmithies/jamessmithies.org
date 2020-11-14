@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding: utf-8
 
 ## settings.example.py
@@ -16,7 +16,7 @@ verbosity = 0
 
 # group_collection(160464, collection='MGID93AS')
 
-user_collection(id='24279', api_key='Fsr4Rh9DUhd9x7W1TvnGQQJ0', collection='QEN7GPXH')
+user_collection(id='24279', api_key='Fsr4Rh9DUhd9x7W1TvnGQQJ0', collection='KABDUTEH')
 
 # group_collection(id, api_key=None, collection=None, top_level=False)
 #user_collection(id, api_key=None, collection=None, top_level=False)
