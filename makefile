@@ -1,11 +1,8 @@
-build:
-	docker-compose build
-
-migrations:
-	docker-compose exec web python3 manage.py makemigrations
-
 build-up:
 	docker-compose build && docker-compose up -d
+
+makemigrations:
+	docker-compose exec web python3 manage.py makemigrations
 
 zotwriting:
 	docker-compose exec web python3 manage.py updatezoterowriting
@@ -13,23 +10,20 @@ zotwriting:
 zottalks:
 	docker-compose exec web python3 manage.py updatezoterotalks
 
-zotero:
-	docker-compose exec web python3 manage.py updatezotero
-
 load:
 	docker-compose exec web "./load.sh"  
-
-dump-fixtures:
-	python3 manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > fixtures/jsorg_dev.json
-
-load-fixtures:
-	python3 manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
 
 destroy:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all
 
 rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d
+
+dump-fixtures:
+	python3 manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > fixtures/jsorg_dev.json
+
+load-fixtures:
+	python3 manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
 
 stop:
 	docker-compose stop
@@ -46,11 +40,11 @@ shell-nginx:
 shell-postgres:
 	docker-compose exec postgres sh
 
-build:
-	docker-compose build
-
 remove:
 	docker-compose rm --force
+
+build:
+	docker-compose build
 
 up:
 	docker-compose up -d
