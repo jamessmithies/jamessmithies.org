@@ -1,4 +1,9 @@
 
+######################################################################################################################
+#This only needs to be used if CloudFlare or similar service isn't being used (i.e. LetsEncrypt SSL certs are needed)#
+######################################################################################################################
+
+
 Based on: https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
 
 #####For prod deployment to arm64v8 see ReadMe.arm64v8.md.
