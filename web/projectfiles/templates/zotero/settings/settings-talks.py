@@ -211,7 +211,7 @@ show_shortcuts += [shortcut('',
 number_bib_items = False
 # show bibliographic items as numbered, ordered list
 
-show_copy_button = True
+show_copy_button = False
 # show clipbaord copy button.  Must define jquery_path.
 
 clipboard_js_path = "site/clipboard.min.js"
