@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-10-22T18:38:49.534Z",
+        "last_login": "2020-11-15T14:58:25.589Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -402,7 +402,7 @@
         "display_name": "Writing",
         "title": "Writing",
         "slug": "writing",
-        "about": "<p><span style=\"font-size:14px\">This page lists my more traditional research outputs. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
+        "about": "<p><span style=\"font-size:14px\">This page lists my writing. My conference papers and <a href=\"/talks\">talks</a> are also availableon this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
     }
 },
 {
@@ -412,7 +412,7 @@
         "display_name": "Talks",
         "title": "Talks",
         "slug": "Talks",
-        "about": "<p><span style=\"font-size:14px\">This page lists my conference papers and talks. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
+        "about": "<p><span style=\"font-size:14px\">This page lists my conference papers and talks. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -12009,6 +12009,32 @@
         "object_repr": "MaDiH (\u0645\u062f\u064a\u062d): Mapping Digital Heritage in Jordan: Update & Issues",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 770,
+    "fields": {
+        "action_time": "2020-11-15T14:59:19.256Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Talks",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 771,
+    "fields": {
+        "action_time": "2020-11-15T14:59:57.693Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }
 }
 ]
