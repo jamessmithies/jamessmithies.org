@@ -230,7 +230,7 @@
         "position": 0,
         "title": "Overview",
         "slug": "overview",
-        "about": "<p><span style=\"font-size:14px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">This page lists the projects and initiatives I&#39;m working on, or involved in. Sometimes they&#39;re little more than an attempt to learn a new tool or method. Sometimes they represent an attempt to answer a specific research question. Sometimes the goal is to contribute to a local, national, or international community. They often involve collaborations with colleagues, software vendors, IT support staff, and team members with considerably more technical skills than I have. The results are variable. I make no claim that the digital humanities are radically transformative or always useful for teaching or research; the digital arts, social sciences, and humanities remain a work in progress. I have a strong preference for open source technologies. For a list of my other research outputs please refer to my <a href=\"/writing\">writing</a> and <a href=\"/talks\">talks</a> pages. </span></span></p>"
+        "about": "<p>This page lists the projects and initiatives I&#39;m working on, or involved in. Sometimes they&#39;re little more than an attempt to learn a new tool or method. Sometimes they represent an attempt to answer a specific research question. Sometimes the goal is to contribute to a local, national, or international community. They often involve collaborations with colleagues, software vendors, IT support staff, and team members with considerably more technical skills than I have. The results are variable. I make no claim that the digital humanities are radically transformative or always useful for teaching or research; the digital arts, social sciences, and humanities remain a work in progress. I have a strong preference for open source technologies. For a list of my other research outputs please refer to my <a href=\"/writing\">writing</a> and <a href=\"/talks\">talks</a> pages. </span></span></p>"
     }
 },
 {
@@ -12072,6 +12072,19 @@
         "content_type": 11,
         "object_id": "2",
         "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 775,
+    "fields": {
+        "action_time": "2020-11-15T15:13:53.080Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Overview",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }

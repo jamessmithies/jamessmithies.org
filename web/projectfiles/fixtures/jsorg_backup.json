@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-11-15T14:58:25.589Z",
+        "last_login": "2020-11-15T15:24:53.748Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -402,7 +402,7 @@
         "display_name": "Writing",
         "title": "Writing",
         "slug": "writing",
-        "about": "<p><span style=\"font-size:14px\">This page lists my writing. My conference papers and <a href=\"/talks\">talks</a> are also availableon this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>"
+        "about": "<p>This page lists my writing. My conference papers and <a href=\"/talks\">talks</a> are also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
     }
 },
 {
@@ -412,7 +412,7 @@
         "display_name": "Talks",
         "title": "Talks",
         "slug": "Talks",
-        "about": "<p><span style=\"font-size:14px\">This page lists my conference papers and talks. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p>This page lists my conference papers and talks. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
     }
 },
 {
@@ -12085,6 +12085,84 @@
         "content_type": 12,
         "object_id": "2",
         "object_repr": "Overview",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 776,
+    "fields": {
+        "action_time": "2020-11-15T15:25:21.239Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 777,
+    "fields": {
+        "action_time": "2020-11-15T15:25:59.354Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Talks",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 778,
+    "fields": {
+        "action_time": "2020-11-15T15:26:16.120Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 779,
+    "fields": {
+        "action_time": "2020-11-15T15:26:39.948Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 780,
+    "fields": {
+        "action_time": "2020-11-15T15:27:01.071Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Writing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 781,
+    "fields": {
+        "action_time": "2020-11-15T15:27:21.476Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Talks",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
     }
