@@ -1,6 +1,8 @@
 ### Secrets ###
 settings.py
 secrets.py
+settings-writing.py
+settings-talks.py
 env
 *.cert 
 *.key
