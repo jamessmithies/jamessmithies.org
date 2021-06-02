@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2020-11-15T15:24:53.748Z",
+        "last_login": "2021-06-02T18:37:41.431Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -412,7 +412,7 @@
         "display_name": "Talks",
         "title": "Talks",
         "slug": "Talks",
-        "about": "<p>This page lists my conference papers and talks. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
+        "about": "<p>This page lists my conference papers, talks, and interviews and podcasts I&#39;ve been involved in. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
     }
 },
 {
@@ -647,6 +647,15 @@
         "title": "HR & Careers",
         "slug": "hr-careers",
         "description": "HR & Careers"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 16,
+    "fields": {
+        "title": "Architecture",
+        "slug": "architecture",
+        "description": "Architecture"
     }
 },
 {
@@ -1742,6 +1751,51 @@
         ],
         "tags": [
             13,
+            7
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 52,
+    "fields": {
+        "status": 2,
+        "hero_image": "",
+        "title": "Framing the Problem: AHRC IRC UK-Ireland DH Network",
+        "excerpt": "<p>My talk about Research Software Engineering (RSE) career paths for the<a href=\"https://dhnetwork.org/\" target=\"_blank\"> UK-Ireland Digital Humanities Network</a> workshop &#39;Capacity Enhancement in DH: Training and Beyond&#39;, 15 December 2020.</p>",
+        "body": "<p>My talk about Research Software Engineering (RSE) career paths for the<a href=\"https://dhnetwork.org/\" target=\"_blank\"> UK-Ireland Digital Humanities Network</a> workshop &#39;Capacity Enhancement in DH: Training and Beyond&#39;, 15 December 2020.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRgEdumHdwP1LsZj2hgmMmAEAdSVFbzZCsH_mPlgzC39seR8_hwZ4UWQilAN1dFBA/embed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"480\" height=\"329\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "pub_date": "2020-12-15T10:00:00Z",
+        "slug": "framing-problem-ahrc-irc-uk-ireland-dh-network",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 53,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Architecture and Research Software Engineering (Podcast)",
+        "excerpt": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter Schmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>",
+        "body": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter Schmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>\r\n\r\n<p><a href=\"https://episodes.buzzsprout.com/smk0ij80n4x88amdkcsmypgcorw5?\" target=\"_blank\">Click here for the podcast (30:47)</a></p>",
+        "pub_date": "2021-05-25T12:00:00Z",
+        "slug": "architecture-and-research-software-engineering-podcast",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            5
+        ],
+        "tags": [
+            16,
             7
         ]
     }
@@ -12165,6 +12219,123 @@
         "object_repr": "Talks",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 782,
+    "fields": {
+        "action_time": "2021-06-02T16:32:55.295Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "52",
+        "object_repr": "Framing the Problem: AHRC IRC UK-Ireland DH Network",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 783,
+    "fields": {
+        "action_time": "2021-06-02T16:33:57.380Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "52",
+        "object_repr": "Framing the Problem: AHRC IRC UK-Ireland DH Network",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 784,
+    "fields": {
+        "action_time": "2021-06-02T16:35:11.340Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "52",
+        "object_repr": "Framing the Problem: AHRC IRC UK-Ireland DH Network",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 785,
+    "fields": {
+        "action_time": "2021-06-02T16:47:04.111Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "53",
+        "object_repr": "King\u2019s Digital Lab as experiment  and lifecycle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 786,
+    "fields": {
+        "action_time": "2021-06-02T16:47:44.688Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "53",
+        "object_repr": "King\u2019s Digital Lab as experiment  and lifecycle",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 787,
+    "fields": {
+        "action_time": "2021-06-02T18:25:18.789Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "16",
+        "object_repr": "Architecture",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 788,
+    "fields": {
+        "action_time": "2021-06-02T18:26:02.203Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "53",
+        "object_repr": "Architecture and Research Software Engineering (Podcast)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 789,
+    "fields": {
+        "action_time": "2021-06-02T18:32:46.224Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Talks",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 790,
+    "fields": {
+        "action_time": "2021-06-02T18:37:58.701Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "53",
+        "object_repr": "Architecture and Research Software Engineering (Podcast)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
     }
 }
 ]
