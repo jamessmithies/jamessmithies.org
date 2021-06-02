@@ -18,7 +18,7 @@ feedparser==5.2.1
 Pillow==8.1.1
 psycopg2==2.8.2
 Pyzotero==1.4.4
-requests==2.22.0
+requests==2.25.1
 twitter==1.18.0
 urllib3==1.26.5
 Whoosh==2.7.4
