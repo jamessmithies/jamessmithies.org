@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2021-06-02T18:37:41.431Z",
+        "last_login": "2021-09-12T16:37:32.704Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1797,6 +1797,28 @@
         "tags": [
             16,
             7
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 54,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Announcing my departure from KDL: New starts, new possibilities",
+        "excerpt": "<p>I&rsquo;ll be leaving King&rsquo;s Digital Lab (KDL) this month, after 6 wonderful years, for a new role as Professor of Digital Humanities in King&rsquo;s Department of Digital Humanities (DDH). Although merely a move over to the other half of Digital Humanities at King&rsquo;s, and a return to a department I used to hold a fractional appointment in, it represents a significant milestone in my career. I&rsquo;m grateful to the many people who have supported me to this point, in New Zealand, Australia, Jordan, and the United States, as well as the UK.&nbsp;</p>",
+        "body": "<p>Cross-posted from <a href=\"https://kdl.kcl.ac.uk/blog/smithies-departure/\">https://kdl.kcl.ac.uk/blog/smithies-departure/</a>.</p>\r\n\r\n<p>I&rsquo;ll be leaving King&rsquo;s Digital Lab (KDL) this month, after 6 wonderful years, for a new role as Professor of Digital Humanities in King&rsquo;s Department of Digital Humanities (DDH). Although merely a move over to the other half of Digital Humanities at King&rsquo;s, and a return to a department I used to hold a fractional appointment in, it represents a significant milestone in my career. I&rsquo;m grateful to the many people who have supported me to this point, in New Zealand, Australia, Jordan, and the United States, as well as the UK.&nbsp;</p>\r\n\r\n<div class=\"rich-text\">\r\n<p>Primarily, though, the change represents a major milestone for King&rsquo;s Digital Lab. I&rsquo;ve always wanted someone else to follow me as director, to ensure the creative, intellectual, and administrative health of the team, but the timing had to be right. Building new research facilities is hard work, especially if the goal is to see them endure. Sustainability doesn&rsquo;t only require a succession of high-quality projects, but stewardship of existing ones, funding and design of technical infrastructure, definition of <a href=\"https://github.com/kingsdigitallab/sdlc-for-rse\">engineering</a>, governance, financial, and administrative processes, and definition of reporting metrics. In KDL&rsquo;s case it also involved the development of <a href=\"https://zenodo.org/record/2564790\">Research Software Engineering (RSE) roles and career pathways</a>, to help recruit and retain the best team possible and provide them with equitable conditions. As <a href=\"https://www.taylorfrancis.com/chapters/edit/10.4324/9780429777028-13/humans-loop-james-smithies-arianna-ciula\">Arianna Ciula and I have noted</a>, this institutional &lsquo;conceptual work&rsquo; has direct parallels in the establishment of research laboratories across all disciplines over many centuries and intersects with foundational issues in research method and epistemology.&nbsp;</p>\r\n</div>\r\n\r\n<div class=\"rich-text\">\r\n<p>That is a lot of work for a relatively small team to deliver in six years, quite aside from the legacy maintenance of <a href=\"http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html\">100 inherited projects</a> and renewal of the significant server infrastructure they are hosted on. King&rsquo;s College London&rsquo;s generosity helped keep a sizeable proportion of those projects going, but technical, security, and funding issues sometimes prove unsurmountable. We can only hope that improvements in the UK&rsquo;s arts &amp; humanities research infrastructure provides the additional support that&rsquo;s needed in future years.&nbsp;</p>\r\n</div>\r\n\r\n<div class=\"rich-text\">\r\n<p>KDL has, of course, been primarily focused on the development of new projects. The team of between 12 and 18 RSEs receive upwards of 200 project ideas each year, from inside and outside King&rsquo;s. Since its establishment in 2015 we have been involved in ~&pound;78m of grant applications and ~&pound;13m of successful bids. These projects have involved colleagues in a wide range of institutions: departments in the faculties of Arts &amp; Humanities, Natural &amp; Mathematical Sciences, and Social Science &amp; Public Policy at King&rsquo;s College London; UK universities including Oxford, Sussex, and Hull; overseas universities such as William &amp; Mary, the Australian National University (ANU), the University of Melbourne, and Hashemite University; and cultural partners such as Stanford University Press, the British Museum, and the Royal Archives. In 2018 - 2019 we were involved in 40 grant submissions, with 25 successful. The team consistently work on multiple major, minor, and legacy projects at once, far exceeding the workload of government and commercial engineering teams I&rsquo;ve worked with. Their diligence and commitment to research and technical quality is second to none, and partnerships with them are understandably in high demand.&nbsp;</p>\r\n</div>\r\n\r\n<div class=\"rich-text\">\r\n<p>I am most proud of KDL&rsquo;s culture, however. Like many RSEs, anyone in the team could choose to work in the commercial or government sector but KDLers have chosen to devote their careers to the arts and humanities and wider cultural sector. Those values lie at the core of the Lab, represented in a commitment to open source and open standards, technical sustainability, and research quality. It also extends to a genuine and caring team culture and open knowledge sharing (anyone exposed to the joys and insights of KDL&rsquo;s Slack channel knows what I mean), and a commitment to diversity, flexibility, and emotional honesty. I owe my personal wellbeing to that culture, which guided us through COVID-19 and many other challenges. I&rsquo;m humbled to join the many people who have benefitted from the teams&rsquo; collective &lsquo;lifeworld&rsquo; (a phrase from philosopher of technology Don Ihde that feels particularly apposite) including fixed term staff, post-doctoral fellows, early career researchers, and student interns.</p>\r\n</div>\r\n\r\n<div class=\"rich-text\">\r\n<p>KDL has been more than a research facility for me in intellectual as well as personal terms. As I&rsquo;ve suggested, with Arianna and Patrick ffrench in a forthcoming book chapter, KDL can be viewed as a techno-philosophical experiment that reimagines the boundaries of scholarly production. At the core of that activity is a desire to fundamentally rethink the relationship between technology and the humanities, elevating RSEs to the status of what Gilbert Simondon referred to as &ldquo;mecanologues&rdquo;, equipped to advocate and speak for and with the machines we co-exist with. This is symbolic of the next phase of digital humanities qua humanities, where machines of various sorts are increasingly drawn into the core practices and culture of scholarship and debate, and people with the expertise to design, develop, and maintain them are sought after. Raising our expectations of digital humanities design, engineering, and scholarship to this level assumes a contribution to and engagement with foundational issues in not only epistemology and method but human and machine ethics, and wider issues in economy, society, and culture.</p>\r\n</div>\r\n\r\n<div class=\"rich-text\">\r\n<p>My move to King&rsquo;s Department of Digital Humanities, where those issues are actively explored and taught, is natural. I look forward to continued collaboration with KDL, renewed collaboration across DDH, and new adventures with colleagues across the UK and globally. In the meantime, I suggest everyone watches KDL closely: great things await.&nbsp;</p>\r\n</div>",
+        "pub_date": "2021-09-06T16:30:00Z",
+        "slug": "announcing-my-departure-kdl",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            15
         ]
     }
 },
@@ -12336,6 +12358,32 @@
         "object_repr": "Architecture and Research Software Engineering (Podcast)",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 791,
+    "fields": {
+        "action_time": "2021-09-12T16:39:45.602Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "54",
+        "object_repr": "Announcing my departure from KDL: New starts, new possibilities",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 792,
+    "fields": {
+        "action_time": "2021-09-12T16:40:21.559Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "54",
+        "object_repr": "Announcing my departure from KDL: New starts, new possibilities",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
     }
 }
 ]

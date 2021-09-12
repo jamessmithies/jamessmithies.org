@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2021-06-02T18:13:57.851Z",
+        "last_login": "2021-06-02T18:37:41.431Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1784,8 +1784,8 @@
         "status": 1,
         "hero_image": "",
         "title": "Architecture and Research Software Engineering (Podcast)",
-        "excerpt": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter SChmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>",
-        "body": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter SChmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>\r\n\r\n<p><a href=\"https://episodes.buzzsprout.com/smk0ij80n4x88amdkcsmypgcorw5?\" target=\"_blank\">Click here for the podcast (30:47)</a></p>",
+        "excerpt": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter Schmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>",
+        "body": "<p>Contribution to a <a href=\"https://podcastindex.org/podcast/1370689\" target=\"_blank\">Code for Thought</a> podcast, hosted by Peter Schmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).</p>\r\n\r\n<p><a href=\"https://episodes.buzzsprout.com/smk0ij80n4x88amdkcsmypgcorw5?\" target=\"_blank\">Click here for the podcast (30:47)</a></p>",
         "pub_date": "2021-05-25T12:00:00Z",
         "slug": "architecture-and-research-software-engineering-podcast",
         "author": 1,
@@ -12323,6 +12323,19 @@
         "object_repr": "Talks",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 790,
+    "fields": {
+        "action_time": "2021-06-02T18:37:58.701Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "53",
+        "object_repr": "Architecture and Research Software Engineering (Podcast)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
     }
 }
 ]
