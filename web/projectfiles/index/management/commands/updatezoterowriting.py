@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from django.core.management.base import BaseCommand, CommandError
 
 import subprocess
@@ -6,4 +6,3 @@ import subprocess
 class Command(BaseCommand):
 	def handle(self, *args, **options):
 		subprocess.call(["python3", "zot.py", "--settings=settings/settings-writing.py"], cwd='templates/zotero')
-	
