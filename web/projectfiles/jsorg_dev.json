@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2021-09-12T16:37:32.704Z",
+        "last_login": "2022-01-22T16:36:24.216Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1819,6 +1819,54 @@
         ],
         "tags": [
             15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 55,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "excerpt": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>",
+        "body": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSOw7LeBAeXNBvwxi71g51vSY__XeqFhJm8g0RzSWjNoN2DFhTCHF2it5l3hSCMey566gtor8mGt1Cj/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2019-03-27T12:00:00Z",
+        "slug": "integrating-dh-longue-duree-research-laboratories-history-methods",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            7,
+            4,
+            5
+        ],
+        "tags": [
+            13,
+            14,
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 56,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
+        "excerpt": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the &#39;Literature &amp; Culture and/as Intelligent Systems&#39; digital workshop, University of Stuttgart, 16 December 2021.</p>",
+        "body": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the &#39;Literature &amp; Culture and/as Intelligent Systems&#39; digital workshop, University of Stuttgart, 16 December 2021.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vT5dgNl_HM8J6GeJh-vDB4f6KC3sPvE9zOdYA6UW8kPNIqSixf_SKk9igL2ZlECi6wnoR1-NWTGPodV/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2021-12-16T18:00:00Z",
+        "slug": "mysterium-tremendum-et-fascinans-rethinking-technology-literature-culture",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            2
         ]
     }
 },
@@ -12384,6 +12432,45 @@
         "object_repr": "Announcing my departure from KDL: New starts, new possibilities",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 793,
+    "fields": {
+        "action_time": "2022-01-22T16:45:57.993Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "55",
+        "object_repr": "Dr. James Smithies Deputy Director of eResearch Director of King\u2019s Digital Lab @jamessmithies james.smithies@kcl.ac.uk Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 794,
+    "fields": {
+        "action_time": "2022-01-22T16:47:03.978Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "55",
+        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"title\", \"excerpt\", \"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 795,
+    "fields": {
+        "action_time": "2022-01-22T16:53:05.092Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "56",
+        "object_repr": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
