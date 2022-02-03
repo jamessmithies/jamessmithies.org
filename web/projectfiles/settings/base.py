@@ -28,7 +28,7 @@ TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
 ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web', 'jsorg.site']
 
-SECURE_SSL_REDIRECT = True 
+SECURE_SSL_REDIRECT = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ROOT_URLCONF = 'urls'
@@ -47,7 +47,7 @@ MANAGERS = ADMINS
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'django.contrib.staticfiles.finders.FileSystemFinder',    
+    'django.contrib.staticfiles.finders.FileSystemFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
@@ -131,7 +131,7 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
-                'django.template.context_processors.request',             
+                'django.template.context_processors.request',
                 'django.contrib.messages.context_processors.messages',
                 # CANNOT INSTALL 'custom_additions.custom_context_processors.google_analytics',
             ],
