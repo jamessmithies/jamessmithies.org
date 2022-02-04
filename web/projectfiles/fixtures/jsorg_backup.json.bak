@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2022-01-22T17:13:42.951Z",
+        "last_login": "2022-01-22T17:48:59.283Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
