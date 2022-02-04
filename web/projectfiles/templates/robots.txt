@@ -7,3 +7,4 @@ Disallow: /blog/2010/08/16/embed-nz-on-screen-into-a-wordpress-blog/
 Disallow: /blog/2010/07/18/digital-anarchism-and-the-digital-humanities/
 Disallow: /blog/2010/08/13/vote-to-get-new-zealand-a-shared-services-technology-platform/
 Disallow: /blog/2010/10/14/jisc-podcast-the-use-of-technology-by-arts-and-humanities-researchers/
+Disallow: /blog/2018/10/18/research-software-careers-establishing-local-national-and-international-pathways/
