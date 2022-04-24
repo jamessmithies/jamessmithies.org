@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2022-01-22T16:36:24.216Z",
+        "last_login": "2022-04-24T12:40:47.077Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1864,6 +1864,28 @@
         "featured": false,
         "categories": [
             4
+        ],
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 57,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Modes of Historical Analysis: Digital Approaches to Global and Imperial History",
+        "excerpt": "<p>Slides of my talk &#39;Modes of Historical Analysis: Digital Approaches to Global and Imperial History&#39;.&nbsp;Balliol College Global &amp; Imperial History Research Seminar, University of Oxford, 25 February 2022.</p>",
+        "body": "<p>Slides of my talk &#39;Modes of Historical Analysis: Digital Approaches to Global and Imperial History&#39;.&nbsp;Balliol College Global &amp; Imperial History Research Seminar, University of Oxford, 25 February 2022.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vTMiIz3iWVJ20uzehmsGxHc5YnTRiCN_GxL1FgmtOdye-BfXFUZ4ngWrNDgF5-jXQ/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2022-02-25T18:00:00Z",
+        "slug": "modes-historical-analysis-digital-approaches-global-and-imperial-history",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            6
         ],
         "tags": [
             2
@@ -12469,6 +12491,19 @@
         "content_type": 17,
         "object_id": "56",
         "object_repr": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 796,
+    "fields": {
+        "action_time": "2022-04-24T12:42:39.478Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "57",
+        "object_repr": "Modes of Historical Analysis: Digital Approaches to Global and Imperial History",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
