@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2022-02-04T19:56:45.107Z",
+        "last_login": "2022-04-24T12:40:47.077Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -372,7 +372,7 @@
         "display_name": "James Smithies",
         "title": "James Smithies",
         "slug": "jamessmithies",
-        "about": "<p>I am Professor of Digital Humanities in the Department of Digital Humanities, King&#39;s College London. I was previously founding director of King&rsquo;s Digital Lab (KDL) and Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History from the University of Canterbury in New Zealand, where I was Senior Lecturer in Digital Humanities and Associate Director of the CEISMIC Canterbury Earthquakes Digital Archive. I have also&nbsp;worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>was published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/writing\">writing</a>, <a href=\"/talks\">talks</a> and <a href=\"/projects\">projects</a> are available on this site.</p>\r\n\r\n<p><a href=\"https://link.springer.com/book/10.1057/978-1-137-49944-8\" target=\"_blank\"><img alt=\"\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2020/06/14/dh_dm_small.jpg\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p>I am Director of King&rsquo;s Digital Lab (KDL) and Reader &amp; Deputy-Director of eResearch at King&rsquo;s College London. I&nbsp;have a doctorate in History and have worked in the government and commercial IT sectors as a technical writer and editor, business analyst, and project manager. My monograph <em>The Digital Humanities and the Digital Modern </em>was published by Palgrave Macmillan in 2017.</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/writing\">writing</a>, <a href=\"/talks\">talks</a> and <a href=\"/projects\">projects</a> are available on this site.</p>\r\n\r\n<p><a href=\"https://link.springer.com/book/10.1057/978-1-137-49944-8\" target=\"_blank\"><img alt=\"\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2020/06/14/dh_dm_small.jpg\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -1828,9 +1828,35 @@
     "fields": {
         "status": 1,
         "hero_image": "",
+        "title": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "excerpt": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>",
+        "body": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSOw7LeBAeXNBvwxi71g51vSY__XeqFhJm8g0RzSWjNoN2DFhTCHF2it5l3hSCMey566gtor8mGt1Cj/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2019-03-27T12:00:00Z",
+        "slug": "integrating-dh-longue-duree-research-laboratories-history-methods",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            7,
+            4,
+            5
+        ],
+        "tags": [
+            13,
+            14,
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 56,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
         "title": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
-        "excerpt": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the Literature &amp; Culture and/as Intelligent Systems workshop, University of Stuttgart, 16 December 2021.</p>",
-        "body": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the Literature &amp; Culture and/as Intelligent Systems workshop, University of Stuttgart, 16 December 2021.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vT5dgNl_HM8J6GeJh-vDB4f6KC3sPvE9zOdYA6UW8kPNIqSixf_SKk9igL2ZlECi6wnoR1-NWTGPodV/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "excerpt": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the &#39;Literature &amp; Culture and/as Intelligent Systems&#39; digital workshop, University of Stuttgart, 16 December 2021.</p>",
+        "body": "<p>My talk &#39;<em>Mysterium tremendum et fascinans</em>: Rethinking the Technology of Literature &amp; Culture&#39;, presented at the &#39;Literature &amp; Culture and/as Intelligent Systems&#39; digital workshop, University of Stuttgart, 16 December 2021.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vT5dgNl_HM8J6GeJh-vDB4f6KC3sPvE9zOdYA6UW8kPNIqSixf_SKk9igL2ZlECi6wnoR1-NWTGPodV/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
         "pub_date": "2021-12-16T18:00:00Z",
         "slug": "mysterium-tremendum-et-fascinans-rethinking-technology-literature-culture",
         "author": 1,
@@ -1846,26 +1872,23 @@
 },
 {
     "model": "blog.entry",
-    "pk": 56,
+    "pk": 57,
     "fields": {
         "status": 1,
         "hero_image": "",
-        "title": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
-        "excerpt": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, National Library of Australia, Canberra, 27 - 29 March, 2019.</p>",
-        "body": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, National Library of Australia, Canberra, 27 - 29 March, 2019.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSOw7LeBAeXNBvwxi71g51vSY__XeqFhJm8g0RzSWjNoN2DFhTCHF2it5l3hSCMey566gtor8mGt1Cj/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
-        "pub_date": "2019-04-02T17:17:49Z",
-        "slug": "integrating-dh-longue-duree-research-laboratories-history-methods",
+        "title": "Modes of Historical Analysis: Digital Approaches to Global and Imperial History",
+        "excerpt": "<p>Slides of my talk &#39;Modes of Historical Analysis: Digital Approaches to Global and Imperial History&#39;.&nbsp;Balliol College Global &amp; Imperial History Research Seminar, University of Oxford, 25 February 2022.</p>",
+        "body": "<p>Slides of my talk &#39;Modes of Historical Analysis: Digital Approaches to Global and Imperial History&#39;.&nbsp;Balliol College Global &amp; Imperial History Research Seminar, University of Oxford, 25 February 2022.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vTMiIz3iWVJ20uzehmsGxHc5YnTRiCN_GxL1FgmtOdye-BfXFUZ4ngWrNDgF5-jXQ/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2022-02-25T18:00:00Z",
+        "slug": "modes-historical-analysis-digital-approaches-global-and-imperial-history",
         "author": 1,
         "enable_comments": true,
         "featured": false,
         "categories": [
-            7,
-            4,
-            5
+            6
         ],
         "tags": [
-            13,
-            14
+            2
         ]
     }
 },
@@ -12437,11 +12460,11 @@
     "model": "admin.logentry",
     "pk": 793,
     "fields": {
-        "action_time": "2022-01-22T17:17:14.409Z",
+        "action_time": "2022-01-22T16:45:57.993Z",
         "user": 1,
         "content_type": 17,
         "object_id": "55",
-        "object_repr": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
+        "object_repr": "Dr. James Smithies Deputy Director of eResearch Director of King\u2019s Digital Lab @jamessmithies james.smithies@kcl.ac.uk Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -12450,65 +12473,39 @@
     "model": "admin.logentry",
     "pk": 794,
     "fields": {
-        "action_time": "2022-01-22T17:19:48.014Z",
+        "action_time": "2022-01-22T16:47:03.978Z",
         "user": 1,
         "content_type": 17,
-        "object_id": "56",
+        "object_id": "55",
         "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"title\", \"excerpt\", \"body\"]}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 795,
     "fields": {
-        "action_time": "2022-01-22T17:21:12.791Z",
+        "action_time": "2022-01-22T16:53:05.092Z",
         "user": 1,
         "content_type": 17,
         "object_id": "56",
-        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+        "object_repr": "Mysterium tremendum et fascinans: Rethinking the Technology of Literature & Culture",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 796,
     "fields": {
-        "action_time": "2022-01-22T17:22:51.902Z",
+        "action_time": "2022-04-24T12:42:39.478Z",
         "user": 1,
         "content_type": 17,
-        "object_id": "56",
-        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"pub_date\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 797,
-    "fields": {
-        "action_time": "2022-01-22T17:24:06.759Z",
-        "user": 1,
-        "content_type": 17,
-        "object_id": "56",
-        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"pub_date\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 798,
-    "fields": {
-        "action_time": "2022-02-04T19:59:58.237Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "2",
-        "object_repr": "James Smithies",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+        "object_id": "57",
+        "object_repr": "Modes of Historical Analysis: Digital Approaches to Global and Imperial History",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
