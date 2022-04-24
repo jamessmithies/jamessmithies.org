@@ -3,8 +3,8 @@
 {% load django_bootstrap_breadcrumbs %}
 
     <div class="container">
- 
-<div class="navbar navbar-inverse navbar-fixed-top"> 
+
+<div class="navbar navbar-inverse navbar-fixed-top">
 {% block breadcrumbs %}
     {{ block.super }}
     {% breadcrumb "writing" "" %}
@@ -37,10 +37,10 @@
   if (elem.parentNode) {
     var elems = elem.parentNode.getElementsByTagName('*');
     for (i in elems) {
-        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
            {
   var ee = elems[i]
-  if (ee.childNodes[0]) { ee = ee.childNodes[0] } 
+  if (ee.childNodes[0]) { ee = ee.childNodes[0] }
   var pom = document.createElement('a');
   pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(ee.innerHTML));
   pom.setAttribute('download', filename);
@@ -50,7 +50,7 @@ function show(elem) {
   if (elem.parentNode) {
    var elems = elem.parentNode.getElementsByTagName('*'), i;
     for (i in elems) {
-        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1) 
+        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
            { if (elems[i].style.display == 'block') {elems[i].style.display = 'none';} else {elems[i].style.display = 'block';}}}}
   return(void(0));}
 function changeCSS() {
@@ -70,11 +70,11 @@ function changeCSS() {
     }
     }
 changeCSS();</script>
-   
+
 {% include "zotero/zotero-writing.html" %}
 
-  
-    
+
+
 
     </div>
       </div>
