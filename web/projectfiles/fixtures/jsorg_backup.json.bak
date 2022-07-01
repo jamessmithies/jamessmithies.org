@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$150000$u7IdXmB5P5vL$emm0E8DPW8LJLohyZSEwt4a2sOBWvLm5vYo2h6MOino=",
-        "last_login": "2022-05-06T19:16:33.381Z",
+        "last_login": "2022-07-01T18:02:25.420Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -912,8 +912,8 @@
         "status": 1,
         "hero_image": "",
         "title": "Digital Humanities: The Pacific Node",
-        "excerpt": "<p>Tom Scheinfeldt&rsquo;s recent blog entry &lsquo;What Digital Humanists Like&rsquo; suggests the discipline is structured in a similar way to social networks, with the main conversation based on Twitter and an organizational structure best conceived as a series of horizontally (as opposed to vertically or hierarchically) organized nodes. My feeling is that the digital humanities also need to be conceptualized from the point of view of engineering and the history of technology, but that&rsquo;s another issue.</p>\r\n",
-        "body": "<p>Tom Scheinfeldt&rsquo;s recent blog entry &lsquo;What Digital Humanists Like&rsquo; suggests the discipline is structured in a similar way to social networks, with the main conversation based on Twitter and an organizational structure best conceived as a series of horizontally (as opposed to vertically or hierarchically) organized nodes. My feeling is that the digital humanities also need to be conceptualized from the point of view of engineering and the history of technology, but that&rsquo;s another issue. Perhaps it&rsquo;s enough to note here that although a &lsquo;nodal&rsquo; interpretation of the digital humanities presents a healthy view of the humanist imperatives we all hold, it does little to &lsquo;out&rsquo; our entanglement with the virtualmachines and philosophies of modernity. To this end, to foreground the social at the expense of the engineered is a (perhaps wilful?) denial of an uncomfortable reality.</p>\r\n\r\n<p>My point here isn&rsquo;t to criticize Tom&rsquo;s great post, though, but to build on it. Most readers will know that I&rsquo;m rather weary when it comes to the digital humanities in New Zealand: after almost a decade of interest in the field, watching CHNM go from strength to strength and scores of centers crop up around the world I&rsquo;ve seen frustratingly little progress in New Zealand universities (although there&rsquo;s been a nice wee flurry of activity recently). I hope I don&rsquo;t need to reiterate that this is not entirely a reflection on staff who have undergone years of restructuring and are justifiably focused on teaching and traditional research, in the face of administrations that seem extremely backward. The story is typical enough: selling a mantra of innovation but only resourcing it to the level of marketing material. Our government doesn&rsquo;t help by foregrounding academic funding opportunities that aim to bring our science and technology sectors into the 21st century, at the same time as they leave humanists in the 20th.</p>\r\n\r\n<p>But what of the optimistic view? Bethany Nowviskie&rsquo;s recent visit to Wellington, which I unfortunately missed due to work commitments, reminded me that there is still time for growth. Aside from enjoying her tweets about Wellington (you got lucky with the weather, Bethany), it made me wonder whether the digital humanities haven&rsquo;t developed in New Zealand universities because we haven&rsquo;t got the terms of reference right. Maybe I&rsquo;ve been trying to sell my colleagues, and by implication the universities generally, the wrong brand of Koolaid? For the past decade or so I&rsquo;ve unthinkingly pressed for a very &lsquo;northern hemisphere&rsquo; (I&rsquo;m not sure that&rsquo;s the right term to use, but it will suffice as shorthand) brand of digital humanities, as if the digital humanities are destined to be a normative intellectual movement with little variation across geographic locations. This may have been the case in the early days, but as Tom&rsquo;s nodal network develops we should expect it to become less and less the case.</p>\r\n\r\n<p>If so, there are some exciting opportunities for digital humanists based in New Zealand. My feeling is that these opportunities lie in part (the approach is only one part of a complex milieu, and has suffered from a degree of modish assimilation from writers of funding applications over the years) with the nurturing of intellectual and cultural approaches specific to Oceania and the Pacific Rim, and the &lsquo;exportation&rsquo; of those ideas to other more established nodes in the network. It would undoubtedly be a welcome contribution. Just as the Pacific has offered the northern hemisphere an &lsquo;alternative modernity&rsquo; since the eighteenth century, so it might offer an alternative node to the digital humanities community &ndash; and that node, properly conceived, may well present our friends in the north with some useful new perspectives. To borrow the words of Australian sociologist Peter Beilharz, and to return to my interest in the digital humanities as a tool of modernity, our Pacific node could even turn out to be the enabler of &lsquo;[a]nother Civilization, Between Manhattan and the Rhine&rsquo;. If this is the case, we might decide to build a digital &lsquo;sea of islands&rsquo; (Epeli Hau&rsquo;ofa) reflective of Pacific intellectuals&rsquo; penchant for heterogeneity and cultural pastiche &ndash; a series of digital beaches connected by high-speed internet connections. There&rsquo;s an element of post-colonialism in this conception of a Pacific-centered digital humanities node, of course. As much as the international digital humanities community are gregariously interested in new ideas and encouraging of equal participation on all levels and by all groups, they cannot conceive of our local needs, because we haven&rsquo;t articulated them yet. We need to formulate those needs and then engage with colleagues outside the Pacific to bring a new, digital, vision to reality.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong><u>References</u></strong></p>\r\n\r\n<p>P. Beilharz, &ldquo;The Antipodes: Another Civilization, Between Manhattan and the Rhine?,&rdquo; <em>New Zealand Sociology</em> 17, no. 2 (2002): 164-178.</p>\r\n\r\n<p>Epeli Hau&rsquo;ofa, &ldquo;Our Sea of Islands,&rdquo; in <em>A New Oceania: Rediscovering Our Sea of Islands</em>, eds E. Waddell, V. Naidu and E. Hau&rsquo;ofa (Suva: School of Social and Economic Development, University of the South Pacific in association with Beake House, 1993), 2-16.</p>\r\n\r\n<p>Tom Scheinfeldt, &ldquo;Stuff Digital Humanists Like: Defining Digital Humanities by its Values,&rdquo; <em>Found History</em>. Accessed December 5th, 2010. <a href=\"http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/\" title=\"http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/\">http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/</a>.</p>\r\n",
+        "excerpt": "<p>Tom Scheinfeldt&rsquo;s recent blog entry &lsquo;What Digital Humanists Like&rsquo; suggests the discipline is structured in a similar way to social networks, with the main conversation based on Twitter and an organizational structure best conceived as a series of horizontally (as opposed to vertically or hierarchically) organized nodes. My feeling is that the digital humanities also need to be conceptualized from the point of view of engineering and the history of technology, but that&rsquo;s another issue.</p>",
+        "body": "<p>Tom Scheinfeldt&rsquo;s recent blog entry &lsquo;What Digital Humanists Like&rsquo; suggests the discipline is structured in a similar way to social networks, with the main conversation based on Twitter and an organizational structure best conceived as a series of horizontally (as opposed to vertically or hierarchically) organized nodes. My feeling is that the digital humanities also need to be conceptualized from the point of view of engineering and the history of technology, but that&rsquo;s another issue. Perhaps it&rsquo;s enough to note here that although a &lsquo;nodal&rsquo; interpretation of the digital humanities presents a healthy view of the humanist imperatives we all hold, it does little to &lsquo;out&rsquo; our entanglement with the technology and philosophies of modernity. To this end, to foreground the social at the expense of the engineered is a (perhaps wilful?) denial of an uncomfortable reality.</p>\r\n\r\n<p>My point here isn&rsquo;t to criticize Tom&rsquo;s great post, though, but to build on it. Most readers will know that I&rsquo;m rather weary when it comes to the digital humanities in New Zealand: after almost a decade of interest in the field, watching CHNM go from strength to strength and scores of centers crop up around the world I&rsquo;ve seen frustratingly little progress in New Zealand universities (although there&rsquo;s been a nice wee flurry of activity recently). I hope I don&rsquo;t need to reiterate that this is not entirely a reflection on staff who have undergone years of restructuring and are justifiably focused on teaching and traditional research, in the face of administrations that seem extremely backward. The story is typical enough: selling a mantra of innovation but only resourcing it to the level of marketing material. Our government doesn&rsquo;t help by foregrounding academic funding opportunities that aim to bring our science and technology sectors into the 21st century, at the same time as they leave humanists in the 20th.</p>\r\n\r\n<p>But what of the optimistic view? Bethany Nowviskie&rsquo;s recent visit to Wellington, which I unfortunately missed due to work commitments, reminded me that there is still time for growth. Aside from enjoying her tweets about Wellington (you got lucky with the weather, Bethany), it made me wonder whether the digital humanities haven&rsquo;t developed in New Zealand universities because we haven&rsquo;t got the terms of reference right. Maybe I&rsquo;ve been trying to sell my colleagues, and by implication the universities generally, the wrong brand of Koolaid? For the past decade or so I&rsquo;ve unthinkingly pressed for a very &lsquo;northern hemisphere&rsquo; (I&rsquo;m not sure that&rsquo;s the right term to use, but it will suffice as shorthand) brand of digital humanities, as if the digital humanities are destined to be a normative intellectual movement with little variation across geographic locations. This may have been the case in the early days, but as Tom&rsquo;s nodal network develops we should expect it to become less and less the case.</p>\r\n\r\n<p>If so, there are some exciting opportunities for digital humanists based in New Zealand. My feeling is that these opportunities lie in part (the approach is only one part of a complex milieu, and has suffered from a degree of modish assimilation from writers of funding applications over the years) with the nurturing of intellectual and cultural approaches specific to Oceania and the Pacific Rim, and the &lsquo;exportation&rsquo; of those ideas to other more established nodes in the network. It would undoubtedly be a welcome contribution. Just as the Pacific has offered the northern hemisphere an &lsquo;alternative modernity&rsquo; since the eighteenth century, so it might offer an alternative node to the digital humanities community &ndash; and that node, properly conceived, may well present our friends in the north with some useful new perspectives. To borrow the words of Australian sociologist Peter Beilharz, and to return to my interest in the digital humanities as a tool of modernity, our Pacific node could even turn out to be the enabler of &lsquo;[a]nother Civilization, Between Manhattan and the Rhine&rsquo;. If this is the case, we might decide to build a digital &lsquo;sea of islands&rsquo; (Epeli Hau&rsquo;ofa) reflective of Pacific intellectuals&rsquo; penchant for heterogeneity and cultural pastiche &ndash; a series of digital beaches connected by high-speed internet connections. There&rsquo;s an element of post-colonialism in this conception of a Pacific-centered digital humanities node, of course. As much as the international digital humanities community are gregariously interested in new ideas and encouraging of equal participation on all levels and by all groups, they cannot conceive of our local needs, because we haven&rsquo;t articulated them yet. We need to formulate those needs and then engage with colleagues outside the Pacific to bring a new, digital, vision to reality.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong><u>References</u></strong></p>\r\n\r\n<p>P. Beilharz, &ldquo;The Antipodes: Another Civilization, Between Manhattan and the Rhine?,&rdquo; <em>New Zealand Sociology</em> 17, no. 2 (2002): 164-178.</p>\r\n\r\n<p>Epeli Hau&rsquo;ofa, &ldquo;Our Sea of Islands,&rdquo; in <em>A New Oceania: Rediscovering Our Sea of Islands</em>, eds E. Waddell, V. Naidu and E. Hau&rsquo;ofa (Suva: School of Social and Economic Development, University of the South Pacific in association with Beake House, 1993), 2-16.</p>\r\n\r\n<p>Tom Scheinfeldt, &ldquo;Stuff Digital Humanists Like: Defining Digital Humanities by its Values,&rdquo; <em>Found History</em>. Accessed December 5th, 2010. <a href=\"http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/\" title=\"http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/\">http://www.foundhistory.org/2010/12/02/stuff-digital-humanists-like/</a>.</p>",
         "pub_date": "2010-12-05T01:44:00Z",
         "slug": "digital-humanities-the-pacific-node",
         "author": 1,
@@ -1831,7 +1831,7 @@
         "title": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
         "excerpt": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>",
         "body": "<p>My talk &#39;Integrating DH into the longue dur&eacute;e: Research Laboratories, History, Methods&#39;, presented at the Australian Academy of the Humanities&rsquo; 2nd Humanities, Arts and Culture Data Summit and 3rd international DARIAH Beyond Europe workshop, 27 - 29 March, 2019.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"329\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vSOw7LeBAeXNBvwxi71g51vSY__XeqFhJm8g0RzSWjNoN2DFhTCHF2it5l3hSCMey566gtor8mGt1Cj/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
-        "pub_date": "2019-03-27T12:00:00Z",
+        "pub_date": "2019-04-02T12:00:00Z",
         "slug": "integrating-dh-longue-duree-research-laboratories-history-methods",
         "author": 1,
         "enable_comments": true,
@@ -12519,6 +12519,58 @@
         "object_repr": "James Smithies",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 798,
+    "fields": {
+        "action_time": "2022-05-19T17:38:43.891Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "55",
+        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"pub_date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 799,
+    "fields": {
+        "action_time": "2022-05-19T17:40:07.793Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "55",
+        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 800,
+    "fields": {
+        "action_time": "2022-05-19T17:41:41.579Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "55",
+        "object_repr": "Integrating DH into the longue dur\u00e9e: Research Laboratories, History, Methods",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"pub_date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 801,
+    "fields": {
+        "action_time": "2022-07-01T18:02:54.057Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "15",
+        "object_repr": "Digital Humanities: The Pacific Node",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"excerpt\", \"body\"]}}]"
     }
 }
 ]
