@@ -1,4 +1,5 @@
-FROM alpine
+FROM alpine:3.13
+#FROM alpine
 
 # Initialize
 RUN mkdir -p /data/web
