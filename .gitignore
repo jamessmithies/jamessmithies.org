@@ -8,6 +8,9 @@ env
 *.key
 *.pem
 
+## VS Code ##
+.vscode/settings.json
+
 ### Whoosh index ###
 /web/projectfiles/settings/whoosh_index/**
 *.toc
