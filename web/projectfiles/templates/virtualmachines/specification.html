@@ -1,9 +1,7 @@
 {% extends "shared/base.html" %}
 {% load static from staticfiles %}
 {% load django_bootstrap_breadcrumbs %}
-{% load disqus_tags %}
 {% load virtualmachines_extras %}
-{% disqus_dev %}
 
 {% block breadcrumbs %}
     {{ block.super }}
@@ -106,15 +104,8 @@
 
 {% else %}
   {% endif %}
-<br><br><br><br><br>
-
-   {% disqus_show_comments %}
 
 </div>
-
-
-
-
 
 <div class="col-sm-2">
 <br><br><br>

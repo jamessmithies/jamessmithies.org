@@ -85,7 +85,6 @@ INSTALLED_APPS = (
     'virtualmachines',
     'ckeditor',
     'ckeditor_uploader',
-    'disqus',
     'twitter_tag',
     'captcha',
     'antispam',
