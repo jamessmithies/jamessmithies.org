@@ -6,7 +6,7 @@ django-haystack==3.1.1
 django-recaptcha==2.0.4
 django-storages==1.11.1
 django-twitter-tag==1.2.1
-django-anymail==6.0.0
+django-anymail==8.6.0
 django-antispam==1.0.1
 django-google-analytics-app==4.4.0
 redis==3.2.1
