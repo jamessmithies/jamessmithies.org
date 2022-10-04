@@ -1,10 +1,10 @@
-from django.shortcuts import render, get_object_or_404, render_to_response
+from django.shortcuts import render, get_object_or_404
 from django.views.generic.list import ListView
 from django.views.generic import DetailView, TemplateView, View
 from django.views.generic.detail import SingleObjectMixin
 from django.urls import reverse
 from django.http import HttpResponseForbidden, HttpResponseRedirect
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render
 from .forms import specificationPageSearchForm
 from .models import Home, Specification, Help, Tag, Type
 
