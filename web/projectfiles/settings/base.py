@@ -84,7 +84,6 @@ INSTALLED_APPS = (
     'django_bootstrap_breadcrumbs',
     'index',
     'blog',
-    'virtualmachines',
     'ckeditor',
     'ckeditor_uploader',
     'twitter_tag',
