@@ -13,3 +13,4 @@ Disallow: /blog/2010/10/14/jisc-podcast-the-use-of-technology-by-arts-and-humani
 Disallow: /blog/2018/10/18/research-software-careers-establishing-local-national-and-international-pathways/
 Disallow: /blog/2011/04/09/the-story-of-linux/
 Disallow: /blog/2013/09/04/speaking-back-to-america-localizing-dhpostcolonialism/
+Disallow: /blog/2019/03/27/integrating-dh-longue-duree-research-laboratories-history-methods/
