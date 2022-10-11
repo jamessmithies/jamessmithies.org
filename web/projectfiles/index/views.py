@@ -17,7 +17,7 @@ def projectsView(request):
 
 def writingView(request):
     writing = Writing.objects.filter(title='Writing')
-    writingdetails = Writing.objects.all().order_by('position').exclude(title='Writing')
+    writingdetails = Writing.objects.all().order_by('id').exclude(title='Writing')
     
     context = {'writing': writing, 'writingdetails': writingdetails,}
 
@@ -25,7 +25,7 @@ def writingView(request):
 
 def talksView(request):
     talks = Talks.objects.filter(title='Talks')
-    talksdetails = Talks.objects.all().order_by('position').exclude(title='Talks')
+    talksdetails = Talks.objects.all().order_by('id').exclude(title='Talks')
     
     context = {'talks': talks, 'talksdetails': talksdetails,}
 
