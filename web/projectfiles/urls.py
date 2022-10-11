@@ -15,7 +15,6 @@ urlpatterns = [
 
     url(r'^', include('index.urls')),
     url(r'^blog/', include('blog.urls')),
-    url(r'^virtualmachines/', include('virtualmachines.urls')),
 
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^pages/', include('django.contrib.flatpages.urls')),
