@@ -19,12 +19,6 @@ destroy:
 rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d
 
-dump-fixtures:
-	python3 manage.py dumpdata --settings=settings.base --exclude auth.permission --exclude contenttypes --natural-primary --indent 4 > fixtures/jsorg_backup.json
-
-load-fixtures:
-	python3 manage.py loaddata --settings=settings.base ./web/projectfiles/fixtures/jsorg_dev.json
-
 stop:
 	docker-compose stop
 
