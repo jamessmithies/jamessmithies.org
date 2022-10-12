@@ -94,19 +94,10 @@
                     <div class="col-sm-3">
                     <!-- Widget start -->
                         <div class="widget">
-                            <div class="search-box">
-                                <form onsubmit="window.location = '/search/?q=' + search.value; return false;">
-                                    {% csrf_token %}
-                                    <input id="search" placeholder="Search..." type="search" name="search" class="form-control" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" /></input>
-                                    <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div>
-
-                            <br>
-                            
+                                                       
                             <p> Built using <a href="http://www.ubuntu.com/">Ubuntu</a> <a href="https://www.docker.com/">Docker</a> <a href="https://www.python.org/">Python</a> <a href="https://www.djangoproject.com/">Django</a> <a href="http://gunicorn.org/">Gunicorn</a> <a href="http://nginx.org/">Nginx</a> <a href="http://getbootstrap.com/">Bootstrap</a></p> 
                 
-                            </div>
+                        
                     </div><!-- Widget end -->
                 </div><!-- .row -->
             </div>
