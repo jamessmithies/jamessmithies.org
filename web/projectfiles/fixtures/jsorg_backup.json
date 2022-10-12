@@ -1,4 +1,5 @@
-[{
+[
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
@@ -412,78 +413,6 @@
         "title": "Talks",
         "slug": "Talks",
         "about": "<p>This page lists my conference papers, talks, and interviews and podcasts I&#39;ve been involved in. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 1,
-    "fields": {
-        "title": "centerNet",
-        "url": "http://www.dhcenternet.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 2,
-    "fields": {
-        "title": "The Praxis Network",
-        "url": "http://praxis-network.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 4,
-    "fields": {
-        "title": "aaDH",
-        "url": "http://aa-dh.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 5,
-    "fields": {
-        "title": "DH Now",
-        "url": "http://digitalhumanitiesnow.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 6,
-    "fields": {
-        "title": "DH Questions & Answers",
-        "url": "http://digitalhumanities.org/answers/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 7,
-    "fields": {
-        "title": "ADHO",
-        "url": "http://digitalhumanities.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 8,
-    "fields": {
-        "title": "DiRT",
-        "url": "http://dirtdirectory.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 9,
-    "fields": {
-        "title": "Zotero",
-        "url": "http://zotero.org/"
-    }
-},
-{
-    "model": "blog.blogroll",
-    "pk": 10,
-    "fields": {
-        "title": "Omeka",
-        "url": "http://omeka.org/"
     }
 },
 {

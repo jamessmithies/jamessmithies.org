@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView
 from django.views.generic.detail import DetailView
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from .models import Entry, Category, Tag, Blogroll
+from .models import Entry, Category, Tag
 
 import datetime, time
 
@@ -54,9 +54,6 @@ def tagsView(request):
 
 def categoriesView(request):
 	return render(request, 'blog/categories.html', { 'categories': Category.objects.all()})
-
-def blogrollView(request):
-	return render(request, 'blog/blogroll.html', { 'blogroll': Blogroll.objects.all()})
 
 # Bespoke view used instead of DetailView, in conjunction with redirect, to handle legacy Wordpress urls.
 def entryView(request, year, month, day, slug):

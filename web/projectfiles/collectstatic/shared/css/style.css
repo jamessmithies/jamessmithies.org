@@ -83,19 +83,6 @@ margin: 10px;
     max-height: 350px;
 }
 
-.blogroll{
-    border: 1px solid transparent;
-    border-radius: 5%;
-    font-size: 80%;
-    padding: 4px;
-    background-color: #fff;
-    float: right;
-}
-.blogroll a {
-   color: #000;
-
-}
-
 .breadcrumb {
   background-color: #fff;
   padding: 20px 15px;

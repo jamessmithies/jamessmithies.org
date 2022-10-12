@@ -1,4 +1,4 @@
-from blog.models import Tag, Category, Blogroll, Entry
+from blog.models import Tag, Category, Entry
 from django import template
 register = template.Library()
 
@@ -40,11 +40,7 @@ def blog_six_recent():
 
 register.inclusion_tag('blog/blog_six_recent.html')(blog_six_recent)
 
-def blog_blogroll():
-    blogroll = Blogroll.objects.all()
-    return {'blogroll': blogroll}
 
-register.inclusion_tag('blog/blogroll.html')(blog_blogroll)
 
 
 

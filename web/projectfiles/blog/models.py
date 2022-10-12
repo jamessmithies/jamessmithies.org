@@ -3,18 +3,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from ckeditor_uploader.fields import RichTextUploadingField
 
-class Blogroll (models.Model):
-	title = models.CharField(max_length=250, help_text='Maximum 250 characters.')
-	url = models.URLField()
-
-	class Meta:
-		ordering = ['title']
-		verbose_name_plural = "Blogroll"
-		app_label = 'blog' 
-
-	def __str__(self):
-		return self.title
-
 class Category (models.Model):
 	title = models.CharField(max_length=250, help_text='Maximum 250 characters.')
 	slug = models.SlugField(unique=True, help_text='Suggested value automatically generated from title. Must be unique.')
