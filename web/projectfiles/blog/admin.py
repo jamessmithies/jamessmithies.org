@@ -1,8 +1,6 @@
 from django.contrib import admin
 from django.db import models
-from blog.models import Category, Entry, Tag, Blogroll
-
-admin.site.register(Blogroll)
+from blog.models import Category, Entry, Tag
 
 class CategoryAdmin(admin.ModelAdmin):
 	prepopulated_fields = { 'slug': ['title']}
