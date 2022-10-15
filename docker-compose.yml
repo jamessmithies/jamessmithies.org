@@ -24,6 +24,7 @@ nginx:
     - web
   volumes:
     - /docker-volumes/etc/letsencrypt:/etc/letsencrypt/
+    - /docker-volumes/log/serverlogs:/var/log/nginx
   links:
     - web:web
 
