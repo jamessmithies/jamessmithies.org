@@ -10,7 +10,6 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-    url(r'^djga/', include('google_analytics.urls')),
     url(r'^', include('index.urls')),
     url(r'^blog/', include('blog.urls')),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),

@@ -88,7 +88,6 @@ INSTALLED_APPS = (
     'twitter_tag',
     'captcha',
     'antispam',
-    'google_analytics',
 
   # 'antispam.akismet',
   # 'antispam.honeypot',
@@ -132,7 +131,6 @@ TEMPLATES = [
                 'django.template.context_processors.tz',
                 'django.template.context_processors.request',
                 'django.contrib.messages.context_processors.messages',
-                # CANNOT INSTALL 'custom_additions.custom_context_processors.google_analytics',
             ],
             'loaders': [
                 # List of callables that know how to import templates from various sources.
