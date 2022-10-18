@@ -4,6 +4,9 @@ build-up:
 makemigrations:
 	docker-compose exec web python3 manage.py makemigrations
 
+collect:
+	docker-compose exec python3 manage.py collectstatic --settings=settings.base
+
 zotwriting:
 	docker-compose exec web python3 manage.py updatezoterowriting
 
