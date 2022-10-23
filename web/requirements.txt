@@ -1,4 +1,4 @@
-Django==3.2.15
+Django==3.2.16
 django-antispam==1.0.3
 django-anymail==8.6
 django-bootstrap-breadcrumbs==0.9.2
