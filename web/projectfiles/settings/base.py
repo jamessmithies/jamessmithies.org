@@ -86,7 +86,8 @@ INSTALLED_APPS = (
     'ckeditor',
     'ckeditor_uploader',
     'twitter_tag',
- 'antispam.honeypot',
+    'antispam.honeypot',
+    'hcaptcha',
 )
 
 MIDDLEWARE = (

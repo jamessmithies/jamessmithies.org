@@ -2,6 +2,7 @@
 
 from django import forms
 from antispam.honeypot.forms import HoneypotField
+from hcaptcha.fields import hCaptchaField
 
 
 class ContactForm(forms.Form):
@@ -9,5 +10,6 @@ class ContactForm(forms.Form):
     subject = forms.CharField(required=True)
     message = forms.CharField(widget=forms.Textarea, required=True)
     spam_honeypot_field = HoneypotField()  
+    hcaptcha = hCaptchaField()
 
     
