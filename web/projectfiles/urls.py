@@ -14,7 +14,6 @@ urlpatterns = [
     url(r'^blog/', include('blog.urls')),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^pages/', include('django.contrib.flatpages.urls')),
-    url(r'^contact/', include('contactform.urls')),
     url(r'^robots\.txt/$', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
    ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
