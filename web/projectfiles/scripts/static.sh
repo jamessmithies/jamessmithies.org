@@ -15,6 +15,8 @@ wget --directory-prefix="../jsorg-static" localhost\
     --no-parent \
          localhost \
 
+cp -r web/projectfiles/collectstatic* ../jsorg-static
+
 #Clean
 cd ../jsorg-static
 mv robots.txt tmp
@@ -22,5 +24,6 @@ mv tmp/index.html tmp/robots.txt
 cp tmp/robots.txt ./
 rm -rf tmp
 
-#find -type f -exec bash -c 'fp=$(dirname "$1");fn=$(basename "$fp");px="${1##*.}";mv "$1" "$fp"/"$fn"."$px"' sh "{}" \;
+
+
 
