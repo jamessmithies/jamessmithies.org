@@ -16,7 +16,7 @@ PROJECT_PATH = os.getcwd()
 
 # Toggle between settings.dev & settings.prod as required.
 # settings.secrets is not in version control.
-from settings.static import *
+from settings.prod import *
 from settings.secrets import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

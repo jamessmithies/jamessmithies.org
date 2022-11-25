@@ -2,7 +2,7 @@ rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d 
 
 load:
-	docker-compose exec web "./scripts/load.sh" 
+	docker-compose exec web "./scripts/load.sh"
 
 static:
 	web/projectfiles/scripts/static.sh
@@ -34,6 +34,9 @@ zotwriting:
 zottalks:
 	docker-compose exec web python3 manage.py updatezoterotalks
 
+destroy:
+	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all
+
 stop:
 	docker-compose stop
 
@@ -63,7 +66,6 @@ start:
 
 shell-db:
 	docker exec -ti pz01 bash
-
 
 
 
