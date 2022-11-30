@@ -15,7 +15,7 @@ wget --directory-prefix="../jsorg-static" localhost\
     --no-parent \
          localhost \
 
-cp -r web/projectfiles/collectstatic* ../jsorg-static
+#cp -r web/projectfiles/collectstatic* ../jsorg-static
 
 #Clean
 cd ../jsorg-static
