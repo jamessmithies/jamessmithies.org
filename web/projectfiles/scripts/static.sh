@@ -15,14 +15,16 @@ wget --directory-prefix="../jsorg-static" localhost\
     --no-parent \
          localhost \
 
-#cp -r web/projectfiles/collectstatic* ../jsorg-static
-
 #Clean
 cd ../jsorg-static
 mv robots.txt tmp
 mv tmp/index.html tmp/robots.txt
 cp tmp/robots.txt ./
 rm -rf tmp
+
+#Fix url in RSS feed
+cd blog/feed
+sed -i 's/example.com/www.jamessmithies.org/g' index.html
 
 
 
