@@ -34,9 +34,6 @@ zotwriting:
 zottalks:
 	docker-compose exec web python3 manage.py updatezoterotalks
 
-destroy:
-	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all
-
 stop:
 	docker-compose stop
 
