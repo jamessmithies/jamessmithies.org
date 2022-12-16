@@ -8,7 +8,7 @@ class LatestEntriesFeed(Feed):
     description = "Updates on blog posts on jamessmithies.org."
 
     def items(self):
-        return Entry.objects.order_by('-pub_date')[:25]
+        return Entry.objects.order_by('-pub_date')[:100]
 
     def item_title(self, item):
         return item.title
