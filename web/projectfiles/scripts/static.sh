@@ -3,7 +3,7 @@
 # Save site
 wget --directory-prefix="../jsorg-static" localhost\
     --no-host-directories \
-    --recursive \
+    --recursive -l100 \
     --content-disposition \
     --trust-server-names \
     --adjust-extension \
