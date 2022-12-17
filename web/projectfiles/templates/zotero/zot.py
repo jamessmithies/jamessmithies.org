@@ -46,7 +46,7 @@ bib_style = 'apa' #: Style.  'apa', 'mla', or any other style known to Zotero
 
 write_full_html_header = True  #: If True, a standalone HTML file is written (default).
 
-stylesheet_url = "style.css" #: URL to the style file on the web server.
+stylesheet_url = "site/style.css" #: URL to the style file on the web server.
 
 outputfile = 'zotero-bib.html' #: The resulting HTML document will be in this file.
 
