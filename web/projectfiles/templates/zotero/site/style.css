@@ -49,7 +49,11 @@ div.bibliography div.collection div.collection { /* nested collection */ }
 
 /* The entire bibliographic item */
 div.bib-item {
+  /*hanging indent */
+  padding-left: 22px ;
+  text-indent: -22px ;
 }
+
 div.full-bib-section div.bib-item {
     margin-bottom:25px;
 }
@@ -76,7 +80,6 @@ div.short-bib-section .containertitle {
 
 /* details (e.g., collection, editors, years, pages, etc.) of a bib item */
 div.bib-details{
-    
 }
 
 
