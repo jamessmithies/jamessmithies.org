@@ -32,8 +32,8 @@ migrate:
 collect:
 	docker-compose exec python3 manage.py collectstatic --settings=settings.base
 
-bib:
-	python3 web/projectfiles/scripts/zotero/articles-zotero.py & python3 web/projectfiles/scripts/zotero/books-zotero.py
+zotero:
+	python3 web/projectfiles/scripts/zotero/books-zotero.py & python3 web/projectfiles/scripts/zotero/articles-zotero.py & python3 web/projectfiles/scripts/zotero/chapters-zotero.py & python3 web/projectfiles/scripts/zotero/conferences-zotero.py & python3 web/projectfiles/scripts/zotero/talks-zotero.py & python3 web/projectfiles/scripts/zotero/reviews-zotero.py & python3 web/projectfiles/scripts/zotero/reports-zotero.py & python3 web/projectfiles/scripts/zotero/interviews-zotero.py
 
 stop:
 	docker-compose stop

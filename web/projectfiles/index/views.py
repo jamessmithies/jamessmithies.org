@@ -43,13 +43,11 @@ def architectureView(request, slug):
         'architecture': get_object_or_404(Architecture, slug=slug)
     })
 
-def updatezoterowritingView(request):
-    call_command('updatezoterowriting')
+def updatezoteroView(request):
+    call_command('updatezotero')
     return render(request, 'zotero/update-zotero.html')
 
-def updatezoterotalksView(request):
-    call_command('updatezoterotalks')
-    return render(request, 'zotero/update-zotero.html')
+
 
 
 

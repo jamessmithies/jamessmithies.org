@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+#https://pyzotero.readthedocs.io/en/latest/index.html?highlight=style#search-request-parameters-for-read-api-calls
+
+from pyzotero import zotero
+zot = zotero.Zotero('24279', 'user', 'q4Wn37R6q4P2RZTIfYuxYsei')
+
+collectionID = ('XI3XZQ9G') #chapters collectionID
+zot.add_parameters(content='bib', style='turabian-fullnote-bibliography', itemType='-attachment')
+items = zot.collection_items(collectionID)
+
+bibliography = ''
+for item in items:
+    bibliography += item + '\n'
+
+with open('web/projectfiles/templates/zotero/chapters-bibliography.html', 'w') as f:
+    f.write(str(bibliography))
+
+
+
+
+
+
