@@ -1,4 +1,5 @@
-[{
+[
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
@@ -394,26 +395,18 @@
         "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the<a href=\"/outputs\"> outputs</a> page are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
     }
 },
+
 {
-    "model": "index.writing",
+    "model": "index.research",
     "pk": 1,
     "fields": {
-        "display_name": "Writing",
-        "title": "Writing",
-        "slug": "writing",
-        "about": "<p>This page lists my writing. My conference papers and <a href=\"/talks\">talks</a> are also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
+    "display_name": "Research",
+    "title": "Research",
+    "slug": "Research",
+    "about": "<p>This page lists my research.</p>"
     }
 },
-{
-    "model": "index.talks",
-    "pk": 1,
-    "fields": {
-        "display_name": "Talks",
-        "title": "Talks",
-        "slug": "Talks",
-        "about": "<p>This page lists my conference papers, talks, and interviews and podcasts I&#39;ve been involved in. My <a href=\"/writing\">writing</a> is also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href=\"/projects\">projects</a> page.</p>"
-    }
-},
+
 {
     "model": "blog.category",
     "pk": 1,

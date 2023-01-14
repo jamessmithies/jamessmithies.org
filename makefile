@@ -22,8 +22,12 @@ log-nginx:
 log-web:
 	docker-compose logs web  
 
-makemigrations:
+migrations:
 	docker-compose exec web python3 manage.py makemigrations
+
+migrate:
+	docker-compose exec web python3 manage.py migrate
+
 
 collect:
 	docker-compose exec python3 manage.py collectstatic --settings=settings.base

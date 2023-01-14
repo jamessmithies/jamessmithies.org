@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render, get_object_or_404
 from django.core.management import call_command
-from .models import Projects, Bio, Credits, Design, Writing, Talks
+from .models import Projects, Bio, Credits, Design, Research
 
 def index(request):
     return render(request, 'index/index.html',)
@@ -16,10 +16,10 @@ def projectsView(request):
     return render(request, 'index/projects.html', context)
 
 def researchView(request):
-    writing = Writing.objects.filter(title='Writing')
-    writingdetails = Writing.objects.all().order_by('id').exclude(title='Writing')
+    research = Research.objects.filter(title='Research')
+    researchdetails = Research.objects.all().order_by('id').exclude(title='Research')
     
-    context = {'writing': writing, 'writingdetails': writingdetails,}
+    context = {'research': research, 'researchdetails': researchdetails,}
 
     return render(request, 'index/research.html', context)
 
