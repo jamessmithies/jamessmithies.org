@@ -28,11 +28,8 @@ makemigrations:
 collect:
 	docker-compose exec python3 manage.py collectstatic --settings=settings.base
 
-zotwriting:
-	docker-compose exec web python3 manage.py updatezoterowriting
-
-zottalks:
-	docker-compose exec web python3 manage.py updatezoterotalks
+bib:
+	python3 web/projectfiles/scripts/zotero/articles-zotero.py & python3 web/projectfiles/scripts/zotero/books-zotero.py
 
 stop:
 	docker-compose stop

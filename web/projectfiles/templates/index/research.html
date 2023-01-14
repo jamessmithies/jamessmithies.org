@@ -7,7 +7,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top"> 
 {% block breadcrumbs %}
     {{ block.super }}
-    {% breadcrumb "writing" "" %}
+    {% breadcrumb "research" "" %}
 {% endblock %}
 
   {% block landing-page %}
@@ -18,7 +18,7 @@
 {% for writing in writing %}
             <!-- Post start -->
                         <div class="post">
-<h1 class="post-title">Writing</h1>
+<h1 class="post-title">Research</h1>
 <div class="post-entry"> <p>{{ writing.about|safe}}</p> 
 {% endfor %}
 
@@ -26,11 +26,11 @@
 .bib-item{padding-left: 22px; text-indent: -22px ;}
 </style>
 
-  
-{% include "zotero/zotero-writing.html" %}
+<h2 class="post-title">Books</h2>
+{% include "zotero/books-bibliography.html" %}
 
-    
-
+<h2 class="post-title">Articles</h2>
+{% include "zotero/articles-bibliography.html" %}
     </div>
 
 
