@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2022-10-10T18:55:03.051Z",
+        "last_login": "2023-01-14T18:28:46.823Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -395,18 +395,16 @@
         "about": "<p><strong>&nbsp;Template</strong></p>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The base css for this site is derived from&nbsp;<a href=\"https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42\">https://wrapbootstrap.com/theme/rival-responsive-multipurpose-template-WB0150L42</a>, itself based on&nbsp;<a href=\"http://getbootstrap.com/\">http://getbootstrap.com/</a>.&nbsp;</div>\r\n\r\n<div style=\"background:#eeeeee; border:1px solid #cccccc; padding:5px 10px\">The citations on the<a href=\"/outputs\"> outputs</a> page are managed using the <a href=\"https://www.zotero.org/\" target=\"_blank\">Zotero</a> citation management system and presented using <a href=\"https://github.com/davidswelt/zot_bib_web\" target=\"_blank\">zot_bib_web</a> by David Reitter.</div>\r\n\r\n<p>&nbsp;</p>"
     }
 },
-
 {
     "model": "index.research",
     "pk": 1,
     "fields": {
-    "display_name": "Research",
-    "title": "Research",
-    "slug": "Research",
-    "about": "<p>This page lists my research.</p>"
+        "display_name": "Research",
+        "title": "Research",
+        "slug": "Research",
+        "about": "<p>This page lists my research.</p>"
     }
 },
-
 {
     "model": "blog.category",
     "pk": 1,

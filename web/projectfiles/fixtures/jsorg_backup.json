@@ -1,9 +1,22 @@
 [
 {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-01-25T20:12:35.177Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Research",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2023-01-14T18:28:46.823Z",
+        "last_login": "2023-01-14T20:04:58.712Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -402,7 +415,7 @@
         "display_name": "Research",
         "title": "Research",
         "slug": "Research",
-        "about": "<p>This page lists my research.</p>"
+        "about": ""
     }
 },
 {
