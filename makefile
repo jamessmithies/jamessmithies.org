@@ -7,6 +7,9 @@ load:
 zotero:
 	bash web/projectfiles/scripts/zotero.sh
 
+pyzotero:
+	docker-compose exec web "./scripts/zotero.py"
+
 static:
 	web/projectfiles/scripts/static.sh
 

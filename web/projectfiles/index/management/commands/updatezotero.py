@@ -5,4 +5,4 @@ import subprocess
 
 class Command(BaseCommand):
 	def handle(self, *args, **options):
-		subprocess.call(["python3", "zotero.py"], cwd='scripts/zotero')
+		subprocess.call(["python3", "zotero.sh"], cwd='scripts/zotero')

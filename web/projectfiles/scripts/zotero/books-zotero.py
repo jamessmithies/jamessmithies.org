@@ -12,7 +12,7 @@ bibliography = ''
 for item in items:
     bibliography += item + '\n'
 
-with open('web/projectfiles/templates/zotero/books-bibliography.html', 'w') as f:
+with open('./templates/zotero/books-bibliography.html', 'w') as f:
     f.write(str(bibliography))
 
 
