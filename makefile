@@ -5,7 +5,7 @@ load:
 	docker-compose exec web "./scripts/load.sh"
 
 zotero:
-	docker-compose exec web "./scripts/zotero.py"
+	docker-compose exec web python3 manage.py zotcommand
 
 static:
 	web/projectfiles/scripts/static.sh
