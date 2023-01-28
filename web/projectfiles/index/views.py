@@ -44,7 +44,7 @@ def architectureView(request, slug):
     })
 
 def updatezoteroView(request):
-    call_command('updatezotero')
+    call_command('zotcommand')
     return render(request, 'zotero/update-zotero.html')
 
 
