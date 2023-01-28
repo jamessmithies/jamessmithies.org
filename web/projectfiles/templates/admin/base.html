@@ -3,7 +3,20 @@
 <head>
 <title>{% block title %}{% endblock %}</title>
 <link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "admin/css/base.css" %}{% endblock %}" />
-{% block extrastyle %}{% endblock %}
+{% block extrastyle %}<style>
+    :root {
+      --primary: #c2c2c2;
+      --secondary: #f5f5f5;
+      --link-fg: #111;
+      --link-selected-fg: #111;
+      --header-link-color:#111;
+      --accent:#111;
+      --user-tools:#111;
+      --link-hover-color:#c2c2c2;
+      --header-color:#111;
+      --primary-fg:#f5f5f5;
+    }
+    </style>{% endblock %}
 {% if LANGUAGE_BIDI %}<link rel="stylesheet" type="text/css" href="{% block stylesheet_rtl %}{% static "admin/css/rtl.css" %}{% endblock %}" />{% endif %}
 {% block extrahead %}{% endblock %}
 {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
