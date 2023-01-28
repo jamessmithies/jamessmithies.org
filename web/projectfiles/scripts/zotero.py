@@ -1,9 +1,9 @@
 #! /usr/bin/python
-# 
+
 import subprocess
 import os
 
-directory = "scripts/zotero/" # Replace with the actual path
+directory = "scripts/zotero/" 
 
 for filename in os.listdir(directory):
     if filename.endswith(".py"):
