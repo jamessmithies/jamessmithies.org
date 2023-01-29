@@ -7,14 +7,8 @@ load:
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
 
-static:
-	web/projectfiles/scripts/static.sh
-
 destroy:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all
-
-build-up:
-	docker-compose build && docker-compose up -d
 
 shell-web:
 	docker-compose exec web sh
@@ -31,12 +25,14 @@ migrations:
 migrate:
 	docker-compose exec web python3 manage.py migrate
 
-
 collect:
 	docker-compose exec python3 manage.py collectstatic --settings=settings.base
 
 stop:
 	docker-compose stop
+
+start:
+	docker-compose start
 
 restart:
 	docker-compose stop && docker-compose start
@@ -46,21 +42,6 @@ shell-nginx:
 
 shell-postgres:
 	docker-compose exec postgres sh
-
-remove:
-	docker-compose rm --force
-
-build:
-	docker-compose build
-
-up:
-	docker-compose up -d
-
-up-non-daemon:
-	docker-compose up
-
-start:
-	docker-compose start
 
 shell-db:
 	docker exec -ti pz01 bash
