@@ -4,6 +4,9 @@ rebuild:
 load:
 	docker-compose exec web "./scripts/load.sh"
 
+dump:
+	docker-compose exec web "./scripts/dump.sh"
+
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
 
