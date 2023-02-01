@@ -42,7 +42,8 @@
             {% block welcome-msg %}
                 {% trans 'Welcome,' %}
                 <strong>{% firstof user.get_short_name user.get_username %}</strong>.
-                <a href="/update-zotero" class="zoterolink">Update Zotero</a> /
+                <a href="/update-zotero">Update Zotero</a> /
+                <a href="/backup">Backup</a> /
             {% endblock %}
             {% block userlinks %}
                 {% if site_url %}
