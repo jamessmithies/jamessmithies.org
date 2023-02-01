@@ -3,7 +3,7 @@
 import subprocess
 import os
 
-directory = "zotero" 
+directory = "scripts" 
 
 for filename in os.listdir(directory):
     if filename.endswith(".py"):

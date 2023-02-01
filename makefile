@@ -2,10 +2,10 @@ rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d 
 
 load:
-	docker-compose exec web "./scripts/load.sh"
+	docker-compose exec web "./load.sh"
 
 dump:
-	docker-compose exec web "./scripts/dump.sh"
+	docker-compose exec web "./dump.sh"
 
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
