@@ -1,0 +1,694 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <!-- BASICS -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>jamessmithies.org</title>
+        <meta name="description" content="The personal blog of James Smithies">    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://jsorg-docker-static.s3.amazonaws.com/static/shared/css/style.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://jsorg-docker-static.s3.amazonaws.com/static/favicon.ico" />
+     </head>
+   
+    <body>
+        <!-- Preloader 
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div> -->
+
+        <!-- Wrapper start -->
+        <div class="main">
+            <!-- Breadcrumbs -->
+            
+    
+                
+                
+            
+    
+    
+
+
+            
+                <ul class="breadcrumb">
+    
+        <li>
+            
+                <a href="../../../../../index.html">jamessmithies.org</a>
+            
+        </li>
+    
+        <li>
+            
+                <a href="../../../../index.html">blog</a>
+            
+        </li>
+    
+        <li class="active">
+            
+                Introduce data mining to your History course in 2 minutes
+            
+        </li>
+    
+</ul>
+
+            
+
+        <div class="container">
+        <!-- Begin page content -->
+            
+        <!-- Virtual Machines -->
+            
+            
+            
+            
+            
+            
+        <!-- Blog -->
+            
+            
+            
+
+  <div class="navbar-header pull-right">
+      <a id="nav-expander" class="nav-expander fixed">
+        <p class="small-black-text">Tweets &nbsp;<i class="fa fa-toggle-left"></i></p>
+      </a>
+    </div>
+</div>
+
+
+<nav>
+  <ul class="list-unstyled main-menu">
+
+    <!--Include your navigation here-->
+    <li class="text-right"><a href="index.html#" id="nav-close"></a></li>
+    <li> 
+
+
+
+
+<ul>
+
+
+    <p>RT <a href="https://twitter.com/MubaideenShatha">@MubaideenShatha</a>: You can download our <a href="https://twitter.com/madih_info">@madih_info</a> project paper on Assessing the MaDiH CKAN catalogue as an engagement tool for the… <a href="https://twitter.com/i/web/status/1593149053390721024">twitter.com/i/web/status/1…</a></p>
+
+    <p>I'm almost lapsed in my social media habits but am giving Mastodon another try given the hullabaloo: <a href="https://hachyderm.io/@jamessmithies">hachyderm.io/@jamessmithies</a>.</p>
+
+    <p>RT <a href="https://twitter.com/CamDigHum">@CamDigHum</a>: As the <a href="https://twitter.com/search?q=%23COP27">#COP27</a> climate talks begin in Egypt, we are organising two special events:
+✴️On 7 November we will hold a Da… <a href="https://twitter.com/i/web/status/1588139894701965317">twitter.com/i/web/status/1…</a></p>
+
+    <p>RT <a href="https://twitter.com/TimeTravelAllie">@TimeTravelAllie</a>: <a href="https://twitter.com/UCLpress">@UCLpress</a> <a href="https://twitter.com/juliannenyhan">@juliannenyhan</a> @GeoffRockwell @sgsinclair Contributors include @ariciula &amp; @jamessmithies; @19Averil, Cha… <a href="https://twitter.com/i/web/status/1585550363553406976">twitter.com/i/web/status/1…</a></p>
+
+</ul></li>
+
+</nav>
+
+
+  <!--
+<div class="blog-header-image"><img src="https://jsorg-docker-static.s3.amazonaws.com/media/uploads/r_code.jpg"></div>
+-->
+
+
+<section class="module-small">
+<div class="container">
+
+<div class="col-sm-9 col-md-offset-1">
+
+                <h1 class="post-title">Introduce data mining to your History course in 2 minutes</h1>
+                <div class="post-meta">
+                  Published on 22 Feb 2014, 1 a.m. Filed under  <a class="category" href="../../../../categories/digital-humanities/index.html"> digital-humanities,<a class="category" href="../../../../categories/history/index.html"> history</a>
+                </div>
+     
+
+
+<div class="tags">
+<a href="../../../../tags/data-mining/index.html"> data-mining  <a href="../../../../tags/distant-reading/index.html"> distant-reading</a></div> 
+
+
+
+  <div class="post-entry">
+
+<p><h4>Background</h4>
+
+<p><a href="https://www.mashape.com/">https://www.mashape.com/</a>&nbsp;offers Application Programming Interfaces (APIs) that perform common text analysis tasks, including the one we&rsquo;ll use for this tutorial:&nbsp;<a href="http://en.wikipedia.org/wiki/Named-entity_recognition">Named Entity Recognition</a>&nbsp;(NER). Text analysis is a good way to introduce students to data mining. You can use text documents, or a URL.</p>
+
+<h4>Purpose</h4>
+
+<p>To introduce non-technical historians and students to data mining. The idea is to present students with a purposefully naive example of data mining, working on the assumption it&rsquo;ll prompt them to critically engage with data mining as a method. The questions they explore are in many ways more important than the results you present them with.</p>
+
+<h4>Step 1: Get the NER results</h4>
+
+<ol start="1">
+	<li>Go to the&nbsp;Fordham Modern History Sourcebook and find a document that works for your class. After blindly clicking I&rsquo;ve chosen &lsquo;Instructions for the Virginia Colony 1606&rsquo;. Copy the URL.</li>
+	<li>Sign up to&nbsp;<a href="https://www.mashape.com/">Mashup</a>.</li>
+	<li>Go to the Mashape&nbsp;<a href="https://www.mashape.com/aylien/text-analysis">text analysis API</a>. Scroll down until you find the Named Entity Recognition tool,&nbsp;copy your document URL into the appropriate field and click Test Endpoint.</li>
+	<li>At this point you&rsquo;ll need to enter credit card details. Be sure to subscribe to their &lsquo;Freemium&rsquo; service! After your credit card has been accepted click Subscribe. You&rsquo;ll be returned to the Text Analysis API page.</li>
+	<li>Scroll back down to the&nbsp;Named Entity Recognition tool,&nbsp;copy your document URL into the appropriate field again and click Test Endpoint.</li>
+	<li>The results of the query will appear. Copy this (I&rsquo;ve included my results below). You could get your students to sign up for the service and generate the results themselves, but since a credit card is required it&rsquo;s probably better to just provide it for them. At any rate, this is the content of your tutorial.</li>
+</ol>
+
+<h4>Step 2: Produce some questions</h4>
+
+<p>So, entity extraction for historians &ndash; useful? Yes, but. If you&rsquo;ve got a body of thousands of documents (or millions of emails, perhaps), it can give you an idea of the type of content and tone of the corpus etc. It might be useful to test commonly held opinions about a given document or corpus that were formed when people could only read a subset because of time / labour constraints. In some cases the document set might simply be too large to analyse manually. It can also help to develop secondary websites that present the content using maps and timelines, or enrich online publications with contextual links.</p>
+
+<p>Different data mining algorithms offer different perspectives, of course. Latent Dirichlet allocation (LDA), for example, returns common topics.&nbsp;The algorithms tend to have been developed for the sciences, so they work well with factual prose, but increasingly poorly the more subjective the text gets (although those cases result in interesting unexpected results anyway). Data mining algorithms benefit from &lsquo;training&rsquo; , so the results below are fairly raw.</p>
+
+<p>Questions for students are obvious enough:</p>
+
+<ol start="1">
+	<li>&lsquo;Are you confident that the source document used in this tutorial is adequate for our analysis? How could we ensure it&rsquo;s a perfect copy of the original?&rsquo;</li>
+	<li>&lsquo;How useful is data mining to historians?&rsquo;</li>
+	<li>&lsquo;Is data mining using an algorithm superior or inferior to manual approaches?&rsquo;</li>
+	<li>&lsquo;Should you draw any conclusions from the results without understanding what the data mining algorithm is designed to do?&rsquo;</li>
+	<li>&lsquo;Do the results suggest a fully successful analysis, or do some things need tweaking?&rsquo;</li>
+	<li>&lsquo;What are the implications of using a machine and algorithms to conduct historical research?&rsquo;</li>
+	<li>&lsquo;Will these techniques ever render historians redundant?&rsquo;</li>
+	<li>&lsquo;Does it mean students should be being taught how algorithms work, so humanists aren&rsquo;t reliant on ones designed for scientists?&rsquo;.</li>
+	<li>etc</li>
+</ol>
+
+<h4>Step 3: Further Reading</h4>
+
+<p><u>Named Entity Recognition and History</u></p>
+
+<p style="margin-left:40px">Crane, Gregory, and Alison Jones. &ldquo;<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4119094">The Challenge of Virginia Banks: An Evaluation of Named Entity Analysis in a 19th-Century Newspaper Collection</a>.&rdquo; In&nbsp;<em>Proceedings of the 6th ACM/IEEE-CS Joint Conference on Digital Libraries</em>, 31&ndash;40. JCDL &rsquo;06. New York, NY, USA: ACM, 2006.</p>
+
+<p><u>Further afield</u></p>
+
+<p>The readings below will get the students thinking about the use of data mining in historical research. Most of the work I&rsquo;ve come across has used topic modeling and particularly the&nbsp;<a href="http://mallet.cs.umass.edu/topics.php">Mallet tool</a>, which would be a good next step for anyone interested in taking things further. For projects specific to your historical sub-discipline, take a look at&nbsp;<a href="http://www.diggingintodata.org/">http://www.diggingintodata.org/</a>.</p>
+
+<p style="margin-left:40px">Blevins, Cameron. &ldquo;<a href="http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-173.xml;query=;brand=default">Topic Modeling Historical Sources: Analyzing the Diary of Martha Ballard</a>.&rdquo; DH2011 Conference, Stanford University, 2011.</p>
+
+<p style="margin-left:40px">___________.&nbsp;<a href="http://dsl.richmond.edu/dispatch/">Mining the Dispatch</a>.</p>
+
+<p style="margin-left:40px">Cohen, D., F. Gibbs, T. Hitchcock, G. Rockwell, J. Sander, R. Shoemaker, S. Sinclair, S. Takats, W.J. Turkel, and C. Briquet.&nbsp;<a href="http://criminalintent.org/wp-content/uploads/2011/09/Data-Mining-with-Criminal-Intent-Final1.pdf"><em>Data Mining with Criminal Intent</em></a>, 2011.</p>
+
+<p style="margin-left:40px">Graham, Shawn,&nbsp;Scott Weingart, and Ian Milligan, &lsquo;<a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet">Getting Started with Topic Modelling and Mallett</a>&lsquo;.&nbsp;<em>The Programming Historian</em>.</p>
+
+<h4>Step 4: Next Steps</h4>
+
+<p>Experiment with the other text analysis virtualmachines offered by Mashape and try different data mining virtualmachines, like Mallet.</p>
+
+<p><u>Results (scroll down to see the entities returned)</u></p>
+
+<p><u>HEADERS</u></p>
+
+<p>Connection: keep-alive</p>
+
+<p>Content-Length: 12883</p>
+
+<p>Content-Type: application/json;charset=UTF-8</p>
+
+<p>Date: Fri, 21 Feb 2014 19:53:04 GMT</p>
+
+<p>Server: nginx/1.4.1 (Ubuntu)</p>
+
+<p>X-Mashape-Proxy-Response: false</p>
+
+<p>X-Mashape-Version: 3.1.11</p>
+
+<p><u>RESPONSE</u></p>
+
+<p>{</p>
+
+<p>&ldquo;text&rdquo;: &ldquo;Instructions for the Virginia Colony 1606 &amp;lt; 1600-1650 &amp;lt; Documents &amp;lt; American History From Revolution To Reconstruction and beyond. In the first decade of the seventeenth century England began a second round of colonizing attempts. This time jointstock companies were used as the vehicle to plant settlements rather than giving extensive grants to a landed proprietor such as Gilbert or Raleigh, whose attempts at colonization in the 1570s and 1580s had failed. The founding of Virginia marked the beginning of a twenty-five year period in which every colony in the New World was established by means of a joint-stock company. A variety of motives intensified the colonizing impulse &ndash; international rivalry, propagation of religion, enlarged opportunity for individual men &ndash; but none exceeded that of trade and profit. The companies were created to make a profit; their in vestments in the colonies were based on this assumption. Early in the 1630&rsquo;s merchants and investors discovered that they could employ their money in other more rewarding enterprises. After 1631, therefore, no colony was founded by mercantile enterprise, but by that date the enterprisers had left a legacy of colonization that was to endure. In these instructions for the Virginia Company, the power of Spain and the fear derived from past failures invade every line. The detail and precision of the instructions reflect the work of experienced men; Richard Hakluyt, the younger, for example, probably had a hand in writing them.&nbsp; As we doubt not but you will have especial care to observe the ordinances set down by the King&rsquo;s Majesty and delivered unto you under the Privy Seal; so for your better directions upon your first landing we have thought good to recommend unto your care these instructions and articles following.&nbsp; When it shall please God to send you on the coast of Virginia, you shall do your best endeavour to find out a safe port in the entrance of some navigable river, making choice of such a one as runneth farthest into the land, and if you happen to discover divers portable rivers, and amongst them any one that hath two main branches, if the difference be not great, make choice of that which bendeth most toward the North-West for that way you shall soonest find the other sea.&nbsp; When you have made choice of the river on which you mean to settle, be not hasty in landing your victuals and munitions; but first let Captain Newport discover how far that river may be found navigable, that you make election of the strongest, most wholesome and fertile place; for if you make many removes, besides the loss of time, you shall greatly spoil your victuals and your caske, and with great pain transport it in small boats.&nbsp; But if you choose your place so far up as a bark of fifty tuns will float, then you may lay all your provisions ashore with ease, and the better receive the trade of all the countries about you in the land; and such a place you may perchance find a hundred miles from the river&rsquo;s mouth, and the further up the better. For if you sit down near the entrance, except it be in some island that is strong by nature, an enemy that may approach you on even ground, may easily pull you out; and if he be driven to seek you a hundred miles [in] the land in boats, you shall from both sides of the river where it is narrowest, so beat them with your muskets as they shall never be able to prevail against you.&nbsp; And to the end that you be not surprised as the French were in Florida by Melindus, and the Spaniard in the same place by the French, you shall do well to make this double provision. First, erect a little stoure at the mouth of the river that may lodge some ten men; with whom you shall leave a light boat, that when any fleet shall be in sight, they may come with speed to give you warning. Secondly, you must in no case suffer any of the native people of the country to inhabit between you and the sea coast; for you cannot carry yourselves so towards them, but they will grow discontented with your habitation, and be ready to guide and assist any nation that shall come to invade you; and if you neglect this, you neglect your safety.&nbsp; When you have discovered as far up the river as you mean to plant yourselves, and landed your victuals and munitions; to the end that every man may know his charge, you shall do well to divide your six score men into three parts; whereof one party of them you may appoint to fortifie and build, of which your first work must be your storehouse for victuals; the other you may imploy in preparing your ground and sowing your corn and roots; the other ten of these forty you must leave as centinel at the haven&rsquo;s mouth. The other forty you may imploy for two months in discovery of the river above you, and on the country about you; which charge Captain Newport and Captain Gosnold may undertake of these forty discoverers. When they do espie any high lands or hills, Captain Gosnold may take twenty of the company to cross over the lands, and carrying a half dozen pickaxes to try if they can find any minerals. The other twenty may go on by river, and pitch up boughs upon the bank&rsquo;s side, by which the other boats shall follow them by the same turnings. You may also take with them a wherry, such as is used here in the Thames; by which you may send back to the President for supply of munition or any other want, that you may not be driven to return for every small defect.&nbsp; You must observe if you can, whether the river on which you plant doth spring out of mountains or out of lakes. If it be out of any lake, the passage to the other sea will be more easy, and [it] is like enough, that out of the same lake you shall find some spring which run[s] the contrary way towards the East India Sea; for the great and famous rivers of Volga, Tan[a]is and Dwina have three heads near joynd; and yet the one falleth into the Caspian Sea, the other into the Euxine Sea, and the third into the Paelonian Sea.&nbsp; In all your passages you must have great care not to offend the naturals [natives], if you can eschew it; and imploy some few of your company to trade with them for corn and all other . . . victuals if you have any; and this you must do before that they perceive you mean to plant among them; for not being sure how your own seed corn will prosper the first year, to avoid the danger of famine, use and endeavour to store yourselves of the country corn.&nbsp; Your discoverers that pass over land with hired guides, must look well to them that they slip not from them: and for more assurance, let them take a compass with them, and write down how far they go upon every point of the compass; for that country having no way nor path, if that your guides run from you in the great woods or desert, you shall hardly ever find a passage back.&nbsp; And how weary soever your soldiers be, let them never trust the country people with the carriage of their weapons; for if they run from you with your shott, which they only fear, they will easily kill them all with their arrows. And whensoever any of yours shoots before them, be sure they may be chosen out of your best marksmen; for if they see your learners miss what they aim at, they will think the weapon not so terrible, and thereby will be bould to assault you.&nbsp; Above all things, do not advertize the killing of any of your men, that the country people may know it; if they perceive that they are but common men, and that with the loss of many of theirs they diminish any part of yours, they will make many adventures upon you. If the country be populous, you shall do well also, not to let them see or know of your sick men, if you have any; which may also encourage them to many enterprizes.&nbsp; You must take especial care that you choose a seat for habitation that shall not be over burthened with woods near your town; for all the men you have, shall not be able to cleanse twenty acres a year; besides that it may serve for a covert for your enemies round about.&nbsp; Neither must you plant in a low or moist place, because it will prove unhealthfull. You shall judge of the good air by the people; for some part of that coast where the lands are low, have their people blear eyed, and with swollen bellies and legs; but if the naturals be strong and clean made, it is a true sign of a wholesome soil.&nbsp; You must take order to draw up the pinnace that is left with you, under the fort: and take her sails and anchors ashore, all but a small kedge to ride by; least some ill-dispositioned persons slip away with her.&nbsp; You must take care that your marriners that go for wages, do not mar your trade; for those that mind not to inhabite, for a little gain will debase the estimation of exchange, and hinder the trade for ever after; and therefore you shall not admit or suffer any person whatsoever, other than such as shall be appointed by the President and Counsel there, to buy any merchandizes or other things whatsoever.&nbsp; It were necessary that all your carpenters and other such like workmen about building do first build your storehouse and those other rooms of publick and necessary use before any house be set up for any private person: and though the workman may belong to any private persons yet let them all work together first for the company and then for private men.&nbsp; And seeing order is at the same price with confusion, it shall be adviseably done to set your houses even and by a line, that your street may have a good breadth, and be carried square about your market place and every street&rsquo;s end opening into it; that from thence, with a few field pieces, you may command every street throughout; which market place you may also fortify if you think it needfull.&nbsp; You shall do well to send a perfect relation by Captaine Newport of all that is done, what height you are seated, how far into the land, what commodities you find, what soil, woods and their several kinds, and so of all other things else to advertise particularly; and to suffer no man to return but by pasport from the President and Counsel, nor to write any letter of anything that may discourage others.&nbsp; Lastly and chiefly the way to prosper and achieve good success is to make yourselves all of one mind for the good of your country and your own, and to serve and fear God the Giver of all Goodness, for every plantation which our Heavenly Father hath not planted shall be rooted out.&rdquo;,</p>
+
+<p>&ldquo;entities&rdquo;: {</p>
+
+<p>&ldquo;location&rdquo;: [</p>
+
+<p>&ldquo;Virginia&rdquo;,</p>
+
+<p>&ldquo;England&rdquo;,</p>
+
+<p>&ldquo;Raleigh&rdquo;,</p>
+
+<p>&ldquo;Spain&rdquo;,</p>
+
+<p>&ldquo;Florida&rdquo;,</p>
+
+<p>&ldquo;India Sea&rdquo;,</p>
+
+<p>&ldquo;Caspian Sea&rdquo;,</p>
+
+<p>&ldquo;Euxine Sea&rdquo;</p>
+
+<p>],</p>
+
+<p>&ldquo;keyword&rdquo;: [</p>
+
+<p>&ldquo;Instructions&rdquo;,</p>
+
+<p>&ldquo;the Virginia Colony 1606 &amp;lt; 1600-1650 &amp;lt; Documents&rdquo;,</p>
+
+<p>&ldquo;American History&rdquo;,</p>
+
+<p>&ldquo;Revolution&rdquo;,</p>
+
+<p>&ldquo;Reconstruction&rdquo;,</p>
+
+<p>&ldquo;Virginia Colony&rdquo;,</p>
+
+<p>&ldquo;American History From Revolution To Reconstruction&rdquo;,</p>
+
+<p>&ldquo;the seventeenth century England&rdquo;,</p>
+
+<p>&ldquo;colonizing attempts&rdquo;,</p>
+
+<p>&ldquo;jointstock companies&rdquo;,</p>
+
+<p>&ldquo;plant settlements&rdquo;,</p>
+
+<p>&ldquo;extensive grants&rdquo;,</p>
+
+<p>&ldquo;a landed proprietor&rdquo;,</p>
+
+<p>&ldquo;Gilbert or Raleigh&rdquo;,</p>
+
+<p>&ldquo;colonization&rdquo;,</p>
+
+<p>&ldquo;a twenty-five year period&rdquo;,</p>
+
+<p>&ldquo;a joint-stock company&rdquo;,</p>
+
+<p>&ldquo;New World&rdquo;,</p>
+
+<p>&ldquo;motives&rdquo;,</p>
+
+<p>&ldquo;the colonizing impulse&rdquo;,</p>
+
+<p>&ldquo;international rivalry&rdquo;,</p>
+
+<p>&ldquo;propagation&rdquo;,</p>
+
+<p>&ldquo;religion&rdquo;,</p>
+
+<p>&ldquo;opportunity&rdquo;,</p>
+
+<p>&ldquo;individual men&rdquo;,</p>
+
+<p>&ldquo;trade and profit&rdquo;,</p>
+
+<p>&ldquo;vestments&rdquo;,</p>
+
+<p>&ldquo;merchants and investors&rdquo;,</p>
+
+<p>&ldquo;mercantile enterprise&rdquo;,</p>
+
+<p>&ldquo;the Virginia Company&rdquo;,</p>
+
+<p>&ldquo;Virginia Company&rdquo;,</p>
+
+<p>&ldquo;experienced men&rdquo;,</p>
+
+<p>&ldquo;the younger&rdquo;,</p>
+
+<p>&ldquo;especial care&rdquo;,</p>
+
+<p>&ldquo;Majesty&rdquo;,</p>
+
+<p>&ldquo;the Privy Seal&rdquo;,</p>
+
+<p>&ldquo;Privy Seal&rdquo;,</p>
+
+<p>&ldquo;God&rdquo;,</p>
+
+<p>&ldquo;a safe port&rdquo;,</p>
+
+<p>&ldquo;some navigable river&rdquo;,</p>
+
+<p>&ldquo;choice&rdquo;,</p>
+
+<p>&ldquo;runneth farthest&rdquo;,</p>
+
+<p>&ldquo;divers&rdquo;,</p>
+
+<p>&ldquo;portable rivers&rdquo;,</p>
+
+<p>&ldquo;hath two main branches&rdquo;,</p>
+
+<p>&ldquo;North-West&rdquo;,</p>
+
+<p>&ldquo;Captain Newport&rdquo;,</p>
+
+<p>&ldquo;election&rdquo;,</p>
+
+<p>&ldquo;the strongest , most wholesome and fertile place&rdquo;,</p>
+
+<p>&ldquo;time&rdquo;,</p>
+
+<p>&ldquo;great pain transport&rdquo;,</p>
+
+<p>&ldquo;small boats&rdquo;,</p>
+
+<p>&ldquo;fifty tuns&rdquo;,</p>
+
+<p>&ldquo;ease&rdquo;,</p>
+
+<p>&ldquo;mouth&rdquo;,</p>
+
+<p>&ldquo;nature&rdquo;,</p>
+
+<p>&ldquo;boats&rdquo;,</p>
+
+<p>&ldquo;Melindus&rdquo;,</p>
+
+<p>&ldquo;this double provision&rdquo;,</p>
+
+<p>&ldquo;some ten men&rdquo;,</p>
+
+<p>&ldquo;a light boat&rdquo;,</p>
+
+<p>&ldquo;sight&rdquo;,</p>
+
+<p>&ldquo;speed&rdquo;,</p>
+
+<p>&ldquo;warning&rdquo;,</p>
+
+<p>&ldquo;the native people&rdquo;,</p>
+
+<p>&ldquo;the sea coast&rdquo;,</p>
+
+<p>&ldquo;whereof one party&rdquo;,</p>
+
+<p>&ldquo;victuals&rdquo;,</p>
+
+<p>&ldquo;centinel&rdquo;,</p>
+
+<p>&ldquo;mouth&rdquo;,</p>
+
+<p>&ldquo;discovery&rdquo;,</p>
+
+<p>&ldquo;Captain Gosnold&rdquo;,</p>
+
+<p>&ldquo;these forty discoverers&rdquo;,</p>
+
+<p>&ldquo;any high lands or hills&rdquo;,</p>
+
+<p>&ldquo;twenty&rdquo;,</p>
+
+<p>&ldquo;river&rdquo;,</p>
+
+<p>&ldquo;boughs&rdquo;,</p>
+
+<p>&ldquo;side&rdquo;,</p>
+
+<p>&ldquo;supply&rdquo;,</p>
+
+<p>&ldquo;munition&rdquo;,</p>
+
+<p>&ldquo;every small defect&rdquo;,</p>
+
+<p>&ldquo;doth spring&rdquo;,</p>
+
+<p>&ldquo;mountains&rdquo;,</p>
+
+<p>&ldquo;lakes&rdquo;,</p>
+
+<p>&ldquo;[it ]&rdquo;,</p>
+
+<p>&ldquo;the East India Sea&rdquo;,</p>
+
+<p>&ldquo;the great and famous rivers&rdquo;,</p>
+
+<p>&ldquo;Volga , Tan[a]is and Dwina&rdquo;,</p>
+
+<p>&ldquo;joynd&rdquo;,</p>
+
+<p>&ldquo;the Caspian Sea&rdquo;,</p>
+
+<p>&ldquo;the Euxine Sea&rdquo;,</p>
+
+<p>&ldquo;the Paelonian Sea&rdquo;,</p>
+
+<p>&ldquo;East India Sea&rdquo;,</p>
+
+<p>&ldquo;Paelonian Sea&rdquo;,</p>
+
+<p>&ldquo;great care&rdquo;,</p>
+
+<p>&ldquo;corn&rdquo;,</p>
+
+<p>&ldquo;famine&rdquo;,</p>
+
+<p>&ldquo;the country corn&rdquo;,</p>
+
+<p>&ldquo;pass&rdquo;,</p>
+
+<p>&ldquo;land&rdquo;,</p>
+
+<p>&ldquo;hired guides&rdquo;,</p>
+
+<p>&ldquo;the great woods or desert&rdquo;,</p>
+
+<p>&ldquo;the country people&rdquo;,</p>
+
+<p>&ldquo;assault&rdquo;,</p>
+
+<p>&ldquo;common men&rdquo;,</p>
+
+<p>&ldquo;your sick men&rdquo;,</p>
+
+<p>&ldquo;habitation&rdquo;,</p>
+
+<p>&ldquo;woods&rdquo;,</p>
+
+<p>&ldquo;twenty acres&rdquo;,</p>
+
+<p>&ldquo;the good air&rdquo;,</p>
+
+<p>&ldquo;swollen bellies and legs&rdquo;,</p>
+
+<p>&ldquo;a true sign&rdquo;,</p>
+
+<p>&ldquo;a wholesome soil&rdquo;,</p>
+
+<p>&ldquo;order&rdquo;,</p>
+
+<p>&ldquo;a small kedge&rdquo;,</p>
+
+<p>&ldquo;some ill-dispositioned persons&rdquo;,</p>
+
+<p>&ldquo;wages&rdquo;,</p>
+
+<p>&ldquo;exchange&rdquo;,</p>
+
+<p>&ldquo;workmen&rdquo;,</p>
+
+<p>&ldquo;building&rdquo;,</p>
+
+<p>&ldquo;publick&rdquo;,</p>
+
+<p>&ldquo;any private person&rdquo;,</p>
+
+<p>&ldquo;any private persons&rdquo;,</p>
+
+<p>&ldquo;private men&rdquo;,</p>
+
+<p>&ldquo;confusion&rdquo;,</p>
+
+<p>&ldquo;a good breadth&rdquo;,</p>
+
+<p>&ldquo;square&rdquo;,</p>
+
+<p>&ldquo;your market place&rdquo;,</p>
+
+<p>&ldquo;market place&rdquo;,</p>
+
+<p>&ldquo;a perfect relation&rdquo;,</p>
+
+<p>&ldquo;pasport&rdquo;,</p>
+
+<p>&ldquo;Lastly and chiefly&rdquo;,</p>
+
+<p>&ldquo;good success&rdquo;,</p>
+
+<p>&ldquo;our Heavenly Father hath&rdquo;,</p>
+
+<p>&ldquo;Heavenly Father&rdquo;</p>
+
+<p>],</p>
+
+<p>&ldquo;date&rdquo;: [</p>
+
+<p>&ldquo;1606&rdquo;,</p>
+
+<p>&ldquo;1570s&rdquo;,</p>
+
+<p>&ldquo;1580s&rdquo;,</p>
+
+<p>&ldquo;1630&rdquo;,</p>
+
+<p>&ldquo;1631&rdquo;</p>
+
+<p>],</p>
+
+<p>&ldquo;money&rdquo;: [</p>
+
+<p>&ldquo;&amp;lt;&rdquo;</p>
+
+<p>],</p>
+
+<p>&ldquo;person&rdquo;: [</p>
+
+<p>&ldquo;Gilbert&rdquo;,</p>
+
+<p>&ldquo;Richard Hakluyt&rdquo;,</p>
+
+<p>&ldquo;Captaine Newport&rdquo;</p>
+
+<p>],</p>
+
+<p>&ldquo;phone&rdquo;: [</p>
+
+<p>&ldquo;1600-1650&Prime;</p>
+
+<p>]</p>
+
+<p>}</p>
+
+<p>}</p></p>
+
+</div>
+
+</section>
+
+
+
+        <!-- Index -->
+            
+        <!-- Widgets start -->
+        <div class="module-small bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">James Smithies</h5>
+                            <p>Professor of Digital Humanities</p>
+                            <p>Department of Digital Humanities</p>
+                            <p>King's College London</p>
+                            <p>Strand | London WC2R 2LS</p>
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+                  
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">Blog Tags</h5>
+                            
+  <a href="../../../../tags/architecture/index.html"> Architecture</a> |  <a href="../../../../tags/archiving-preservation/index.html"> Archiving &amp; Preservation</a> |  <a href="../../../../tags/conference-papers-talks-seminars/index.html"> Conference Papers, Talks &amp; Seminars</a> |  <a href="../../../../tags/data-mining/index.html"> Data Mining</a> |  <a href="../../../../tags/digital-glam/index.html"> Digital GLAM</a> |  <a href="../../../../tags/distant-reading/index.html"> Distant Reading</a> |  <a href="../../../../tags/eresearch/index.html"> eResearch</a> |  <a href="../../../../tags/gis/index.html"> GIS</a> |  <a href="../../../../tags/hr-careers/index.html"> HR &amp; Careers</a> |  <a href="../../../../tags/infrastructure/index.html"> Infrastructure</a> |  <a href="../../../../tags/pedagogy/index.html"> Pedagogy</a> |  <a href="../../../../tags/postcolonialism/index.html"> Postcolonialism</a> |  <a href="../../../../tags/standards-evaluation/index.html"> Standards &amp; Evaluation</a> |  <a href="../../../../tags/theory/index.html"> Theory</a> 
+
+
+
+
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+                   
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">Blog Categories</h5>
+                            
+  <a href="../../../../categories/digital-cultural-heritage/index.html"> Digital Cultural Heritage</a> |  <a href="../../../../categories/digital-history/index.html"> Digital History</a> |  <a href="../../../../categories/digital-humanities/index.html"> Digital Humanities</a> |  <a href="../../../../categories/history/index.html"> History</a> |  <a href="../../../../categories/research-software-engineering/index.html"> Research Software Engineering</a> 
+
+
+
+
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+                  
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                                                       
+                            <p> Built using <a href="http://www.ubuntu.com/">Ubuntu</a> <a href="https://www.docker.com/">Docker</a> <a href="https://www.python.org/">Python</a> <a href="https://www.djangoproject.com/">Django</a> <a href="http://gunicorn.org/">Gunicorn</a> <a href="http://nginx.org/">Nginx</a> <a href="http://getbootstrap.com/">Bootstrap</a></p> 
+                
+                        
+                    </div><!-- Widget end -->
+                </div><!-- .row -->
+            </div>
+        </div>
+        <!-- Widgets end -->
+    
+        <!-- Divider -->
+        <hr class="divider-d">
+        <!-- Divider -->
+    
+        <!-- Footer start -->
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="row">    
+                    <div class="col-sm-6">
+                        <p class="post-meta">Established 2010</p>
+                    </div>    
+                    
+                    <div class="col-sm-6">
+                        <div class="footer-social-links">
+                           <!--   <a rel="me" href="https://hachyderm.io/@jamessmithies">Mastodon</a><i class="fa fa-mastodon"></i></a>-->    
+                           <!--   <a href="https://twitter.com/jamessmithies"><i class="fa fa-twitter"></i></a>-->    
+                            <a href="https://github.com/jamessmithies"><i class="fa fa-github"></i></a>
+                            <a href="../../../../feed/index.html"><i class="fa fa-rss"></i></a>                      
+                        </div>
+                    </div>
+
+                </div><!-- .row -->
+            </div>
+        </footer>
+    
+        <!-- Footer end -->
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){                                               
+
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+            e.preventDefault();
+            $('body').toggleClass('nav-expanded');
+        });
+        $('#nav-close').on('click',function(e){
+            e.preventDefault();
+            $('body').removeClass('nav-expanded');
+        });
+
+        // Initialize navgoco with default options
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+
+      });
+    </script>
+    <script src="https://jsorg-docker-static.s3.amazonaws.com/static/shared/js/custom.min.js"></script>
+    
+
+    </body>
+</html>

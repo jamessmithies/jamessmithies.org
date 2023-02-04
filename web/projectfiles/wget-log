@@ -1,0 +1,6 @@
+--2023-02-04 14:54:15--  http://0.0.0.0:8000/
+Connecting to 0.0.0.0:8000... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://0.0.0.0:8000/ [following]
+--2023-02-04 14:54:15--  https://0.0.0.0:8000/
+Connecting to 0.0.0.0:8000... connected.

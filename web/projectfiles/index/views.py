@@ -49,8 +49,10 @@ def updatezoteroView(request):
 
 def backupView(request):
     call_command('backupcommand')
-    return render(request, 'index/backup.html')
+    return render(request, 'admin/backup.html')
 
-
+def publishView(request):
+    call_command('publishcommand')
+    return render(request, 'admin/publish.html')
 
 
