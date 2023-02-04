@@ -1,9 +1,9 @@
 web:
   container_name: web
-  restart: always
-  build: ./web/
   extra_hosts:
     - "host.docker.internal:host-gateway"
+  restart: always
+  build: ./web/
   expose:
     - "8000"
   links:
@@ -17,10 +17,10 @@ web:
 
 nginx:
   container_name: nginx
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
   restart: always
   build: ./nginx/
-  extra_hosts:
-  - "host.docker.internal:host-gateway"
   ports:
     - "80:80"
     - "443:443"
@@ -34,8 +34,6 @@ nginx:
 
 postgres:
   container_name: postgres
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   restart: always
   image: postgres:latest
   volumes_from:
@@ -49,8 +47,6 @@ postgres:
 
 redis:
   container_name: redis
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   restart: always
   image: redis:latest
   expose:
@@ -58,8 +54,6 @@ redis:
 
 data:
   container_name: data
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   restart: always
   image: alpine
   volumes:
