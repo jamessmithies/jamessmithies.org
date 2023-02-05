@@ -1,9 +1,8 @@
 web:
-  container_name: web
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   restart: always
   build: ./web/
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
   expose:
     - "8000"
   links:
@@ -12,48 +11,41 @@ web:
   env_file: env
   volumes:
     - ./web:/data/web
-  command: /usr/bin/gunicorn --timeout 300 wsgi:application -w 2 -b 0.0.0.0:8000
+  command: /usr/bin/gunicorn --timeout 300 wsgi:application -w 2 -b :8000
   working_dir: /data/web/projectfiles
 
 nginx:
-  container_name: nginx
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   restart: always
   build: ./nginx/
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
   ports:
     - "80:80"
-    - "443:443"
   volumes_from:
     - web
-  volumes:
-    - /docker-volumes/etc/letsencrypt:/etc/letsencrypt/
-    - /docker-volumes/log/serverlogs:/var/log/nginx
   links:
     - web:web
 
 postgres:
-  container_name: postgres
   restart: always
   image: postgres:latest
   volumes_from:
     - data
   volumes:
     - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    - ./backups/postgresql:/backup
   env_file:
     - env
   expose:
     - "5432"
 
 redis:
-  container_name: redis
   restart: always
   image: redis:latest
   expose:
     - "6379"
 
 data:
-  container_name: data
   restart: always
   image: alpine
   volumes:

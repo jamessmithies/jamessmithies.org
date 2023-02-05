@@ -10,9 +10,6 @@ COPY requirements.txt /data/web/
 RUN apk update
 RUN apk upgrade
 RUN apk add --update wget python3 python3-dev py3-pip postgresql-client postgresql-dev build-base gettext jpeg-dev zlib-dev 
-RUN apk update && apk add ca-certificates && update-ca-certificates && apk add openssl
-RUN apk add ca-certificates
-RUN update-ca-certificates
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 

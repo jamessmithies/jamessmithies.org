@@ -18,18 +18,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 
-ALLOWED_HOSTS = ['127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web']
-
-SECURE_SSL_REDIRECT = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+ALLOWED_HOSTS = ['*', '127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 'web']
 
 ROOT_URLCONF = 'urls'
 
 # FILE_UPLOAD_PERMISSIONS = 0644
 
 WSGI_APPLICATION = 'wsgi.application'
-
-NOCAPTCHA = True
 
 ADMINS = (
      ('James Smithies', 'james.smithies@protonmail.ch'),
