@@ -51,8 +51,8 @@ def backupView(request):
     call_command('backupcommand')
     return render(request, 'admin/backup.html')
 
-def publishView(request):
-    call_command('publishcommand')
-    return render(request, 'admin/publish.html')
+def makestaticView(request):
+    call_command('staticcommand')
+    return render(request, 'admin/makestatic.html')
 
 

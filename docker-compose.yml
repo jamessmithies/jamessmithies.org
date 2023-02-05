@@ -11,16 +11,16 @@ web:
   env_file: env
   volumes:
     - ./web:/data/web
-  command: /usr/bin/gunicorn --timeout 300 wsgi:application -w 2 -b :8000
+  command: /usr/bin/gunicorn --timeout 10000 wsgi:application -w 2 -b :8000
   working_dir: /data/web/projectfiles
 
 nginx:
   restart: always
   build: ./nginx/
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
   ports:
     - "80:80"
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
   volumes_from:
     - web
   links:

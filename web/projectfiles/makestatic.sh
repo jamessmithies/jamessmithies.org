@@ -1,7 +1,9 @@
 #!/bin/sh
 
+# 1.46.57 elapsed time
+
 # Save site
-wget --directory-prefix="../docs" host.docker.internal \
+wget --directory-prefix="docs" host.docker.internal \
     --no-host-directories \
     --recursive -l100 \
     --content-disposition \
@@ -16,7 +18,7 @@ wget --directory-prefix="../docs" host.docker.internal \
          host.docker.internal \
 
 #Clean
-cd ../docs
+cd docs
 mv robots.txt tmp
 mv tmp/index.html tmp/robots.txt
 cp tmp/robots.txt ./
@@ -26,6 +28,7 @@ rm -rf tmp
 cd blog/feed
 sed -i 's/example.com/www.jamessmithies.org/g' index.html
 
+cd ../../../../../
 
-
+mv /data/web/projectfiles/docs* /data/docs
 

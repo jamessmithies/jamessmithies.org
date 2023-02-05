@@ -7,6 +7,9 @@ load:
 dump:
 	docker-compose exec web "./dump.sh"
 
+static:
+	docker-compose exec web python3 manage.py staticcommand
+
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
 
