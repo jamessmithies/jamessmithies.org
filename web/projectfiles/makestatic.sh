@@ -3,7 +3,7 @@
 # 1.46.57 elapsed time
 
 # Save site
-wget --directory-prefix="docs" host.docker.internal \
+wget --directory-prefix="docs" localhost \
     --no-host-directories \
     --recursive -l100 \
     --content-disposition \
@@ -15,7 +15,7 @@ wget --directory-prefix="docs" host.docker.internal \
     --convert-links \
     --no-check-certificate \
     --no-parent \
-         host.docker.internal \
+         localhost \
 
 #Clean
 cd docs
@@ -28,7 +28,6 @@ rm -rf tmp
 cd blog/feed
 sed -i 's/example.com/www.jamessmithies.org/g' index.html
 
-cd ../../../../../
 
-mv /data/web/projectfiles/docs* /data/docs
+
 

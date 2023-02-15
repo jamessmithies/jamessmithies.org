@@ -8,7 +8,7 @@ dump:
 	docker-compose exec web "./dump.sh"
 
 static:
-	docker-compose exec web python3 manage.py staticcommand
+	"./web/projectfiles/makestatic.sh"
 
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
