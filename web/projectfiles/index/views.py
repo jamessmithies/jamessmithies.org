@@ -47,12 +47,5 @@ def updatezoteroView(request):
     call_command('zotcommand')
     return render(request, 'zotero/update-zotero.html')
 
-def backupView(request):
-    call_command('backupcommand')
-    return render(request, 'admin/backup.html')
-
-def makestaticView(request):
-    call_command('staticcommand')
-    return render(request, 'admin/makestatic.html')
 
 
