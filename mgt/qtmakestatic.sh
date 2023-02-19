@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "$(pwd)"
+
 start=`date +%s`
 # Save site
 wget --directory-prefix="/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/docs" localhost\

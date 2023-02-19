@@ -16,15 +16,18 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Management Console")
         self.btn = QPushButton("Save static files")
-        self.btn.pressed.connect(self.start_process)
+        self.btn.pressed.connect(self.start_static_process)
         self.text = QPlainTextEdit()
         self.text.setReadOnly(True)
         self.btn2 = QPushButton("Publish")
         self.btn2.pressed.connect(self.start_git_process)
         self.text2 = QPlainTextEdit()
         self.text2.setReadOnly(True)
+        self.btn3 = QPushButton("Back up")
+        self.btn3.pressed.connect(self.start_backup_process)
 
         l = QVBoxLayout()
+        l.addWidget(self.btn3)
         l.addWidget(self.btn)
         l.addWidget(self.btn2)
         l.addWidget(self.text)
@@ -41,7 +44,7 @@ class MainWindow(QMainWindow):
     def message2(self, s):
         self.text2.appendPlainText(s)
     
-    def start_process(self):
+    def start_static_process(self):
         if self.p is None:  # No process running.
             self.message("Saving website...")
             self.p = QProcess()  # Keep a reference to the QProcess (e.g. on self) while it's running.
@@ -49,7 +52,17 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/makestatic.sh'])
+            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/qtmakestatic.sh'])
+   
+    def start_backup_process(self):
+        if self.p is None:  # No process running.
+            self.message("Backing up...")
+            self.p = QProcess()  # Keep a reference to the QProcess (e.g. on self) while it's running.
+            self.p.readyReadStandardOutput.connect(self.handle_stdout)
+            self.p.readyReadStandardError.connect(self.handle_stderr)
+            self.p.stateChanged.connect(self.handle_state)
+            self.p.finished.connect(self.process_finished)  # Clean up once complete.
+            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/qtbackup.sh'])
 
     def start_git_process(self):
         if self.p is None:  # No process running.
@@ -59,7 +72,7 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['git.sh'])
+            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/git_publish.sh'])
 
     def handle_stderr(self):
         data = self.p.readAllStandardError()
