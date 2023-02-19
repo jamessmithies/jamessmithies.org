@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 start=`date +%s`
 # Save site
-wget --directory-prefix="../docs" localhost\
+wget --directory-prefix="/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/docs" localhost\
     --no-host-directories \
     --recursive -l100 \
     --content-disposition \
@@ -17,14 +17,14 @@ wget --directory-prefix="../docs" localhost\
          localhost \
 
 #Clean
-cd ../docs
+cd /home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/docs
 mv robots.txt tmp
 mv tmp/index.html tmp/robots.txt
 cp tmp/robots.txt ./
 rm -rf tmp
 
 #Fix url in RSS feed
-cd blog/feed
+cd /home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/docs/blog/feed
 sed -i 's/example.com/www.jamessmithies.org/g' index.html
 
 end=`date +%s`

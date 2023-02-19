@@ -1,3 +1,5 @@
+#!/home/jamessmithies/Apps/anaconda3/bin/python python3
+
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QPushButton, QPlainTextEdit,
                                 QVBoxLayout, QWidget, QProgressBar)
 from PyQt6.QtCore import QProcess
@@ -47,7 +49,7 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['makestatic.sh'])
+            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/makestatic.sh'])
 
     def start_git_process(self):
         if self.p is None:  # No process running.
