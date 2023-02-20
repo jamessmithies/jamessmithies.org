@@ -16,7 +16,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2023-02-18T21:58:33.374Z",
+        "last_login": "2023-02-19T17:45:45.722Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
