@@ -2,7 +2,7 @@
 
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QPushButton, QPlainTextEdit,
                                 QVBoxLayout, QWidget, QProgressBar)
-from PyQt6.QtCore import QProcess
+from PyQt6.QtCore import QProcess, QSize
 import sys
 import re
 import time
@@ -15,6 +15,7 @@ class MainWindow(QMainWindow):
         self.p = None
 
         self.setWindowTitle("Management Console")
+        self.setFixedSize(QSize(400, 600))
         self.btn = QPushButton("Save static files")
         self.btn.pressed.connect(self.start_static_process)
         self.text = QPlainTextEdit()
