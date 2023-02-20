@@ -8,8 +8,8 @@ mv jsorg_backup.json jsorg_backup.json.bak
 cd /home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles
 docker-compose exec -T web "./dump.sh"
 
-git remote set-url origin git@github:jamessmithies/jamessmithies.org.git
+cd ../../
 
-git commit -m 'Fixtures updated via QT console' -- fixtures/
+git commit -m 'Fixtures updated via QT console' -- web/projectfiles/fixtures/
 
 git push origin master
