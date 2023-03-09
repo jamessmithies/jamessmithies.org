@@ -1,53 +1,54 @@
-web:
-  restart: always
-  build: ./web/
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
-  expose:
-    - "8000"
-  links:
-    - postgres:postgres
-    - redis:redis
-  env_file: env
-  volumes:
-    - ./web:/data/web
-  command: /usr/bin/gunicorn --timeout 10000 wsgi:application -w 2 -b :8000
-  working_dir: /data/web/projectfiles
+services:
+  web:
+    restart: always
+    build: ./web/
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    expose:
+      - "8000"
+    links:
+      - postgres:postgres
+      - redis:redis
+    env_file: env
+    volumes:
+      - ./web:/data/web
+    command: /usr/bin/gunicorn --timeout 10000 wsgi:application -w 2 -b :8000
+    working_dir: /data/web/projectfiles
 
-nginx:
-  restart: always
-  build: ./nginx/
-  ports:
-    - "80:80"
-  extra_hosts:
-    - "host.docker.internal:host-gateway"
-  volumes_from:
-    - web
-  links:
-    - web:web
+  nginx:
+    restart: always
+    build: ./nginx/
+    ports:
+      - "80:80"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes_from:
+      - web
+    links:
+      - web:web
 
-postgres:
-  restart: always
-  image: postgres:latest
-  volumes_from:
-    - data
-  volumes:
-    - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-    - ./backups/postgresql:/backup
-  env_file:
-    - env
-  expose:
-    - "5432"
+  postgres:
+    restart: always
+    image: postgres:latest
+    volumes_from:
+      - data
+    volumes:
+      - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./backups/postgresql:/backup
+    env_file:
+      - env
+    expose:
+      - "5432"
 
-redis:
-  restart: always
-  image: redis:latest
-  expose:
-    - "6379"
+  redis:
+    restart: always
+    image: redis:latest
+    expose:
+      - "6379"
 
-data:
-  restart: always
-  image: alpine
-  volumes:
-    - /var/lib/postgresql
-  command: "true"
+  data:
+    restart: always
+    image: alpine
+    volumes:
+      - /var/lib/postgresql
+    command: "true"
