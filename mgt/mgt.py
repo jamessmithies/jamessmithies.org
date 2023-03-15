@@ -53,7 +53,7 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/qtmakestatic.sh'])
+            self.p.start("bash", ['/Users/jamessmithies/Library/CloudStorage/Dropbox/Technical/dev/jamessmithies.org/mgt/qtmakestatic.sh'])
    
     def start_backup_process(self):
         if self.p is None:  # No process running.
@@ -63,7 +63,7 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/qtbackup.sh'])
+            self.p.start("bash", ['/Users/jamessmithies/Library/CloudStorage/Dropbox/Technical/dev/jamessmithies.org/mgt/qtbackup.sh'])
 
     def start_git_process(self):
         if self.p is None:  # No process running.
@@ -73,7 +73,7 @@ class MainWindow(QMainWindow):
             self.p.readyReadStandardError.connect(self.handle_stderr)
             self.p.stateChanged.connect(self.handle_state)
             self.p.finished.connect(self.process_finished)  # Clean up once complete.
-            self.p.start("bash", ['/home/jamessmithies/Dropbox/Technical/dev/jamessmithies.org/mgt/git_publish.sh'])
+            self.p.start("bash", ['/Users/jamessmithies/Library/CloudStorage/Dropbox/Technical/dev/jamessmithies.org/mgt/git_publish.sh'])
 
     def handle_stderr(self):
         data = self.p.readAllStandardError()

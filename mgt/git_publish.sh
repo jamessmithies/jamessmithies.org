@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Dropbox/Technical/dev/jamessmithies.org/docs
+cd ~/Dropbox/Technical/dev/jamessmithies.org/docs
 
 #git remote set-url origin git@github.com:jamessmithies/jamessmithies.org.git
 
