@@ -42,12 +42,12 @@
             {% block welcome-msg %}
                 {% trans 'Welcome,' %}
                 <strong>{% firstof user.get_short_name user.get_username %}</strong>.
-                <a href="/update-zotero">Update Zotero</a> /
             {% endblock %}
             {% block userlinks %}
                 {% if site_url %}
                     <a href="{{ site_url }}">{% trans 'View site' %}</a> /
                 {% endif %}
+                <a href="/update-zotero">Update Zotero</a> /
                 {% if user.is_active and user.is_staff %}
                     {% url 'django-admindocs-docroot' as docsroot %}
                     {% if docsroot %}
