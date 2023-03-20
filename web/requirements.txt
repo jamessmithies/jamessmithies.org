@@ -1,3 +1,4 @@
+beautifulsoup4
 Django==3.2.18
 django-antispam==1.0.3
 django-anymail==8.6
@@ -19,4 +20,3 @@ redis==4.3.4
 requests==2.25.1
 twitter==1.19.6
 urllib3==1.26.5
-

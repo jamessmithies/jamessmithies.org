@@ -10,6 +10,9 @@ dump:
 static:
 	"./web/projectfiles/makestatic.sh"
 
+mastodon:
+	docker-compose exec web python3 manage.py mastocommand
+
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
 
