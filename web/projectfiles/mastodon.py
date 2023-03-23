@@ -2,11 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-from settings.secrets import *
+base_url = 'https://hachyderm.io/'
+account_id = '109349626053208125'
 
-headers = {'Authorization': f'Bearer {access_token}'}
 params = {'limit': 2}
-response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', headers=headers, params=params)
+response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', params=params)
 
 if response.status_code == 200:
     statuses = response.json()
