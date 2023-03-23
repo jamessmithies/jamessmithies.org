@@ -5,7 +5,7 @@ from datetime import datetime
 from settings.secrets import *
 
 headers = {'Authorization': f'Bearer {access_token}'}
-params = {'limit': 5}
+params = {'limit': 2}
 response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', headers=headers, params=params)
 
 if response.status_code == 200:
@@ -16,8 +16,8 @@ else:
     print(f'An error occurred: {response.text}')
 
 with open('templates/blog/mastodon_sidebar.html', 'w') as f:
-    # Add a reference to the Bootstrap stylesheet
-    f.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">')
+    # Add a reference to the stylesheet
+    f.write('<link rel="stylesheet" href="https://jsorg-docker-static.s3.amazonaws.com/static/shared/css/style.css">')
     
     for status in statuses:
         display_name = status['account']['display_name']
@@ -41,8 +41,8 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
         date = datetime.strptime(date_string, '%Y-%m-%dT%H:%M:%S.%fZ')
         formatted_date = date.strftime('%B %d %Y, %H:%M')
         
-        # Add a class to the div element for styling with Bootstrap
-        f.write('<div class="toot card mb-3">')
+        # Add a class to the div element for styling 
+        f.write('<ul class="list-unstyled main-menu">')
         
         if 'reblog' in status and status['reblog'] is not None:
             reblog_display_name = status['reblog']['account']['display_name']
@@ -59,8 +59,8 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
             # Get the modified Posted content as a string
             reblog_content = str(soup)
             
-            f.write(f'<div class="card-body"><h5 class="card-title">Boosted from: <a href="{reblog_display_name_url}">{reblog_display_name}</a></h5><p class="card-text">{formatted_date}</p><p class="card-text">{reblog_content}</p><a href="{reblog_url}" class="btn btn-primary">View original</a></div>')
+            f.write(f'<li>Boosted from: <a href="{reblog_display_name_url}">{reblog_display_name}</a><p class="post-meta">{formatted_date}</p><p>{reblog_content}</p><button type="button" class="btn btn-light"><a href="{reblog_url}">View original</a></button></p></li>')
         else:
-            f.write(f'<div class="card-body"><h5 class="card-title">Published by: <a href="{display_name_url}">{display_name}</a></h5><p class="card-text">{formatted_date}</p><p class="card-text">{content}</p><a href="{url}" class="btn btn-primary">View on Mastodon</a></div>')
+            f.write(f'<li>Published by: <a href="{display_name_url}">{display_name}</a></h5><p class="post-meta">{formatted_date}</p><p>{content}</p><button type="button" class="btn btn-light"><a href="{url}">View on Mastodon</a></button></p></li>')
             
-        f.write('</div>')
+        f.write('</ul>')
