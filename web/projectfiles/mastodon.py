@@ -34,6 +34,7 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
         # Get the modified content as a string
         text_content = str(soup)
 
+        # Truncate the text to under 250 char      
         def truncate_text(text, max_length=250):
             soup = BeautifulSoup(text, 'html.parser')
             text_content = soup.get_text()
