@@ -47,5 +47,9 @@ def updatezoteroView(request):
     call_command('zotcommand')
     return render(request, 'zotero/update-zotero.html')
 
+def updatemastodonView(request):
+    call_command('mastocommand')
+    return render(request, 'index/update-mastodon.html')
+
 
 
