@@ -1,11 +1,11 @@
-import requests
+import requests, re
 from bs4 import BeautifulSoup
 from datetime import datetime
 
 base_url = 'https://hachyderm.io/'
 account_id = '109349626053208125'
 
-params = {'limit': 2}
+params = {'limit': 4}
 response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', params=params)
 
 if response.status_code == 200:
@@ -32,7 +32,18 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
             span.replace_with(span.text)
         
         # Get the modified content as a string
-        content = str(soup)
+        text_content = str(soup)
+
+        def truncate_text(text, max_length=250):
+            soup = BeautifulSoup(text, 'html.parser')
+            text_content = soup.get_text()
+            if len(text_content) > max_length:
+                return text_content[:max_length] + '...'
+            else:
+                return text_content
+            
+        # Get the modified content as a string
+        content = truncate_text(text_content)
 
         # Get the date of the status update
         date = status['created_at']
