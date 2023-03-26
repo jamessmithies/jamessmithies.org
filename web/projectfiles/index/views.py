@@ -38,10 +38,8 @@ def creditsView(request):
         'credits': get_object_or_404(Credits,)
     })
 
-def architectureView(request, slug): 
-    return render(request, 'index/architecture.html', {
-        'architecture': get_object_or_404(Architecture, slug=slug)
-    })
+def mastodonsidebarView(request):
+    return render(request, 'index/mastodon_sidebar.html',)
 
 def updatezoteroView(request):
     call_command('zotcommand')

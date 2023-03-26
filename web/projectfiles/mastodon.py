@@ -15,7 +15,7 @@ if response.status_code == 200:
 else:
     print(f'An error occurred: {response.text}')
 
-with open('templates/blog/mastodon_sidebar.html', 'w') as f:
+with open('templates/index/mastodon_sidebar.html', 'w') as f:
     # Add a reference to the stylesheet
     f.write('<link rel="stylesheet" href="https://jsorg-docker-static.s3.amazonaws.com/static/shared/css/style.css">')
     
@@ -54,7 +54,7 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
         formatted_date = date.strftime('%B %d %Y, %H:%M')
         
         # Add a class to the div element for styling 
-        f.write('<ul class="list-unstyled main-menu">')
+
         
         if 'reblog' in status and status['reblog'] is not None:
             reblog_display_name = status['reblog']['account']['display_name']
@@ -71,8 +71,8 @@ with open('templates/blog/mastodon_sidebar.html', 'w') as f:
             # Get the modified Posted content as a string
             reblog_content = str(soup)
             
-            f.write(f'<li>Boosted from: <a href="{reblog_display_name_url}">{reblog_display_name}</a><p class="post-meta">{formatted_date}</p><p>{reblog_content}</p><button type="button" class="btn btn-light"><a href="{reblog_url}">View original</a></button></p></li>')
+            f.write(f'<p>Boosted from: <a href="{reblog_display_name_url}">{reblog_display_name}</a><p class="post-meta">{formatted_date}</p><p>{reblog_content}</p><button type="button" class="btn btn-light"><a href="{reblog_url}">View original</a></button></p></li>')
         else:
-            f.write(f'<li>Published by: <a href="{display_name_url}">{display_name}</a></h5><p class="post-meta">{formatted_date}</p><p>{content}</p><button type="button" class="btn btn-light"><a href="{url}">View on Mastodon</a></button></p></li>')
+            f.write(f'<p>Published by: <a href="{display_name_url}">{display_name}</a></h5><p class="post-meta">{formatted_date}</p><p>{content}</p><button type="button" class="btn btn-light"><a href="{url}">View on Mastodon</a></button></p></li>')
             
-        f.write('</ul>')
+            

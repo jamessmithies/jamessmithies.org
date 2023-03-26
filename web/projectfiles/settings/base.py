@@ -22,6 +22,8 @@ ALLOWED_HOSTS = ['*', '127.0.0.1','.jamessmithies.org', 'localhost', '0.0.0.0', 
 
 ROOT_URLCONF = 'urls'
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 # FILE_UPLOAD_PERMISSIONS = 0644
 
 WSGI_APPLICATION = 'wsgi.application'

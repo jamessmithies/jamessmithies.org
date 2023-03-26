@@ -8,6 +8,7 @@ app_name = "index"
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r'^mastodonsidebar/$', views.mastodonsidebarView, name='mastodonsidebar'),
     url(r'^update-zotero/$', views.updatezoteroView, name='update_zotero'),
     url(r'^update-mastodon/$', views.updatemastodonView, name='update_mastodon'),
     url(r'^projects/$', views.projectsView, name='projects'),
