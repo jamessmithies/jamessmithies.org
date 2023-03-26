@@ -71,8 +71,8 @@ with open('templates/index/mastodon_sidebar.html', 'w') as f:
             # Get the modified Posted content as a string
             reblog_content = str(soup)
             
-            f.write(f'<p>Boosted from: <a href="{reblog_display_name_url}">{reblog_display_name}</a><p class="post-meta">{formatted_date}</p><p>{reblog_content}</p><button type="button" class="btn btn-light"><a href="{reblog_url}">View original</a></button></p></li>')
+            f.write(f'<p>Boosted from: <a href="{reblog_display_name_url}" target="_blank">{reblog_display_name}</a><p class="post-meta">{formatted_date}</p><p>{reblog_content}</p><button type="button" class="btn btn-light"><a href="{reblog_url}" target="_blank">View original</a></button></p></li>')
         else:
-            f.write(f'<p>Published by: <a href="{display_name_url}">{display_name}</a></h5><p class="post-meta">{formatted_date}</p><p>{content}</p><button type="button" class="btn btn-light"><a href="{url}">View on Mastodon</a></button></p></li>')
+            f.write(f'<p>Published by: <a href="{display_name_url}" target="_blank">{display_name}</a></h5><p class="post-meta">{formatted_date}</p><p>{content}</p><button type="button" class="btn btn-light"><a href="{url}" target="_blank">View on Mastodon</a></button></p></li>')
             
             
