@@ -5,16 +5,6 @@ SECRET_KEY = '<DEFAULT>'
 AWS_S3_ACCESS_KEY_ID = '<DEFAULT>'     # enter your access key id
 AWS_S3_SECRET_ACCESS_KEY = '<DEFAULT>' # enter your secret access key
 
-# Twitter Oauth credentials
-# Your access token: Access token
-TWITTER_OAUTH_TOKEN = '<DEFAULT>'
-# Your access token: Access token secret
-TWITTER_OAUTH_SECRET = '<DEFAULT>'
-# OAuth settings: Consumer key
-TWITTER_CONSUMER_KEY = '<DEFAULT>'
-# OAuth settings: Consumer secret
-TWITTER_CONSUMER_SECRET = '<DEFAULT>'
-
 # DB Backup credentials
 DBBACKUP_STORAGE = 'dbbackup.storage.s3_storage'
 DBBACKUP_S3_BUCKET = 'dbbackup'

@@ -74,7 +74,6 @@ INSTALLED_APPS = (
     'blog',
     'ckeditor',
     'ckeditor_uploader',
-    'twitter_tag',
     'antispam.honeypot',
     'hcaptcha',
 )
