@@ -23,3 +23,11 @@ git commit -m 'Toots updated via QT console' -- ../docs/
 
 git push origin master
 
+# Update core GitHub core project files
+echo "Updating GitHub core project files..."
+
+cd  ~/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles/templates/index/
+
+git commit -m 'Mastodon toots template updated via QT console' -- ../index/
+
+git push origin master
