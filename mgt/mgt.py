@@ -27,7 +27,7 @@ class MainWindow(QMainWindow):
         self.text2 = QPlainTextEdit()
         self.text2.setReadOnly(True)
 
-        self.btn3 = QPushButton("Publish Latest Mastodon")
+        self.btn3 = QPushButton("Publish Latest Mastodon Toots")
         self.btn3.pressed.connect(self.start_mastodon_process)
         self.text3 = QPlainTextEdit()
         self.text3.setReadOnly(True)
