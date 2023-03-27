@@ -20,7 +20,7 @@
 
 <div class="col-sm-8 col-md-offset-1">
 
-
+</div>
 
    <div class="post-header font-alt">
                 <h3 class="black-background-title"> Entries tagged '{{ tag.title|lower }}'</h3>
@@ -45,14 +45,14 @@
 
 {{ entry.body|truncatewords:200 }}
 
-</div>
+
 {% endif %}
 
 <p class="read-more"><a href="{{ entry.get_absolute_url }}"> Read Full Entry</a></p>
  
     {% endfor %}
 
-        <br />
+  </div></div>
    <div class="tags">
         {% if page.has_previous %}
 
@@ -65,15 +65,15 @@
         <a href="/blog/tags/{{ tags.slug }}/{{ page.next_page_number }}/">Next Page</a> 
 
         {% endif %}
-</div>
+      </div>
 
+ 
 
-<br><br><br><br><br><br><br><br><br><br>
 
 
 </section>
 
-
+</div></div></div>
 
 {% endblock %}
 

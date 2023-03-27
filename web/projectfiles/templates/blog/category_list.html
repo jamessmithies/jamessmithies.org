@@ -21,7 +21,7 @@
 
 <div class="col-sm-9 col-md-offset-1">
 
-
+</div>
   
    <div class="post-header font-alt">
                 <h3 class="black-background-title">Entries filed under &nbsp;'{{ categories.title|lower }}'</h3>
@@ -46,7 +46,7 @@
 
 {{ entry.body|truncatewords:200 }}
 
-</div>
+
 {% endif %}
 
 <p class="read-more"><a href="{{ entry.get_absolute_url }}"> Read Full Entry</a></p><br><br>
@@ -56,7 +56,7 @@
 
 
     
-                <br />
+  </div></div>
    <div class="tags">
         {% if page.has_previous %}
 
@@ -69,7 +69,11 @@
         <a href="/blog/categories/{{ categories.slug }}/{{ page.next_page_number }}/">Next Page</a> 
 
         {% endif %}
-</div>
+  </div>
+
+  </div>
+  </div>  
+ </div>
 
 
 </section>
