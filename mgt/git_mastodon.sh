@@ -5,13 +5,21 @@ echo "Fetching latest Toots from Mastodon API.."
 cd ~/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles/
 
 python3 mastodon.py
+
+# Copy the updated mastodon_sidebar template to the static files docs directory
+cp -f ~/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles/templates/index/mastodon_sidebar.html ~/Dropbox/Technical/dev/jamessmithies.org/docs/mastodonsidebar/
+
+rm ~/Dropbox/Technical/dev/jamessmithies.org/docs/mastodonsidebar/index.html
+
+mv ~/Dropbox/Technical/dev/jamessmithies.org/docs/mastodonsidebar/mastodon_sidebar.html ~/Dropbox/Technical/dev/jamessmithies.org/docs/mastodonsidebar/index.html
+ 
     
 # Publish latest Mastodon toots
-echo "Publishing latest Mastodon toots to GitHub live..."
+echo "Updating Toots to GitHub live..."
 
-cd ~/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles/blog/
+cd ~/Dropbox/Technical/dev/jamessmithies.org/docs
 
-git commit -m 'Toots updated via QT console' -- ../blog/
+git commit -m 'Toots updated via QT console' -- ../docs/
 
 git push origin master
 
