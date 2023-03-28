@@ -2,8 +2,7 @@
 {% load static %}
 {% load django_bootstrap_breadcrumbs %}
 
-    <div class="container">
- 
+
 <div class="navbar navbar-inverse navbar-fixed-top"> 
 {% block breadcrumbs %}
     {{ block.super }}
@@ -11,6 +10,8 @@
 {% endblock %}
 
   {% block landing-page %}
+
+  <div class="container">
 
      <div class="row">
   <div class="col-sm-12">
