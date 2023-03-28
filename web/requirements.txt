@@ -15,6 +15,6 @@ boto3==1.24.85
 Pillow==9.3.0
 psycopg2==2.9.3
 pyzotero==1.5.5
-redis==4.3.4
+redis==4.5.3
 requests==2.25.1
 urllib3==1.26.5
