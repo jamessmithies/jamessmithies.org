@@ -19,7 +19,7 @@ echo "Updating Toots to GitHub live..."
 
 cd ~/Dropbox/Technical/dev/jamessmithies.org/docs
 
-git commit -m 'Toots updated via QT console' -- ../docs/
+git commit -m 'Toots updated' -- ../docs/
 
 git push origin master
 
@@ -28,6 +28,6 @@ echo "Updating GitHub core project files..."
 
 cd  ~/Dropbox/Technical/dev/jamessmithies.org/web/projectfiles/templates/index/
 
-git commit -m 'Mastodon toots template updated via QT console' -- ../index/
+git commit -m 'Mastodon toots template updated' -- ../index/
 
 git push origin master
