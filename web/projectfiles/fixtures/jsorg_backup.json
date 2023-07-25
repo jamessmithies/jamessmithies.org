@@ -156,10 +156,36 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-07-25T11:46:43.550Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "58",
+        "object_repr": "Career Pathways in Arts & Humanities RSE in the UK and Beyond",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-07-25T11:48:09.363Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "58",
+        "object_repr": "Career Pathways in Arts & Humanities RSE in the UK and Beyond",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2023-04-10T12:19:20.542Z",
+        "last_login": "2023-07-25T11:42:31.984Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -1963,6 +1989,29 @@
         ],
         "tags": [
             2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 58,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Career Pathways in Arts & Humanities RSE in the UK and Beyond",
+        "excerpt": "<p>Slides of my talk &#39;Career Pathways in Arts &amp; Humanities RSE in the UK and Beyond&nbsp;&#39;.&nbsp;Digital Humanities Research Software Engineering (RSE) Summer School, University of Cambridge / Zoom, 25 July 2023.</p>",
+        "body": "<p>Slides of my talk &#39;Career Pathways in Arts &amp; Humanities RSE in the UK and Beyond&nbsp;&#39;.&nbsp;Digital Humanities Research Software Engineering (RSE) Summer School, University of Cambridge / Zoom, 25 July 2023.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTevX5tNqaPajA70l7QnihZcb-mfQfo6nkfc6Z72Giz7Nf1NKBrkSGcyVFdn-BOWQ/embed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"640\" height=\"389\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "pub_date": "2023-07-25T11:42:58Z",
+        "slug": "career-pathways-in-arts-humanities-rse-in-the-uk-and-beyond",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            13
         ]
     }
 }
