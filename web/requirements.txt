@@ -17,4 +17,4 @@ psycopg2==2.9.3
 pyzotero==1.5.5
 redis==4.5.3
 requests==2.31.0
-urllib3==1.26.5
+urllib3==1.26.18
