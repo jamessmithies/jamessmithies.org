@@ -182,10 +182,62 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-11-02T19:05:24.350Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "59",
+        "object_repr": "The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-11-02T19:09:18.087Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "60",
+        "object_repr": "Digital Modernity: Continuity and Change in the History of Technology, 1993 – 2023",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-11-02T19:14:44.453Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "61",
+        "object_repr": "Book Launch: Collaborative Historical Research in the Age of Big Data",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-11-02T19:16:47.134Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "61",
+        "object_repr": "Book Launch: Collaborative Historical Research in the Age of Big Data",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Pub date\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2023-07-25T11:42:31.984Z",
+        "last_login": "2023-11-02T19:01:38.682Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -2007,6 +2059,78 @@
         "enable_comments": true,
         "featured": false,
         "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 59,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities",
+        "excerpt": "<p>Slides of my talk &#39;The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities&#39; presented via Zoom at the&nbsp;Bridges (Bridges between disciplines: Gender in STEM and Social Sciences) Conference, September 16th 2022.</p>",
+        "body": "<p>Slides of my talk &#39;The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities&#39; presented via Zoom at the&nbsp;Bridges (Bridges between disciplines: Gender in STEM and Social Sciences) Conference, September 16th 2022.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRhifxCOvKpxzrdqi0U9SFtzvQMFNKOPYkiPQxkQxbmF8DOt_LuWIHyfYjqVTYm8Q/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2022-09-22T15:00:00Z",
+        "slug": "the-phenomenology-of-technical-knowledge-research-software-engineering-product-development-and-digital-humanities",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4,
+            5
+        ],
+        "tags": [
+            15,
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 60,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Digital Modernity: Continuity and Change in the History of Technology, 1993 – 2023",
+        "excerpt": "<p>Abstract and slides for my&nbsp;Miegunyah Public Lecture, &#39;Digital Modernity: Continuity and Change in the History of Technology, 1993 &ndash; 2023&#39;, delivered at the University of Melbourne, August 17th, 2023.</p>",
+        "body": "<p>Abstract and slides for my&nbsp;Miegunyah Public Lecture, &#39;Digital Modernity: Continuity and Change in the History of Technology, 1993 &ndash; 2023&#39;, delivered at the University of Melbourne, August 17th, 2023.</p>\r\n\r\n<p><u>Abstract</u></p>\r\n\r\n<p>The digital turn that accompanied the release of the Netscape Navigator browser in 1994 has had obvious and well-documented socio-economic and cultural effects, impacting society and personal identity in myriad ways. This lecture suggests it is time to pause and consider the effect this &lsquo;digital turn&rsquo; has had on our relationship to the past, and whether some older intellectual frameworks might help us grasp the momentous changes occurring around us. Digital tools will remain important for the foreseeable future, of course, but in the context of an ever-evolving relationship between self and world. It is inevitable they will withdraw to the background of consciousness to join the cars, planes, power stations, and myriad complex systems that shape everyday life. Silicon Valley marketing will sound increasingly hollow, political manipulation increasingly outrageous, technical inadequacies increasingly tiresome. The denouement of our fascination with digital technologies will occur naturally as intellectual assimilation proceeds, just as previous eras assimilated mechanical, industrial, and electrical technologies. Many perspectives will be needed for this to occur, but a reconsideration of our relationship to modernity is one of the most important. For decades, modernity was viewed by scholars as the driving force behind not only scientific and technological advance, but the violent incursions of colonialism and the miseries of child labour and environmental despoliation. The issues we face today seem clearly connected to those processes, and yet we continue to prioritize exploration of &lsquo;the digital&rsquo;, as if we have somehow exited modernity and entered a cyberutopian end game that can only be resolved by the deus ex machina of artificial intelligence. Why did we stop conceiving of ourselves as inhabiting modernity? Why have &lsquo;industrial modernity&rsquo; and &lsquo;post-industrial modernity&rsquo; not been followed by &lsquo;digital modernity&rsquo;? And, more importantly, what would an intellectually robust and ethically sound description of digital modernity entail?</p>\r\n\r\n<p><u>Slides</u></p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"389\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRS5bznYI1Ju642d9kuvuj_2E1T8XFtx6yrDA5zOyhJ8X2PSqG8aUhCIdsSrItl2Q/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"640\"></iframe></p>",
+        "pub_date": "2023-08-23T17:00:00Z",
+        "slug": "digital-modernity-continuity-and-change-in-the-history-of-technology-1993-2023",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            1
+        ],
+        "tags": [
+            13,
+            6,
+            2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 61,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Book Launch: Collaborative Historical Research in the Age of Big Data",
+        "excerpt": "<p>Video of the panel discussion for the launch of the open access book, <em>Collaborative Historical Research in the Age of Big Data: Lessons from an interdisciplinary project</em> (Cambridge: Cambridge University Press, 2023). The roundtable discussion was led by hosts Professor Jane Winters and Professor James Smithies, with the authors, Professor Ruth Ahnert and Professor Emma Griffin. Unfortunately, Dr Mia Ridge and Dr Giorgia Tolfo were unable to join the discussion.</p>",
+        "body": "<p>Video of the panel discussion for the launch of the open access book, <em>Collaborative Historical Research in the Age of Big Data: Lessons from an interdisciplinary project</em> (Cambridge: Cambridge University Press, 2023). The book is available via open access <a href=\"https://www.cambridge.org/core/elements/collaborative-historical-research-in-the-age-of-big-data/839C422CCAA6C1699DE8D353B3A1960D\" target=\"_blank\">here</a>. The roundtable discussion is led by hosts Professor Jane Winters and Professor James Smithies, with the authors, Professor Ruth Ahnert and Professor Emma Griffin. Unfortunately, Dr Mia Ridge and Dr Giorgia Tolfo were unable to join the discussion.</p>\r\n\r\n<p>Living with Machines is one of the largest digital humanities projects ever funded in the United Kingdom. The project brought together a large interdisciplinary team (39 members over its lifetime) to leverage more than twenty-years&rsquo; worth of digitisation projects in order to deepen our understanding of the impact of mechanisation on nineteenth-century Britain. In contrast to many previous digital humanities projects which have sought to create resources, the project was concerned to work with what was already there, which whilst straightforward in theory is complex in practice. This Element describes the efforts to do so. It outlines the challenges of establishing and managing a truly multidisciplinary digital humanities project in the complex landscape of cultural data in the United Kingdom and shares what other projects seeking to undertake digital history projects can learn from the experience. This event was part of AI UK 2023. The Alan Turing Institute&rsquo;s national showcase of data science, machine learning and artificial intelligence research and innovation.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/KeoTaloyxTE?si=AWngoUyaxZ6yXO-a\" title=\"YouTube video player\" width=\"560\"></iframe></p>",
+        "pub_date": "2023-03-07T17:00:00Z",
+        "slug": "book-launch-collaborative-historical-research-in-the-age-of-big-data",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            7,
             4,
             5
         ],
