@@ -34,6 +34,12 @@ def blog_two_recent():
 
 register.inclusion_tag('blog/blog_two_recent.html')(blog_two_recent)
 
+def blog_four_recent():
+    four_recent = Entry.objects.all()[:4]
+    return {'four_recent': four_recent}
+
+register.inclusion_tag('blog/blog_four_recent.html')(blog_four_recent)
+
 def blog_six_recent():
     six_recent = Entry.objects.all()[:6]
     return {'six_recent': six_recent}
