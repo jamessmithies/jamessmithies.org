@@ -1,21 +1,28 @@
+
+# Dev basics
 rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d 
 
 load:
 	docker-compose exec web "./load.sh"
 
+# Publishing
+# Make the updates in the localhost browser
+# Back up fixtures
 dump:
 	docker-compose exec web "./dump.sh"
-
-static:
-	"./web/projectfiles/makestatic.sh"
-
+# Optionally, update Mastodon
 mastodon:
 	docker-compose exec web python3 manage.py mastocommand
-
+# Optionally, update Zotero
 zotero:
 	docker-compose exec web python3 manage.py zotcommand
+# Make static
+static:
+	"./web/projectfiles/makestatic.sh"
+# Then push to GitHub
 
+# Dev Extras
 destroy:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all
 
