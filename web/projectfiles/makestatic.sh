@@ -26,7 +26,7 @@ rm -rf tmp
 
 #Fix url in RSS feed
 cd blog/feed
-sed -i 's/example.com/www.jamessmithies.org/g' index.html
+sed -i '' 's/example.com/www.jamessmithies.org/g' index.html
 
 
 
