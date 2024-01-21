@@ -1,5 +1,4 @@
-FROM alpine
-#FROM alpine
+FROM alpine:3.18
 
 # Initialize
 RUN mkdir -p /data/web
@@ -10,8 +9,14 @@ COPY requirements.txt /data/web/
 RUN apk update
 RUN apk upgrade
 RUN apk add --update wget python3 python3-dev py3-pip postgresql-client postgresql-dev build-base gettext jpeg-dev zlib-dev 
-RUN pip3 install --upgrade pip
-RUN pip3 install -r requirements.txt
+
+# Create a virtual environment and use it
+# RUN python3 -m venv /venv
+# ENV PATH="/venv/bin:$PATH"
+
+# Now you can safely upgrade pip and install other packages
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
 # Clean
 WORKDIR /data/web
