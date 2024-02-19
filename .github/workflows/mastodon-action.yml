@@ -44,4 +44,4 @@ jobs:
     - name: Copy and rename file, into the GitHub pages live directory
       run: |
         cp web/projectfiles/templates/index/mastodon_sidebar.html docs/mastodonsidebar/mastodon_sidebar.html
-        mv docs/mastodonsidebar/mastodon_sidebar.html docs/mastodonsidebar/index.html
+        mv web/projectfiles/templates/index/mastodon_sidebar.html docs/mastodonsidebar/index.html
