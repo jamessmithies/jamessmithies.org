@@ -1,3 +1,4 @@
+# GitHub action to automate update of Mastodon toots.
 name: Run Python Mastodon toots update script
 
 on:
