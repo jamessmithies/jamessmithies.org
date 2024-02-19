@@ -1,0 +1,41 @@
+name: Run Python Mastodon toots update script
+
+on:
+  push:
+  schedule:
+    - cron: '0 * * * *'  # This will run the job every hour, or after a Git push.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+    run: |
+      python -m pip install --upgrade pip
+      cd web
+      pip install -r requirements.txt
+
+    - name: Run Mastodon script
+    run: |
+      cd web/projectfiles
+      python mastodon.py
+
+    - name: Commit and push if changes
+    run: |
+      git config --local user.email "action@github.com"
+      git config --local user.name "GitHub Action"
+      git add -A
+      if git diff --staged --quiet; then
+        echo "No changes to commit"
+      else
+        git commit -m "Mastodon update from GitHub Action"
+        git push
+      fi
