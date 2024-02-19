@@ -1,4 +1,4 @@
-import requests, re
+import requests, re, os, json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -8,10 +8,27 @@ account_id = '109349626053208125'
 params = {'limit': 4}
 response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', params=params)
 
+# Load the last retrieved status from a file
+last_status_file = 'last_status.json'
+if os.path.exists(last_status_file):
+    with open(last_status_file, 'r') as f:
+        last_status = json.load(f)
+else:
+    last_status = None
+
 if response.status_code == 200:
     statuses = response.json()
     for status in statuses:
-        print(f'Successfully retrieved status update')
+        # Check if this status is new
+        if status != last_status:
+            print('New status update detected')
+            # Update the template here
+
+            # Save this status as the last retrieved status
+            with open(last_status_file, 'w') as f:
+                json.dump(status, f)
+        else:
+            print('No new status update')
 else:
     print(f'An error occurred: {response.text}')
 
