@@ -29,6 +29,11 @@ jobs:
         cd web/projectfiles
         python mastodon.py
 
+    - name: Copy and rename Mastodon toots file into the GitHub pages live directory
+      run: |
+        mkdir -p docs/mastodonsidebar
+        cp web/projectfiles/templates/index/mastodon_sidebar.html docs/mastodonsidebar/index.html
+
     - name: Commit and push if changes
       run: |
         git config --local user.email "action@github.com"
@@ -41,7 +46,3 @@ jobs:
           git push
         fi
 
-    - name: Copy and rename file, into the GitHub pages live directory
-      run: |
-        mkdir -p docs/mastodonsidebar
-        cp web/projectfiles/templates/index/mastodon_sidebar.html docs/mastodonsidebar/index.html
