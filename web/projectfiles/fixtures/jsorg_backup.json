@@ -273,10 +273,36 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-08-01T06:16:10.962Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "Digital HASS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-08-01T06:16:36.615Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "63",
+        "object_repr": "Australasian Research Software Engineering",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2024-01-21T08:25:08.893Z",
+        "last_login": "2024-08-01T06:10:24.065Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -721,6 +747,15 @@
         "title": "Digital Cultural Heritage",
         "slug": "digital-cultural-heritage",
         "description": "Digital Cultural Heritage"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 8,
+    "fields": {
+        "title": "Digital HASS",
+        "slug": "digital-hass",
+        "description": "Digital HASS"
     }
 },
 {
@@ -2199,6 +2234,29 @@
         "tags": [
             8,
             15
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 63,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Australasian Research Software Engineering",
+        "excerpt": "<p>Slides of my talk &#39;Australasian Research Software Engineering: From HASS Research Services to Infrastructural Milieux&#39;, presented at the Australasian Association of Digital Humanities (aaDH) seminar series, August 01, 2024.</p>",
+        "body": "<p>Slides of my talk &#39;Australasian Research Software Engineering: From HASS Research Services to Infrastructural Milieux&#39;, presented at the Australasian Association of Digital Humanities (aaDH) seminar series, August 01, 2024.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRCNb-c2ezaJ178krgmGY7RlXX5-RoAO_z7aNpNvA3NksvAVQOWQ5u5BIVmbb_gTw/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2024-08-01T06:12:49Z",
+        "slug": "australasian-research-software-engineering",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            8,
+            5
+        ],
+        "tags": [
+            8
         ]
     }
 }
