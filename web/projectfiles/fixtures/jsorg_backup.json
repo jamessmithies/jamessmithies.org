@@ -299,6 +299,45 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-08-01T07:10:28.916Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "AI as Infrastructure (AIINFRA)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-08-01T07:13:55.336Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "AI as Infrastructure (AIINFRA)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-08-01T07:14:20.328Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "AI as Infrastructure (AIINFRA)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
@@ -662,6 +701,17 @@
         "title": "Applying AI to storytelling - bringing computational research into creative industries",
         "slug": "applying-ai-storytelling-bringing-computational-research-creative-industries",
         "about": "<p>I was part of the King&#39;s College London team on the Innovate UK funded project <em>Applying AI to storytelling - bringing computational research into creative industries</em>, which ran from 2018 - 2019. <em>Applying AI</em> aimed to understand what the impact of artificially-intelligent memory is on storytelling and narrative structure, and how to transfer the resulting research into industry using the kind of Research Software Engineers (RSE) found in King&#39;s Digital Lab. The project was led by <a href=\"https://www.toplayfor.com/\" target=\"_blank\">To Play For</a>, a pioneer in interactive storytelling developing the <a href=\"https://charisma.ai/\" target=\"_blank\">charisma.ai</a> immersive story-telling platform. Read more <a href=\"https://gtr.ukri.org/projects?ref=133687\" target=\"_blank\">here</a>.</p>"
+    }
+},
+{
+    "model": "index.projects",
+    "pk": 16,
+    "fields": {
+        "display_name": "AI as Infrastructure (AIINFRA)",
+        "position": 0,
+        "title": "AI as Infrastructure (AIINFRA)",
+        "slug": "ai-as-infrastructure",
+        "about": "<p>AIINFRA will explore whether Large Language Models (LLMs) could enable a new era of transnational historical research. The project will run from 2024 - 2026 and be led by the HASS Digital Research Hub at The Australian National University. The project team includes representatives from the Australian Parliamentary Library, the National Library of Australia, the Aotearoa / New Zealand Department of Internal Affairs, the UK National Archives, the UK History of Parliament project, and the ANU Library, with academic input from King&rsquo;s College London. Indigenous guidance is provided by the Scaffolding Cultural Co-Creativity project, and Taiuru &amp; Associates Ltd.</p>\r\n\r\n<p><a href=\"https://aiinfra.anu.edu.au/\" target=\"_blank\"><em>Explore AIINFRA</em></a></p>"
     }
 },
 {
