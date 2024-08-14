@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    using: 'node20'
 
     steps:
     - uses: actions/checkout@v3
