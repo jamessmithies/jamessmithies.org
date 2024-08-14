@@ -12,7 +12,11 @@ response = requests.get(f'{base_url}/api/v1/accounts/{account_id}/statuses', par
 last_status_file = 'last_status.json'
 if os.path.exists(last_status_file) and os.path.getsize(last_status_file) > 0:
     with open(last_status_file, 'r') as f:
-        last_status = json.load(f)
+        try:
+            last_status = json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+            last_status = None
 else:
     last_status = None
 
