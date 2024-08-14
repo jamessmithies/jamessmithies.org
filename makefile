@@ -11,7 +11,7 @@ load:
 # Back up fixtures
 dump:
 	docker-compose exec web "./dump.sh"
-# Optionally, update Mastodon (will update on a GitHub push or every hour regardless.)
+# Optionally, update Mastodon (will update on a GitHub push or every hour regardless.	)
 mastodon:
 	docker-compose exec web python3 manage.py mastocommand
 # Optionally, update Zotero
