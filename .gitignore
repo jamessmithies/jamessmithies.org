@@ -7,7 +7,7 @@ secrets.py
 settings-writing.py
 settings-talks.py
 env
-*.cert 
+*.cert
 *.key
 *.pem
 
@@ -113,3 +113,5 @@ ENV/
 .ropeproject
 
 
+
+logs/

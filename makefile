@@ -1,5 +1,8 @@
 
-# Dev basics
+# Start from scratch
+build:
+	docker-compose build && docker-compose up -d
+
 rebuild:
 	docker-compose stop && docker-compose rm --force && docker-compose down --rmi all && docker-compose build && docker-compose up -d 
 
