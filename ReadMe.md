@@ -2,22 +2,17 @@ https://jamessmithies.org.
 
 A description can be found at Smithies, J. (2016). 'Full Stack DH: Building a Virtual Research Environment on a Raspberry Pi'. In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 364-36.
 
-The project is hobbyist quality.
-
-If, for some unlikely reason, you'd like to use the project:
+The project is hobbyist quality, used to help me udnerstand various aspects of web design and hosting. It was initially created using Wordpress then manually copied into Django and hosted on various  hardware (EC2, Raspberry Pi) before being converted to an offline (Dango) -> static (GitHub Pages) solution. It's a Frankensteined solution but works well enough for something ~15 years old. If, for some unlikely reason, you'd like to use the project:
 
 1] Edit secrets files
 * Remove 'env_default' and add appropriate settings in an 'env' file.
 * Remove 'web/projectfiles/settings/secrets.py_default', and add appropriate settings to a 'web/projectfiles/settings/secrets.py' file.
 * Remove 'web/projectfiles/templates/zotero/zot.py_default' and add appropriate settings to a 'web/projectfiles/templates/zotero/zot.py' file.
 
-2] This project uses Dockerised instances of letsencrypt / certbot to generate SSL certs. It also has x86 and arm64v8 deployment modes (I use x86 for dev/test and host the project on an arm64v8 Rock 64), which complicates things. See .ssl/ReadMe files for an explanation of how to toggle between the two architectures, and generate certs. tl;dr = you need to edit the following files to toggle between x86 and arm64v8 deployment modes before you (optionally) generate certs.
-* .docker-compose.yml; 
-* nginx/default.conf; 
-* nginx/Dockerfile; 
-* ssl/nginx.conf. 
-
-3] As per the ReadMe files, after 1 and 2 are completed it's a simple matter of
-* cd web
+2] Build the docker containers and load the database (this will of course be the database for jamessmithies.org but could be replaced)
 * make build-up
 * make load
+
+The website can be accessed at ```localhost```. Log in at http://localhost/admin/login/admin/ to add blog posts etc.
+
+3] The makefile contains actions that can be performed: update the Zotero bibliography, make the static files, run the Mastodon update process, publish the static files, export ('dump') the database etc.
