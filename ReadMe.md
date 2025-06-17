@@ -10,7 +10,7 @@ The project is hobbyist quality, used to help me udnerstand various aspects of w
 * Remove 'web/projectfiles/templates/zotero/zot.py_default' and add appropriate settings to a 'web/projectfiles/templates/zotero/zot.py' file.
 
 2] Build the docker containers and load the database (this will of course be the database for jamessmithies.org but could be replaced)
-* make build-up
+* make build
 * make load
 
 The website can be accessed at ```localhost```. Log in at http://localhost/admin/login/admin/ to add blog posts etc.
