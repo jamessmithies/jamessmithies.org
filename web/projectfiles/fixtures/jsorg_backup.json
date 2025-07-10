@@ -455,10 +455,49 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-07-10T02:33:31.508Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "66",
+        "object_repr": "The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-07-10T02:34:23.137Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "66",
+        "object_repr": "The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-07-10T02:41:45.445Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "67",
+        "object_repr": "Digital Modernities: Why We Need to Think Historically About the Digital Age",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2025-06-17T00:53:38.336Z",
+        "last_login": "2025-07-10T02:30:24.470Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -2480,6 +2519,53 @@
         "tags": [
             17,
             13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 66,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research",
+        "excerpt": "<p>Slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>",
+        "body": "<p>Slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRaxeKT5OakcOI44iinGogSlXLjPzjGRCf_Fi5PX9Bs3tvP3xWN2kqB7gqfzQ19Jg/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2025-07-30T16:00:00Z",
+        "slug": "the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            7,
+            8,
+            6
+        ],
+        "tags": [
+            17,
+            13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 67,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Digital Modernities: Why We Need to Think Historically About the Digital Age",
+        "excerpt": "<p>Slides of my talk &#39;Digital Modernities: Why We Need to Think Historically About the Digital Age&#39;,&nbsp;presented by&nbsp;The National School of Arts and Humanities at Australian Catholic University and<em>&nbsp;Thesis Eleven Journal</em>.</p>",
+        "body": "<p>Slides of my talk &#39;Digital Modernities: Why We Need to Think Historically About the Digital Age&#39;,&nbsp;presented by&nbsp;The National School of Arts and Humanities at Australian Catholic University and<em>&nbsp;Thesis Eleven Journal</em>.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRDyfXi1731BbvHuU2PBETAusFuurIAXQ8DdjZyoXYa2FYtKKICjQZgLjxQbCjQWQ/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2025-08-01T16:00:00Z",
+        "slug": "digital-modernities-why-we-need-to-think-historically-about-the-digital-age",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            1
+        ],
+        "tags": [
+            2
         ]
     }
 }
