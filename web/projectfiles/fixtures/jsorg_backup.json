@@ -494,10 +494,23 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-08-24T23:59:50.950Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "66",
+        "object_repr": "The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Excerpt\", \"Body\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2025-07-10T02:30:24.470Z",
+        "last_login": "2025-08-24T23:58:46.896Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -2529,8 +2542,8 @@
         "status": 1,
         "hero_image": "",
         "title": "The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research",
-        "excerpt": "<p>Slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>",
-        "body": "<p>Slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRaxeKT5OakcOI44iinGogSlXLjPzjGRCf_Fi5PX9Bs3tvP3xWN2kqB7gqfzQ19Jg/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "excerpt": "<p>Video and slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>",
+        "body": "<p>Video and slides for my talk &#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/pM7IxOVBnuc?si=rhs1_OGKtlR3qEDA\" title=\"YouTube video player\" width=\"560\"></iframe></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRaxeKT5OakcOI44iinGogSlXLjPzjGRCf_Fi5PX9Bs3tvP3xWN2kqB7gqfzQ19Jg/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
         "pub_date": "2025-07-30T16:00:00Z",
         "slug": "the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research",
         "author": 1,
