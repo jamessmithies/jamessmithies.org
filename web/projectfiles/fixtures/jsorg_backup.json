@@ -507,10 +507,23 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-09-16T22:46:48.860Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "68",
+        "object_repr": "Building Capability in RSE for the Humanities and Social Sciences (HASS)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2025-08-24T23:58:46.896Z",
+        "last_login": "2025-09-16T22:44:55.334Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -2579,6 +2592,28 @@
         ],
         "tags": [
             2
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 68,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Building Capability in RSE for the Humanities and Social Sciences (HASS)",
+        "excerpt": "<p>Slides of my talk &#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&#39; at RSAA25, with PT Sefton and Nick Jenkins.</p>",
+        "body": "<p>Slides of my talk &#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&#39; at RSAA25, with PT Sefton and Nick Jenkins.</p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR66MHzdikTI2vju2Y_cyOQisFrP7OzjckJptEA4lFDgjjmAq536VUBCqc2mAqEk_K7Ji71hwBYc-qi/pubembed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"480\" height=\"299\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "pub_date": "2025-09-16T22:45:21Z",
+        "slug": "building-capability-in-rse-for-the-humanities-and-social-sciences-hass",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            5
+        ],
+        "tags": [
+            13
         ]
     }
 }
