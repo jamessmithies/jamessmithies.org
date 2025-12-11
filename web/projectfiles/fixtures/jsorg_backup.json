@@ -510,7 +510,7 @@
     "model": "admin.logentry",
     "pk": 40,
     "fields": {
-        "action_time": "2025-09-16T22:46:48.860Z",
+        "action_time": "2025-12-11T03:55:32.191Z",
         "user": 1,
         "content_type": 15,
         "object_id": "68",
@@ -520,10 +520,322 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-12-11T03:56:02.473Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "68",
+        "object_repr": "Building Capability in RSE for the Humanities and Social Sciences (HASS)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-12-11T04:01:35.381Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "68",
+        "object_repr": "Building Capability in RSE for the Humanities and Social Sciences (HASS)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-12-11T04:04:03.194Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "69",
+        "object_repr": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-12-11T04:04:38.165Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "69",
+        "object_repr": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Excerpt\", \"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-12-11T04:12:14.988Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "69",
+        "object_repr": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-12-11T04:12:17.136Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "69",
+        "object_repr": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-12-11T04:17:45.569Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "70",
+        "object_repr": "Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2025-12-11T04:25:49.161Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "71",
+        "object_repr": "ATLAS: Enabling Open Methods and Technical Transparency in AI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2025-12-11T04:50:02.089Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2025-12-11T04:50:40.373Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2025-12-11T04:51:08.196Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2025-12-11T04:51:53.432Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2025-12-11T04:52:31.040Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2025-12-11T04:52:46.299Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2025-12-11T04:53:13.816Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2025-12-11T04:55:05.416Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "James Smithies",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2025-12-11T04:56:29.985Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "Research Software Engineering Capacity Enhancement Project (RSE-CEP)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2025-12-11T04:58:00.079Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "Social Science Research Infrastructure Network",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2025-12-11T04:58:56.992Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "Research Software Engineering Capacity Enhancement Project (RSE-CEP)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2025-12-11T04:59:32.343Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "Social Science Research Infrastructure Network (SSRIN)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2025-12-11T05:02:23.511Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "19",
+        "object_repr": "ANU HASS Digital Research Hub (HDRH)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2025-12-11T05:03:01.176Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "AI as Infrastructure (AIINFRA)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2025-12-11T05:03:16.714Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "AI as Infrastructure (AIINFRA)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2025-12-11T05:03:57.162Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "Social Science Research Infrastructure Network (SSRIN)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$260000$vZhPjB5FDTYsulSGfYYVk7$9I5S786D73hrNDTyKb31D14XkPjPukQAlMQDHKJMSsI=",
-        "last_login": "2025-09-16T22:44:55.334Z",
+        "last_login": "2025-12-11T03:50:43.249Z",
         "is_superuser": true,
         "username": "jamessmithies",
         "first_name": "",
@@ -897,13 +1209,46 @@
     }
 },
 {
+    "model": "index.projects",
+    "pk": 17,
+    "fields": {
+        "display_name": "RSE-CEP",
+        "position": 0,
+        "title": "Research Software Engineering Capacity Enhancement Project (RSE-CEP)",
+        "slug": "research-software-engineering-capacity-enhancement-project-rse-cep",
+        "about": "<p>I contribute to the ARDC Research Software Engineering Capacity Enhancement Project (RSE-CEP) via the <a href=\"https://hdrh.anu.edu.au/\">ANU HASS Digital Research Hub</a>. RSE-CEP is a co-investment partnership with the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons (DOI: <a href=\"https://ardc.edu.au/\">10.3565/x5f6-mw53</a>). The ARDC is enabled by the Australian Government&rsquo;s National Collaborative Research Infrastructure Strategy (NCRIS). The project team includes:</p>\r\n\r\n<ul>\r\n\t<li>James Smithies, Director, HASS Digital Research Hub.</li>\r\n\t<li>Peter Sefton, Principal Research Software Engineering Fellow, HASS Digital Research Hub.</li>\r\n\t<li>Mat Bettinson, Principal Research Software Engineer, HASS Digital Research Hub.</li>\r\n\t<li>Junran Lei, Senior Research Software Engineer, HASS Digital Research Hub.</li>\r\n\t<li>Nick Jenkins, ARDC Program Manager, Research Software.</li>\r\n\t<li>Robin Burgess, ARDC Project Manager.&nbsp;</li>\r\n</ul>\r\n\r\n<p>Tim Sherratt will provide consultancy and masterclasses over the course of the project.&nbsp;</p>\r\n\r\n<p>RSE-CEP will provide updated architectural principles, a technology roadmap, and detailed explanations of common RSE patterns for the HASS and Indigenous research community as part of the ARDC HASS and Indigenous (HASS and Indigenous) Research Data Commons (RDC) Community Data Lab (CDL). The project will benefit:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Researchers in HASS and Indigenous fields who use custom software-based data collection, processing, storage, analysis and/or publishing methods </li>\r\n\t<li>&lsquo;Researchers-who-code&rsquo; (and researchers who want to code or are vibe-coding) and Research Software Engineers (RSEs) in the HASS and Indigenous sector</li>\r\n\t<li>Software Engineers who are working in the HASS and Indigenous research sector</li>\r\n\t<li>GLAM sector technical managers and staff</li>\r\n</ul>"
+    }
+},
+{
+    "model": "index.projects",
+    "pk": 18,
+    "fields": {
+        "display_name": "SSRIN",
+        "position": 1,
+        "title": "Social Science Research Infrastructure Network (SSRIN)",
+        "slug": "social-science-research-infrastructure-network",
+        "about": "<p>I contribute to the Social Science Research Infrastructure Network via the <a href=\"https://hdrh.anu.edu.au/\">ANU HASS Digital Research Hub</a>. SSRIN is a co-investment partnership with the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons (DOI: <a href=\"https://ardc.edu.au/project/social-science-research-infrastructure-network/\">10.3565/8d3z-sq52</a>). The ARDC is enabled by the Australian Government&rsquo;s National Collaborative Research Infrastructure Strategy (NCRIS).</p>\r\n\r\n<p>The Academy of the Social Sciences in&nbsp;<a href=\"https://socialsciences.org.au/news/decadal-plan-for-social-science-research-infrastructure-launches/\">Australia Decadal Plan for Social Science Research Infrastructure 2024-33</a>&nbsp;outlines a vision for transforming Australia&rsquo;s social science research infrastructure over the coming decade. The ARDC Social Science Research Infrastructure Network (SSRIN) project responds to the plan, addressing the most pressing research infrastructure needs facing the social sciences in Australia. The project is led by the University of Queensland. ARDC, through its&nbsp;<a href=\"https://ardc.edu.au/hass-and-indigenous-research-data-commons/\">HASS and Indigenous Research Data Commons&nbsp;</a>(HASS-I RDC), is co-investing $4.43 million in the initiative, alongside co-investment from partners that brings the total investment to $8.86 million. Specifically, the project aims to:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>improve discoverability, accessibility and usability of social science data</li>\r\n\t<li>enhance existing data infrastructure relevant for the social sciences</li>\r\n\t<li>build capacity among social science researchers in Australia</li>\r\n\t<li>improve engagement and build collaborations between key stakeholders in universities, government, NGOs and communities</li>\r\n</ul>\r\n\r\n<p>The HASS Digital Research Hub (HDRH) are helping to deliver Activity Stream 6: Training and Capacity Building. The work will develop a comprehensive training program in quantitative and qualitative methods, data analytics, and digital tools for domain researchers in alignment to academic and research software engineering (RSE) career frameworks. It will promote professional development opportunities through workshops, seminars, and online courses, and will encourage interdisciplinary learning and collaboration to broaden researchers&#39; skill sets.&nbsp;</p>"
+    }
+},
+{
+    "model": "index.projects",
+    "pk": 19,
+    "fields": {
+        "display_name": "HDRH",
+        "position": 0,
+        "title": "ANU HASS Digital Research Hub (HDRH)",
+        "slug": "anu-hass-digital-research-hub-hdrh",
+        "about": "<p>I am director of the <a href=\"https://hdrh.anu.edu.au/\">Humanities and Social Science (HASS) Digital Research Hub (HDRH)</a> at the Australian National University. We are a team of research software engineers (RSE) who support HASS research across the ANU and regionally. The Hub will become fully operational in 2026.</p>"
+    }
+},
+{
     "model": "index.bio",
     "pk": 2,
     "fields": {
         "display_name": "James Smithies",
         "title": "James Smithies",
         "slug": "jamessmithies",
-        "about": "<p>I am Professor of Digital Humanities &amp; Director of the HASS Digital Research Hub (HRDH) at The Australian University. Before ANU I was Professor of Digital Humanities in the Department of Digital Humanities at King&rsquo;s College London. Before then I was founding director of King&#39;s Digital Lab and deputy director of King&#39;s eResearch. Prior to working at King&#39;s I worked as a senior lecturer at the University of Canterbury in Aotearoa/New Zealand, helping develop the UC CEISMIC Canterbury Earthquakes Digital Archive. My doctorate explored the history of ideas in late twentieth-century Aotearoa/New Zealand. I have also worked in the government and commercial IT sectors in the United Kingdom and New Zealand, as a technical writer, editor, business analyst, and project manager.&nbsp;</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"/writing\">writing</a>, <a href=\"/talks\">talks</a> and <a href=\"/projects\">projects</a> are available on this site.</p>\r\n\r\n<p><a href=\"https://link.springer.com/book/10.1057/978-1-137-49944-8\" target=\"_blank\"><img alt=\"\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2020/06/14/dh_dm_small.jpg\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+        "about": "<p>I am Professor of Digital Humanities &amp; Director of the HASS Digital Research Hub (HRDH) at The Australian University. Before ANU I was Professor of Digital Humanities in the Department of Digital Humanities at King&rsquo;s College London. Before then I was founding director of King&#39;s Digital Lab and deputy director of King&#39;s eResearch. Prior to working at King&#39;s I worked as a senior lecturer at the University of Canterbury in Aotearoa/New Zealand, helping develop the UC CEISMIC Canterbury Earthquakes Digital Archive. My doctorate explored the history of ideas in late twentieth-century Aotearoa/New Zealand. I have also worked in the government and commercial IT sectors in the United Kingdom and New Zealand, as a technical writer, editor, business analyst, and project manager.&nbsp;</p>\r\n\r\n<p>In my digital practice I apply computational tools and methods to arts, humanities, and social science subjects. This involves the development of products (like websites, electronic books, or mobile applications), the analysis of data (like text, image, and social media archives) and the provision of services (like digital libraries and archives) that can be used to explore subjects as varied as history, literature, philosophy, art history, statistics, and computer science. This sort of work results in traditional scholarly articles and monographs as well as digital outputs. I am interested in any research that involves the innovative application of computational tools and methods to arts, humanities, and social science subjects, and often work in inter-disciplinary teams from across the campus. I have additional&nbsp;experience applying information management techniques to post-disaster contexts.</p>\r\n\r\n<p>My <a href=\"http://localhost/research/\">traditional </a>and <a href=\"http://localhost/projects/\">digital </a>research outputs are listed elsewhere on this site.</p>\r\n\r\n<p><a href=\"https://link.springer.com/book/10.1057/978-1-137-49944-8\" target=\"_blank\"><img alt=\"\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2020/06/14/dh_dm_small.jpg\" style=\"float:left; height:170px; margin:2px; width:120px\" /></a>&nbsp;&nbsp; &nbsp; &nbsp;<a href=\"https://www.upress.umn.edu/9781517916084/critical-infrastructure-studies-and-digital-humanities/\" target=\"_blank\"><img alt=\"Critical Infrastructure Studies and Digital Humanities book cover\" src=\"https://jsorg-docker-static.s3.amazonaws.com/media/uploads/2025/12/11/cis-dh-cover.png\" style=\"height:174px; width:120px\" /></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
     }
 },
 {
@@ -2603,16 +2948,86 @@
         "hero_image": "",
         "title": "Building Capability in RSE for the Humanities and Social Sciences (HASS)",
         "excerpt": "<p>Slides of my talk &#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&#39; at RSAA25, with PT Sefton and Nick Jenkins.</p>",
-        "body": "<p>Slides of my talk &#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&#39; at RSAA25, with PT Sefton and Nick Jenkins.</p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR66MHzdikTI2vju2Y_cyOQisFrP7OzjckJptEA4lFDgjjmAq536VUBCqc2mAqEk_K7Ji71hwBYc-qi/pubembed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"480\" height=\"299\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
-        "pub_date": "2025-09-16T22:45:21Z",
+        "body": "<p>Slides of my talk &#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&#39; at RSAA25, with PT Sefton and Nick Jenkins.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vR66MHzdikTI2vju2Y_cyOQisFrP7OzjckJptEA4lFDgjjmAq536VUBCqc2mAqEk_K7Ji71hwBYc-qi/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2025-09-16T10:45:00Z",
         "slug": "building-capability-in-rse-for-the-humanities-and-social-sciences-hass",
         "author": 1,
         "enable_comments": true,
         "featured": false,
         "categories": [
+            8,
             5
         ],
         "tags": [
+            13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 69,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "excerpt": "<p>Slides of my talk (delivered on behalf of co-authors Glen Berman and Karaitiana Taiuru), &#39;Principles for the Operationalisation of Responsible AI in the Research and Public Sector&#39; delivered at eResearch Australasia 2025, Brisbane, 22 October 2025.</p>",
+        "body": "<p>Slides of my talk (delivered on behalf of co-authors Glen Berman and Karaitiana Taiuru), &#39;Principles for the Operationalisation of Responsible AI in the Research and Public Sector&#39; delivered at eResearch Australasia 2025, Brisbane, 22 October 2025.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRBq2AMhAnqfVAgM4K1M1TkfPy7MFO11E9HIqiuT5v1WKSwAascgGU2NRi0nnNnDA/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2025-10-22T14:01:35Z",
+        "slug": "principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            8
+        ],
+        "tags": [
+            17,
+            13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 70,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project",
+        "excerpt": "<p>Slides of my talk &#39;Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project&#39; delivered on behalf of my co-author Glen Berman at the AI Meets Humanities: NTU-ANU-KCL Workshop, Nanyang Technological University, Singapore, 20 November, 2025.</p>",
+        "body": "<p>Slides of my talk &#39;Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project&#39; delivered on behalf of my co-author Glen Berman at the AI Meets Humanities: NTU-ANU-KCL Workshop, Nanyang Technological University, Singapore, 20 November, 2025.</p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"299\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vS3ElUxpTRncviascP5wIDs_E7aAnW_9T9qWh8zQAGsylkCwPPIKoUaFtPLi_uL7g/pubembed?start=false&amp;loop=false&amp;delayms=3000\" width=\"480\"></iframe></p>",
+        "pub_date": "2025-11-20T16:12:17Z",
+        "slug": "evaluating-ai-an-overview-of-the-ai-as-infrastructure-aiinfra-project",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            4
+        ],
+        "tags": [
+            17,
+            13
+        ]
+    }
+},
+{
+    "model": "blog.entry",
+    "pk": 71,
+    "fields": {
+        "status": 1,
+        "hero_image": "",
+        "title": "ATLAS: Enabling Open Methods and Technical Transparency in AI",
+        "excerpt": "<p>Slides of my talk &#39;ATLAS: Enabling Open Methods and Technical Transparency in AI&#39;, delivered on behalf of co-authors&nbsp;Glen Berman, Karaitiana Taiuru, Roxanne Missingham, Barbara McGillivray, Martin Spychal, and John Moore at Digital Humanities Australasia, 04 December, 2025.</p>",
+        "body": "<p>Slides of my talk &#39;ATLAS: Enabling Open Methods and Technical Transparency in AI&#39;, delivered on behalf of co-authors&nbsp;Glen Berman, Karaitiana Taiuru, Roxanne Missingham, Barbara McGillivray, Martin Spychal, and John Moore at Digital Humanities Australasia, 04 December, 2025.</p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vT5REjNlhLDNdKsSEMPuxGwsV1Pmvh5rVwsMWr0D5wRMq3QeenmhNcQf9HduDC_5g/pubembed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"480\" height=\"299\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "pub_date": "2025-12-04T16:17:45Z",
+        "slug": "atlas-enabling-open-methods-and-technical-transparency-in-ai",
+        "author": 1,
+        "enable_comments": true,
+        "featured": false,
+        "categories": [
+            8
+        ],
+        "tags": [
+            17,
             13
         ]
     }
