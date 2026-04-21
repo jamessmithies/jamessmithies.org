@@ -1,0 +1,1 @@
+{{ range $i, $cat := .Site.Taxonomies.categories }}{{ if $i }} | {{ end }} <a href="/blog/categories/{{ $cat.Page.LinkTitle | urlize }}/"> {{ $cat.Page.LinkTitle }}</a>{{ end }}

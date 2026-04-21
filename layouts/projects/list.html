@@ -1,0 +1,27 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li class="active">projects</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+      <div class="container">
+
+ <div class="row">
+  <div class="col-sm-12">
+
+            <!-- Post start -->
+            <div class="post">
+<h1 class="post-title">Projects</h1>
+<div class="post-entry">
+{{ .Content }}
+</div>
+
+          </div> </div>
+          <!-- Project items end -->
+  </div>
+    </div>
+
+{{ end }}

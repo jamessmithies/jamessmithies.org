@@ -1,0 +1,29 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li><a href="/blog/">blog</a></li>
+    <li class="active">categories</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="module-small">
+<div class="container">
+<div class="col-sm-9 col-md-offset-1">
+
+<div class="post-header font-alt">
+    <h3 class="black-background-title">All Categories</h3>
+</div>
+<br>
+
+{{ range .Data.Terms.Alphabetical }}
+    <h4><a href="{{ .Page.Permalink }}">{{ .Page.LinkTitle }}</a></h4>
+    <p>{{ .Count }} entries</p>
+{{ end }}
+
+</div>
+</div>
+</section>
+
+{{ end }}

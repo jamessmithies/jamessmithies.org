@@ -1,0 +1,42 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li class="active">blog</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+ <br> <br> <br>
+      <section class="module-small">
+        <div class="container">
+          <div class="col-sm-9 col-md-offset-1">
+            {{ $paginator := .Paginate .Pages 5 }}
+            {{ range $paginator.Pages }}
+            <h1 class="post-title">{{ .Title | safeHTML }}</a></h1>
+              <div class="post-meta">Published on {{ .Date.Format "2 Jan 2006, 3:04 p.m." }}</div>
+
+              <div class="post-entry">
+                {{ if .Params.excerpt }}
+                  {{ .Params.excerpt | safeHTML }}
+                {{ else }}
+                  {{ .Content | truncate 250 }}
+                {{ end }}
+                  <p class="read-more"><a href="{{ .Permalink }}"> Read Full Entry</a></p>
+                  <br><br>
+              </div>
+                {{ end }}
+                <br>
+              <div class="tags">
+                {{ if $paginator.HasPrev }}
+                  <a href="/blog/{{ if eq $paginator.Prev.PageNumber 1 }}{{ else }}{{ $paginator.Prev.PageNumber }}/{{ end }}">Previous Page</a>
+                {{ end }}
+                {{ if $paginator.HasNext }}
+                  <a href="/blog/{{ $paginator.Next.PageNumber }}/">Next Page</a>
+                {{ end }}
+              </div>
+      </section>
+
+      <br> <br> <br> <br> <br> <br>
+
+{{ end }}

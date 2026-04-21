@@ -1,0 +1,35 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li><a href="/blog/">blog</a></li>
+    <li class="active">archive</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+ <div class="container">
+
+<div class="col-sm-8">
+
+<h3>Archive</h3>
+
+    {{ range where .Site.RegularPages "Section" "blog" }}
+
+        <h4>{{ .Title }}</h4>
+        <p>Published on {{ .Date.Format "2 Jan 2006, 3:04 p.m." }}</p>
+        <p>{{ if .Params.excerpt }}
+{{ .Params.excerpt | safeHTML }}
+{{ else }}
+{{ .Content | truncate 250 }}
+{{ end }}</p>
+<p><a href="{{ .Permalink }}"> Read Full Entry</a></p>
+
+    {{ end }}
+
+
+</div>
+
+</div>
+
+{{ end }}

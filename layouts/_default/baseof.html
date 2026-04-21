@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <!-- BASICS -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>jamessmithies.org</title>
+        <meta name="description" content="The personal blog of James Smithies">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <style>
+            html, body { height: 100%; margin: 0; }
+            .site-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
+            .site-content { flex: 1; }
+        </style>
+     </head>
+
+    <body>
+    <div class="site-wrapper">
+    <div class="site-content">
+    <div class="container">
+        <!-- Wrapper start -->
+        <div class="main">
+            {{ block "breadcrumbs" . }}
+            <ol class="breadcrumb">
+                <li><a href="/">jamessmithies.org</a></li>
+            </ol>
+            {{ end }}
+
+            {{ block "main" . }}{{ end }}
+
+    </div><!-- .main -->
+    </div><!-- .container -->
+    </div><!-- .site-content -->
+
+        <!-- Widgets start -->
+        <div class="module-small bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">James Smithies</h5>
+                            <p>Professor of Digital Humanities</p>
+                            <p>Director, HASS Digital Research Hub</p>
+                            <p>The Australian National University</p>
+                            <p>Canberra, Australia</p>
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">Blog Tags</h5>
+                            {{ partial "tag-list-pipes.html" . }}
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+                            <h5 class="widget-title font-alt">Blog Categories</h5>
+                            {{ partial "category-list-pipes.html" . }}
+                        </div>
+                    <!-- Widget end -->
+                    </div>
+
+                    <div class="col-sm-3">
+                    <!-- Widget start -->
+                        <div class="widget">
+
+                            <p> Built using <a href="https://gohugo.io/">Hugo</a> <a href="https://getbootstrap.com/">Bootstrap</a></p>
+
+
+                    </div><!-- Widget end -->
+                </div><!-- .row -->
+            </div>
+        </div>
+        <!-- Widgets end -->
+        <!-- Divider -->
+        <hr class="divider-d">
+        <!-- Divider -->
+
+        <!-- Footer start -->
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="post-meta">Established 2010</p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="footer-social-links">
+                            <a href="https://github.com/jamessmithies"><i class="fa fa-github"></i></a>
+                            <a href="/blog/feed"><i class="fa fa-rss"></i></a>
+                        </div>
+                    </div>
+
+                </div><!-- .row -->
+            </div>
+        </footer>
+
+        <!-- Footer end -->
+    </div><!-- .site-wrapper -->
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    	<!-- Include the jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+	<!-- Include the jqBootstrapValidation plugin -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
+
+	<script>
+		function openNav() {
+			document.getElementById("sidebar").style.width = "6cm";
+		}
+
+		function closeNav() {
+			document.getElementById("sidebar").style.width = "0";
+		}
+	</script>
+
+
+
+
+    </body>
+</html>

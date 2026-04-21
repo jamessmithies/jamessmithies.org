@@ -1,0 +1,19 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li class="active">credits</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+<div class="col-sm-12">
+<div class="post-entry">
+
+    <h4>{{ .Title | safeHTML }}</h4>
+     {{ .Content }}
+
+
+    </div> </div>
+
+{{ end }}

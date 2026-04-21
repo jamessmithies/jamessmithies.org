@@ -1,0 +1,37 @@
+baseURL = "https://www.jamessmithies.org/"
+languageCode = "en-gb"
+title = "jamessmithies.org"
+publishDir = "docs"
+disableKinds = ["sitemap"]
+
+[pagination]
+  pagerSize = 5
+  path = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  [permalinks.page]
+    blog = "/blog/:year/:month/:day/:slug/"
+  [permalinks.term]
+    categories = "/blog/categories/:slug/"
+    tags = "/blog/tags/:slug/"
+  [permalinks.taxonomy]
+    categories = "/blog/categories/"
+    tags = "/blog/tags/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  section = ["HTML", "RSS"]
+  home = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "index"

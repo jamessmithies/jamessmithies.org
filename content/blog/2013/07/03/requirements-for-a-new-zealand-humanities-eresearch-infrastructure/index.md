@@ -1,0 +1,64 @@
+---
+title: "Requirements for a New Zealand Humanities eResearch Infrastructure"
+date: 2013-07-03T02:12:00Z
+slug: "requirements-for-a-new-zealand-humanities-eresearch-infrastructure"
+categories:
+  - "Digital Humanities"
+tags:
+  - "Conference Papers, Talks & Seminars"
+  - "eResearch"
+  - "Infrastructure"
+excerpt: "<p><em>This is the text of a talk given at eResearch 2013, University of Canterbury, New Zealand, July 03, 2013.</em></p>
+
+<p>I can only offer a very formative overview of this subject here, but I&rsquo;m keen to at least put it on the radar. As everyone knows, vast amounts of our cultural heritage are either being digitized and put online or being born online, and this has significant implications for the arts and humanities. In particular, it forces us to start increasing our understanding of, and capability with, the engineered technologies that deliver resources to us online. It will always be difficult getting the balance right &ndash; we&rsquo;re never going to be engineers &ndash; but we need to start working through the issues.</p>"
+---
+
+<p><em>This is the text of a talk given at eResearch 2013, University of Canterbury, New Zealand, July 03, 2013.</em></p>
+
+<p>I can only offer a very formative overview of this subject here, but I&rsquo;m keen to at least put it on the radar. As everyone knows, vast amounts of our cultural heritage are either being digitized and put online or being born online, and this has significant implications for the arts and humanities. In particular, it forces us to start increasing our understanding of, and capability with, the engineered technologies that deliver resources to us online. It will always be difficult getting the balance right &ndash; we&rsquo;re never going to be engineers &ndash; but we need to start working through the issues. In this talk I&rsquo;ll give you a quick overview of the international context, try to convey something about what eResearch in the Humanities actually is, describe where we&rsquo;re at nationally, and suggest some very formative requirements that might help us work out what direction we need to go in.</p>
+
+<p>I find myself complaining about how far behind the rest of the world we are in New Zealand, but sometimes I think I&rsquo;m being a bit harsh. Humanities Computing has been around for decades, and New Zealand researchers have never really taken a strong interest in it, but the development of humanities eResearch infrastructure is in its infancy everywhere. That said, the United States, United Kingdom, and to some extent Australia, have been building their capability (and their actual infrastructures) for some time now. New Zealand has basically the same component parts that could be used for a Humanities infrastructure as those countries, but the US, UK and Australia have benefited from ongoing strategic conversations that have allowed them to leverage their assets and develop roadmaps far better than we have.</p>
+
+<p>The conversation in the US was given an additional prompt in 2006 with the American Council of Learned Societies&rsquo; report &ldquo;Our Cultural Commonwealth&rdquo; , which started to identify areas where requirements for the Humanities and Social Sciences differ from the hard sciences and engineering. This was in the context of the development of the HathiTrust Digital influences and mass digitization efforts by Google, Microsoft and the Internet Archive. In 2006 the US NEH established what came to be known as the Office of Digital Humanities, which has funneled significant amounts of funding into both digital humanities and infrastructure and capability-building projects. Australians often suggest they&rsquo;re behind the US and UK, but you&rsquo;ve just seen what fantastic work is happening with the HuNI project [the previous talk was by Richard Rothwell, from the Australian Humanities Networked Infrastructure (HuNI) project]. Very few New Zealand humanists are even aware of HuNI, but I suspect they&rsquo;ll get a wake-up call when they realize what their Australian colleagues have available, especially if high quality research articles start being produced.</p>
+
+<p>What do humanities researchers need in terms of infrastructure? HuNI provides an excellent model for us, and in many ways I&rsquo;d suggest we should be modeling requirements for our infrastructure from them, but we need to think about the fundamentals for ourselves as well. This is because in broader terms &ndash; and this is why cultural change within our humanities research communities will be needed alongside improved infrastructure &ndash; we&rsquo;re talking about systems capable of supporting a fundamental change in the way *some humanities researchers* approach sources.</p>
+
+<p>In brief, that change involves a shift from thinking about their sources (documents, books, images, audio, video etc) as objects, to viewing them as data. This creates a parallel shift from lone scholars engaging with individual objects one by one, to inter-disciplinary teams of researchers analyzing and making connections between data held in a variety of datasets. Not all humanities researchers will work like this, but we need to accept that programmatic access to our humanities datasets will become more and more important for humanities researchers in the coming decades. Upgrading our infrastructure to allow for this, and providing opportunities for researchers to develop the skills needed to undertake programmatic analysis of large datasets, is something we need to start now.</p>
+
+<p>The Office of Digital Humanities in the US, along with the United Kingdom&rsquo;s Joint Information Systems Committee and funding agencies in Canada and the Netherlands feel the same way, and established an annual &lsquo;Digging into Data&rsquo; event to help surface and resolve the issues involved in this shift. The Digging into Data challenge invites teams to choose a large dataset and engage in humanistic research on it, reporting back on their problems and successes. It&rsquo;s one important way the humanities community can assess what kind of impact this shift towards programmatic analysis is going to have.</p>
+
+<p>In June of last year a report was published detailing preliminary findings based on early Digging into Data projects. Two findings that struck me relate to the data-centric nature of Humanities eResearch: aside from noting the massive opportunities opened up by eResearch, the report authors noted that</p>
+
+<blockquote>
+<p>The Digging into Data Challenge presents us with a new paradigm: a digital ecology of data, algorithms, metadata, analytical and visualization virtualmachines, and new forms of scholarly expression that result from this research.</p>
+</blockquote>
+
+<p>They also noted that</p>
+
+<blockquote>
+<p>It is the combination of algorithmic analysis and human curation of data that helps humanists&hellip;</p>
+</blockquote>
+
+<p>Humanities eResearch occupies a fuzzy place in in the broader eResearch landscape. It is both programmatic and subjective; it involves some researchers with solid programming skills and others who are more comfortable working with word clouds; and most importantly, the data is messy. It isn&rsquo;t only Google Books OCR that&rsquo;s the problem &ndash; most humanities datasets would make a scientist give up after a first look: nineteenth century ships logs, medical records from early twentieth century leper colonies, you name it, it&rsquo;ll be hard to read, incomplete and possibly inaccurate. We have traditional methods for dealing with issues like that, but the problems are multiplied exponentially when we port the sources into data formats. Curation, services and virtualmachines help a lot, but we also need time to identify and work through the issues, and develop appropriate training schemes for academic staff and their graduate students. So where are we at in New Zealand?</p>
+
+<p>Our biggest problem is awareness. New Zealand academic humanists have had little interest in either humanities computing or digital humanities, and because of this simply aren&rsquo;t aware what opportunities exist, or even what other countries are doing. Because of this our ability to contribute to a national conversation around eResearch infrastructure is low. I suspect most humanists have out-sourced these issues to scientists, social scientists and engineers without understanding just what a big impact decisions made outside their disciplines could have on them. We do have the component parts for an excellent Humanities eResearch infrastructure, though:</p>
+
+<ul>
+	<li>DigitalNZ has been the envy of Australian colleagues for years now;</li>
+	<li>The National Digital Heritage Archive is ahead of even the British influences in preservation of our digital heritage;</li>
+	<li>We have a range of large-scale digital assets in the National influences&rsquo;s Timeframes archive, the Appendices to the Journals of the House of Representatives, and Papers Past.</li>
+	<li>A significant government digital archive is about to come online.</li>
+	<li>[It was noted, quite correctly, afterwards that we have a wide variety of other assets as well. The list above merely offers a snapshot of central government assets].</li>
+</ul>
+
+<p>These could all be leveraged, and added to, to great effect if we can come up with a sensible strategy that connects these central government resources with humanities research communities. So, in short order, what we need is:</p>
+
+<ul>
+	<li>Education: Efforts are underway to get some regular digital humanities training from a Canadian team who are starting to provide global services, but we also need to increase our efforts to develop digital humanities at undergraduate and graduate level in order to offer the next generation of humanists the skills they need to engage with these issues.</li>
+	<li>Capability building: We need to develop more digital projects, and provide guidance and feedback to humanists who would like to start their own. We also need to develop peer review mechanisms for student projects and PBRF (New Zealand&rsquo;s &lsquo;Performance Based Research Fund&rsquo;) so we can begin to understand what a &lsquo;quality&rsquo; humanities digital output actually looks like.</li>
+	<li>International collaboration will help us develop more quickly. The international DH community is very welcoming, and many opportunities exist to collaborate.</li>
+	<li>We need to start talking to humanities researchers about what they want from eResearch infrastructures. We could make some educated guesses, but as primary stakeholders they need to be consulted.</li>
+	<li>We also need to work with NeSI [the National eScience Infrastructure team who organized eResearch 2013] and central government to turn any wish-list into strategically aligned and well defined requirements that can realistically be implemented.</li>
+</ul>
+
+<p>Above all else, of course, we need funding. And this isn&rsquo;t funding only for the final infrastructure but for the education and capability building we need to do first. Compared to the final $ amounts required to implement a Humanities eResearch infrastructure this will be paltry, but it&rsquo;s important we make a start.</p>

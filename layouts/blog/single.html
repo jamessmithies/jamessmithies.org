@@ -1,0 +1,36 @@
+{{ define "breadcrumbs" }}
+<ol class="breadcrumb">
+    <li><a href="/">jamessmithies.org</a></li>
+    <li><a href="/blog/">blog</a></li>
+    <li class="active">{{ .Title }}</li>
+</ol>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="module-small">
+<div class="container">
+
+<div class="col-sm-9 col-md-offset-1">
+
+                <h1 class="post-title">{{ .Title | safeHTML }}</h1>
+                <div class="post-meta">
+                  Published on {{ .Date.Format "2 Jan 2006, 3:04 p.m." }} Filed under  {{ range $i, $cat := .Params.categories }}{{ if $i }},{{ end }}<a class="category" href="/blog/categories/{{ $cat | urlize }}/"> {{ $cat | urlize }}</a>{{ end }}
+                </div>
+
+
+<div class="tags">
+{{ range $i, $tag := .Params.tags }}{{ if $i }}  {{ end }}<a href="/blog/tags/{{ $tag | urlize }}/"> {{ $tag | urlize }}</a>{{ end }}</div>
+
+
+
+  <div class="post-entry">
+
+<p>{{ .Content }}</p>
+
+</div>
+
+</section>
+</div></div>
+
+{{ end }}

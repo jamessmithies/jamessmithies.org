@@ -1,0 +1,81 @@
+---
+title: "Full Stack DH: Building a Virtual Research Environment on a Raspberry PI"
+date: 2016-07-10T13:14:15Z
+slug: "full-stack-dh-building-virtual-research-environment-raspberry-pi"
+categories:
+  - "Digital Humanities"
+tags:
+  - "Conference Papers, Talks & Seminars"
+  - "Infrastructure"
+  - "Theory"
+excerpt: "<p>The text and slides of my presentation to the DH2016 conference, Krak&oacute;w, July 11 - 16, 2016.</p>"
+---
+
+<p><span style="color:null">The slides and text of my presentation to the DH2016 conference, Krak&oacute;w, 11 - 16 July, 2016. Click</span>&nbsp;<a href="http://dh2016.adho.org/abstracts/123" target="_blank">here</a> <span style="color:null">for the official online abstract. Click <a href="https://www.slideshare.net/jamessmithies/full-stack-dh-building-a-virtual-research-environment-on-a-raspberry-pi-84482936" target="_blank">here</a> to read on Slideshare.</span></p>
+
+<p><iframe frameborder="0" height="389" src="https://docs.google.com/presentation/d/e/2PACX-1vTjglpKz9cR0OqY3txdaM3SMRRAoSLmWVH7ztNgEbr-zyElKg3Wtp8l_rwyzuYiuOLrK01EALcaFFSb/embed?start=false&amp;loop=false&amp;delayms=3000" width="480"></iframe></p>
+
+<p>Ian Hodder has recently pointed to a &ldquo;return to things&rdquo; in the humanities and social sciences, a mode of analysis that explores the relationships between people and the objects we use to construct and make sense of the world.<sup>1&nbsp;</sup>In digital humanities we can see this in Matthew Kirschenbaum&rsquo;s focus on the forensics of computer hard disks,<sup>2</sup>&nbsp;the development of platform studies to investigate the relationship between computing culture and the consoles and other hardware that enables it,<sup>3</sup>&nbsp;and the appearance of maker cultures that seek to explore the humanities through practical experimentation.<sup>4</sup>&nbsp;It suggests a desire to pay attention to and interact with the material world, rather than retreating to a purely digital one. Some commentators go beyond this. They propose that entanglement with material objects represents a ground of being for humans and their societies, that it presents a postphenomenological &ldquo;dialectic of dependence and dependency between humans and things&rdquo; worthy of deep contemplation.<sup>5</sup>&nbsp;People rely on the things they have created to such a degree, so the argument goes, that our identity has become inseparable from them. In Donald Ihde&rsquo;s original conception, it amounts to &ldquo;recognition that &ldquo;consciousness&rdquo; is an abstraction, that experience in its deeper and broader sense entails its embeddedness in both the physical or material world and its cultural-social dimensions&rdquo;.<sup>6</sup>&nbsp;Knowledge, art, religion, and science are entangled, in turn, with books, oil paint, churches, and laboratories: &ldquo;thing theory&rdquo; grounds epistemology in the myriad interactions between the physical and non-physical world.<sup>7</sup></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If we apply these insights to digital infrastructure we begin to see how humanists have become entangled with complex systems, a situation that might prompt us to pause for thought. Analog books, archives, and libraries presuppose a degree of entanglement with the material world, undoubtedly, but those are relatively well understood: we have had centuries to understand and critique them. Digital infrastructure, however, is rarely &ldquo;symbolically or politically construed&rdquo;.<sup>8</sup>&nbsp;It is merely requested in an email to a manager or Information Technology (IT) helpdesk, or held to be something humanists need to do their work. Little attempt is made to define the critical ground or, much less, to understand the object of enquiry prior to investment. Rather, in denial of the epistemological significance of things, humanities infrastructure is treated as something we should merely go to the store or work with our IT department to buy. The result has been an ongoing failure to provide the kind of infrastructure needed by humanities researchers, a misalignment of the debate, and often a rejection of the very notion of digital infrastructure itself.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As Matt Ratto points out, so-called &lsquo;critical making&rsquo; provides new ways of dealing with difficult issues like this. Rather than attempting to solve complex problems in their entirety, critical making encourages the development of prototypes and basic models in the context of wider critical discourses, thus blending &ldquo;practice-based engagement with pragmatic and theoretical issues&rdquo; and fostering the possibility that creative solutions will be found to long-standing problems. He suggests the approach can be particularly useful in the context of so-called &ldquo;wicked problems&rdquo;<sup>9</sup>&nbsp;defined by architectural scholar Horst Rittel in the 1960s and 1970s.<sup>10</sup>&nbsp;This class of problem is characterized by the existence of &ldquo;many clients and decision makers with conflicting values, and where the ramifications in the whole system are thoroughly confusing&rdquo; (Rittel was interested in problems associated with large-scale planning projects).<sup>11</sup>&nbsp;Significantly, he claimed there is a <em>moral</em> element to such problems, in that it is <em>immoral</em> to solve only one component of a wicked problem when such an approach will leave the larger issue unresolved. Prototyping and critical making can thus be positioned, not as inadequate tinkering, but as a mode of activity well-suited to the resolution of very complex problems. In this way we come to the intersection of critical making, cyber-infrastructure, and the humanities.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project migrated my personal website from <em>Wordpress.org</em> (a free, fully hosted service) to a home server running on a Raspberry Pi 2 Model B minimal computer, a device built in the United Kingdom at Sony&rsquo;s manufacturing plant in Pencoed in South Wales and supported by a registered charity: the Raspberry Pi Foundation. The computer measures 85.60mm x 56mm x 21mm (or roughly 3.37&Prime; x 2.21&Prime; x 0.83&Prime;), has 1GB of Random Access Memory (RAM) and is powered by a 900MHz quad-core ARM Cortex-A7 Central Processing Unit (CPU). The VRE application is built using Django, a Python-based web framework designed for newspaper websites but now deployed in a wide variety of scenarios. The social media service <em>Pinterest</em> is one of the largest services to use it, with over 46 million unique visitors between 2011 and 2015.<sup>12</sup>&nbsp;The framework is thus highly adaptable, and could be used to develop almost any functionality a humanities researcher might need. The website is served by the Gunicorn application server and light-weight Nginx web server (used by NASA), with content saved in Postgres, one of the more advanced database systems available. All of these products are available free through the open source community. They require a reasonable level of technical proficiency to install and configure but there are many tutorials available online and their user communities share knowledge openly. It speaks to an interesting aspect of this project. Although there is a massive gap between my personal website and well-funded cyber-infrastructure projects, the nature of the open source software movement means there is only a small gap (if any) in terms of scalability and potential functionality.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the most powerful things about the project - in both technical and tactical terms - is the level of control conferred by the architecture of the &lsquo;stack&rsquo;. Not only is the Pi itself accessible and configurable, but its operating system can be changed, and Gunicorn and Nginx can be configured at both an administrative level and through their core code base. Django can be programmed to support an extremely wide range of functionality. To extend the metaphor of control towards the incomprehensibly large infrastructures used by multi-national digital corporates (to escape the criticism that the Pi is a fundamentally limited device, or a mere toy), static files like CSS style sheets and images are hosted on the Amazon Web Services (AWS) cloud, integrating the Pi with a truly enormous global data infrastructure. These could have been hosted on the Pi, but it is considered best practice to deliver them separately for Django projects. It means, essentially, that much of the &lsquo;heavy-lifting&rsquo; has been outsourced to a high performance computer, allowing almost limitless options for expansion of the site.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perhaps counter-intuitively given the dominance of &lsquo;bigger is better&rsquo; cyberinfrastructure discourse, the migration from Wordpress.org servers to a lowly Raspberry Pi has produced a personal VRE capable of significant further development. The intention is not necessarily to create a finished and reproducible product, but to take control of &ndash; and experiment with - all aspects of the computing architecture in order to gain a better understanding of my scholarly infrastructure needs, from the hardware the site runs on, to maintenance of the Internet domain name, the content management system that helps me organize content, and the firewalls that secure it from malicious actors. The conclusion after this phase of the project is that issues like ethical hardware, net neutrality, data sovereignty and security, and the ability to extend and configure the code that supports my research activities, are central to my work &ndash; and identity - as a humanities scholar.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div>&nbsp;
+<hr />
+<div id="edn1">
+<p>[1]&nbsp;Ian Hodder, &ldquo;The Entanglements of Humans and Things: A Long-Term View,&rdquo; <em>New Literary History</em> 45, no. 1 (2014): 19.</p>
+</div>
+
+<div id="edn2">
+<p>[2]&nbsp;Matthew Kirschenbaum, <em>Mechanisms: New Media and the Forensic Imagination</em> (Cambridge, MA: MIT Press, 2007).</p>
+</div>
+
+<div id="edn3">
+<p>[3] Nick Montfort and Ian Bogost, <em>Racing the Beam: The Atari Video Computer System</em> (Cambridge, MA: The MIT Press, 2009).</p>
+</div>
+
+<div id="edn4">
+<p>[4] Michael Dieter and Geert Lovink, &ldquo;Theses on Making in the Digital Age,&rdquo; in <em>Critical Making</em> (Garnet Hertz, 2014); Jentery Sayers. &ldquo;The Relevance of Remaking.&rdquo; <em>Maker Lab in the Humanities</em>, November 24, 2014.</p>
+</div>
+
+<div id="edn5">
+<p>[5] Hodder, &ldquo;The Entanglements of Humans and Things,&rdquo; 19.</p>
+</div>
+
+<div id="edn6">
+<p>[6] Ihde, Don. <em>Postphenomenology and Technoscience: The Peking University Lectures</em> (Albany: SUNY Press, 2009), 19.</p>
+</div>
+
+<div id="edn7">
+<p>[7]&nbsp;Alex Preda, &ldquo;The Turn to Things: Arguments for a Sociological Theory of Things,&rdquo; <em>The Sociological Quarterly</em> 40, no. 2 (April 1, 1999): 347&ndash;66.</p>
+</div>
+
+<div id="edn8">
+<p>[8] Karin Knorr-Cetina, &ldquo;The Couch, the Cathedral, and the Laboratory: On the Relationship between Experiment and Laboratory in Science,&rdquo; in <em>Science as Practice and Culture</em>, ed. Andrew Pickering (University of Chicago Press, 1992), 115.</p>
+</div>
+
+<div id="edn9">
+<p>[9] Ratto, Matt. &ldquo;Critical Making: Conceptual and Material Studies in Technology and Social Life.&rdquo; <em>The Information Society</em> 27, no. 4 (July 2011): 253.</p>
+</div>
+
+<div id="edn10">
+<p>[10]&nbsp;Horst W. J. Rittel and Melvin M. Webber, &ldquo;Dilemmas in a General Theory of Planning,&rdquo; <em>Policy Sciences</em> 4, no. 2 (June 1, 1973): 160.</p>
+</div>
+
+<div id="edn11">
+<p>[11] C. West Churchman, &ldquo;Guest Editorial: Wicked Problems,&rdquo; <em>Management Science</em> 14, no. 4 (December 1, 1967): B141.</p>
+</div>
+
+<div id="edn12">
+<p>[12] Statista, &ldquo;Pinterest: Unique U.S. Visitors 2015,&rdquo; <em>Statista</em>, April 2015, accessed July 11, 2015.</p>
+</div>
+</div>

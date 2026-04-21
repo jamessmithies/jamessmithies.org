@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital HASS on jamessmithies.org</title>
+    <link>http://localhost:1313/blog/categories/digital-hass/</link>
+    <description>Recent content in Digital HASS on jamessmithies.org</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 04 Dec 2025 16:17:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/categories/digital-hass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ATLAS: Enabling Open Methods and Technical Transparency in AI</title>
+      <link>http://localhost:1313/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</link>
+      <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;ATLAS: Enabling Open Methods and Technical Transparency in AI&amp;#39;, delivered on behalf of co-authors&amp;nbsp;Glen Berman, Karaitiana Taiuru, Roxanne Missingham, Barbara McGillivray, Martin Spychal, and John Moore at Digital Humanities Australasia, 04 December, 2025.&lt;/p&gt;&#xD;&#xA;&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vT5REjNlhLDNdKsSEMPuxGwsV1Pmvh5rVwsMWr0D5wRMq3QeenmhNcQf9HduDC_5g/pubembed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;480&#34; height=&#34;299&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Principles for the Operationalisation of Responsible AI in the Research and Public Sector</title>
+      <link>http://localhost:1313/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</link>
+      <pubDate>Wed, 22 Oct 2025 14:01:35 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</guid>
+      <description>&lt;p&gt;Slides of my talk (delivered on behalf of co-authors Glen Berman and Karaitiana Taiuru), &amp;#39;Principles for the Operationalisation of Responsible AI in the Research and Public Sector&amp;#39; delivered at eResearch Australasia 2025, Brisbane, 22 October 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRBq2AMhAnqfVAgM4K1M1TkfPy7MFO11E9HIqiuT5v1WKSwAascgGU2NRi0nnNnDA/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Capability in RSE for the Humanities and Social Sciences (HASS)</title>
+      <link>http://localhost:1313/blog/2025/09/16/building-capability-in-rse-for-the-humanities-and-social-sciences-hass/</link>
+      <pubDate>Tue, 16 Sep 2025 10:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/09/16/building-capability-in-rse-for-the-humanities-and-social-sciences-hass/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;Building Capability in RSE for the Humanities and Social Sciences (HASS)&amp;#39; at RSAA25, with PT Sefton and Nick Jenkins.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vR66MHzdikTI2vju2Y_cyOQisFrP7OzjckJptEA4lFDgjjmAq536VUBCqc2mAqEk_K7Ji71hwBYc-qi/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research</title>
+      <link>http://localhost:1313/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</link>
+      <pubDate>Wed, 30 Jul 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</guid>
+      <description>&lt;p&gt;Video and slides for my talk &amp;#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&amp;#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pM7IxOVBnuc?si=rhs1_OGKtlR3qEDA&#34; title=&#34;YouTube video player&#34; width=&#34;560&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRaxeKT5OakcOI44iinGogSlXLjPzjGRCf_Fi5PX9Bs3tvP3xWN2kqB7gqfzQ19Jg/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antipodal Experiments Digital Humanities &amp; Social Science in Australasia</title>
+      <link>http://localhost:1313/blog/2025/05/19/antipodal-experiments-digital-humanities-social-science-in-australasia/</link>
+      <pubDate>Mon, 19 May 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/05/19/antipodal-experiments-digital-humanities-social-science-in-australasia/</guid>
+      <description>&lt;p&gt;Slides of my talk&amp;nbsp;&amp;#39;Antipodal Experiments Digital Humanities &amp;amp; Social Science in Australasia&amp;rsquo;. D-Lab Berkeley, UC Berkeley, 19 May, 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQw_xcGBNx1TBbabhidnk1iB530dwH7HQk4BJ9fMwZgNbrk7PitDs0hWGUZx8w2DQ/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Australasian Research Software Engineering</title>
+      <link>http://localhost:1313/blog/2024/08/01/australasian-research-software-engineering/</link>
+      <pubDate>Thu, 01 Aug 2024 06:12:49 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024/08/01/australasian-research-software-engineering/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;Australasian Research Software Engineering: From HASS Research Services to Infrastructural Milieux&amp;#39;, presented at the Australasian Association of Digital Humanities (aaDH) seminar series, August 01, 2024.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRCNb-c2ezaJ178krgmGY7RlXX5-RoAO_z7aNpNvA3NksvAVQOWQ5u5BIVmbb_gTw/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on jamessmithies.org</title>
+    <link>http://localhost:1313/blog/categories/</link>
+    <description>Recent content in Categories on jamessmithies.org</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 04 Dec 2025 16:17:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital HASS</title>
+      <link>http://localhost:1313/blog/categories/digital-hass/</link>
+      <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/digital-hass/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Humanities</title>
+      <link>http://localhost:1313/blog/categories/digital-humanities/</link>
+      <pubDate>Thu, 20 Nov 2025 16:12:17 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/digital-humanities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Software Engineering</title>
+      <link>http://localhost:1313/blog/categories/research-software-engineering/</link>
+      <pubDate>Tue, 16 Sep 2025 10:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/research-software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>http://localhost:1313/blog/categories/history/</link>
+      <pubDate>Fri, 01 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Cultural Heritage</title>
+      <link>http://localhost:1313/blog/categories/digital-cultural-heritage/</link>
+      <pubDate>Wed, 30 Jul 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/digital-cultural-heritage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital History</title>
+      <link>http://localhost:1313/blog/categories/digital-history/</link>
+      <pubDate>Wed, 30 Jul 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/categories/digital-history/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

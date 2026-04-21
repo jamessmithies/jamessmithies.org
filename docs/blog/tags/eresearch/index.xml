@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eResearch on jamessmithies.org</title>
+    <link>http://localhost:1313/blog/tags/eresearch/</link>
+    <description>Recent content in eResearch on jamessmithies.org</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 01 Aug 2024 06:12:49 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/eresearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Australasian Research Software Engineering</title>
+      <link>http://localhost:1313/blog/2024/08/01/australasian-research-software-engineering/</link>
+      <pubDate>Thu, 01 Aug 2024 06:12:49 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024/08/01/australasian-research-software-engineering/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;Australasian Research Software Engineering: From HASS Research Services to Infrastructural Milieux&amp;#39;, presented at the Australasian Association of Digital Humanities (aaDH) seminar series, August 01, 2024.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRCNb-c2ezaJ178krgmGY7RlXX5-RoAO_z7aNpNvA3NksvAVQOWQ5u5BIVmbb_gTw/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HASS Research Software Engineering (RSE) in the UK</title>
+      <link>http://localhost:1313/blog/2023/08/23/hass-research-software-engineering-rse-in-the-uk/</link>
+      <pubDate>Wed, 23 Aug 2023 15:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2023/08/23/hass-research-software-engineering-rse-in-the-uk/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;HASS Research Software Engineering (RSE) in the UK&amp;#39;, a contribution to the &amp;#39;Bridging the Digital Divide in HASS Panel&amp;#39; held at the University of Melbourne, August 23, 2023.&lt;/p&gt;&#xD;&#xA;&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS-6Wk0anaacE1niB8WRGpZlN6OK_vJcvA3G_xD8jg881cm5HNgxaO_6X9xb49uFQ/embed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;640&#34; height=&#34;389&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Research Software Engineering in Jordan: The MaDiH (مديح) Project</title>
+      <link>http://localhost:1313/blog/2019/09/11/research-software-engineering-jordan-madih-mdyh-project/</link>
+      <pubDate>Wed, 11 Sep 2019 18:31:58 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2019/09/11/research-software-engineering-jordan-madih-mdyh-project/</guid>
+      <description>&lt;p&gt;Slides of &amp;#39;Research Software Engineering in Jordan: The MaDiH (مديح) Project&amp;#39;, delivered at RSE2019, 18 September, 2019.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;389&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSMSTThC4nyPHoTJTeHedEvQd6XVzcH5GX5UjJdXWVcFBkTEhe5bdIuXicwk-fi-g/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;640&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Software Careers: Establishing Local, National &amp; International Pathways</title>
+      <link>http://localhost:1313/blog/2018/10/18/research-software-careers-establishing-local-national-international-pathways/</link>
+      <pubDate>Thu, 18 Oct 2018 21:09:22 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018/10/18/research-software-careers-establishing-local-national-international-pathways/</guid>
+      <description>&lt;p&gt;Slides for my talk &amp;#39;Research Software Careers: Establishing Local, National &amp;amp; International Pathways&amp;#39;, at the launch of &lt;a href=&#34;https://rslondon.ac.uk/&#34; target=&#34;_blank&#34;&gt;Research Software London&lt;/a&gt;, Imperial College London, October 18, 2018.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;329&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTvmcubY2TY_03xHrv8uXDnj0MYpa2Z4yX9IEBdbAIB6FHWmzm1Het0PtPiu3ShIyDFBjkfNtGPRVOh/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knowledge Machines: Digital Transformations of the Sciences and Humanities</title>
+      <link>http://localhost:1313/blog/2016/02/19/knowledge-machines-digital-transformations-sciences-and-humanities/</link>
+      <pubDate>Fri, 19 Feb 2016 19:01:32 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2016/02/19/knowledge-machines-digital-transformations-sciences-and-humanities/</guid>
+      <description>&lt;p&gt;This panel discussion of Eric T. Meyer and Ralph Schroeder&amp;#39;s &lt;a href=&#34;https://mitpress.mit.edu/books/knowledge-machines&#34; target=&#34;_blank&#34;&gt;Knowledge Machines: Digital Transformations of the Sciences and Humanities&lt;/a&gt; (M.I.T. Press, 2015), occured on January 27th, 2016 at the University of Oxford. It was part of the &lt;a href=&#34;http://www.torch.ox.ac.uk/book-lunchtime-0&#34; target=&#34;_blank&#34;&gt;TORCH Books at Lunchtime Series&lt;/a&gt;, and associated with the &lt;a href=&#34;http://www.oii.ox.ac.uk/&#34; target=&#34;_blank&#34;&gt;Oxford Internet Institute&lt;/a&gt;. Sincere thanks to Eric Meyer and Kathryn Eccles for their kind invitation, and Lucie Burgess and audience for a rewarding experience.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;From the Oxford Internet Institute&amp;#39;s YouTube site: &amp;quot;Professor Eric T. Meyer (Senior Research Fellow, Oxford Internet Institute, University of Oxford) discusses his book Knowledge Machines: Digital Transformations of the Sciences and Humanities with Lucie Burgess (Associate Director for Digital Libraries, Bodleian Libraries, University of Oxford), Dr Kathryn Eccles (Research Fellow, Oxford Internet Institute, University of Oxford) and Dr James Smithies (Director of King&amp;#39;s Digital Lab and Module Convenor for Internships in the Department of Digital Humanities, Kings College London).&amp;quot;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Requirements for a New Zealand Humanities eResearch Infrastructure</title>
+      <link>http://localhost:1313/blog/2013/07/03/requirements-for-a-new-zealand-humanities-eresearch-infrastructure/</link>
+      <pubDate>Wed, 03 Jul 2013 02:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2013/07/03/requirements-for-a-new-zealand-humanities-eresearch-infrastructure/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is the text of a talk given at eResearch 2013, University of Canterbury, New Zealand, July 03, 2013.&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;I can only offer a very formative overview of this subject here, but I&amp;rsquo;m keen to at least put it on the radar. As everyone knows, vast amounts of our cultural heritage are either being digitized and put online or being born online, and this has significant implications for the arts and humanities. In particular, it forces us to start increasing our understanding of, and capability with, the engineered technologies that deliver resources to us online. It will always be difficult getting the balance right &amp;ndash; we&amp;rsquo;re never going to be engineers &amp;ndash; but we need to start working through the issues. In this talk I&amp;rsquo;ll give you a quick overview of the international context, try to convey something about what eResearch in the Humanities actually is, describe where we&amp;rsquo;re at nationally, and suggest some very formative requirements that might help us work out what direction we need to go in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build a national digital humanities infrastructure</title>
+      <link>http://localhost:1313/blog/2010/08/02/how-to-build-a-national-digital-humanities-infrastructure/</link>
+      <pubDate>Mon, 02 Aug 2010 07:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2010/08/02/how-to-build-a-national-digital-humanities-infrastructure/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.dariah.eu/index.php&#34; target=&#34;_blank&#34;&gt;DARIAH&lt;/a&gt; has published the results of a survey into the state of the digital humanities in Greece that should interest New Zealand humanists. Greece is at an early stage of development and work is being done to identify present and future requirements. The report can be read &lt;a href=&#34;http://www.dariah.eu/index.php?option=com_content&amp;amp;view=article&amp;amp;id=123:dariah-publishes-case-study-of-digital-humanities-in-greece&amp;amp;catid=3:dariah&amp;amp;Itemid=19&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It may interest more traditional researchers to learn how digital humanities infrastructures are being built around the world; simply put, it isn&amp;rsquo;t as organic as it was in the &amp;lsquo;early days&amp;rsquo;, when communities of like-minded researchers found each other and worked to gain critical mass. While this still provides an essential foundation for future development, these days the sheer scale of the undertaking (building robust virtual research environments, shared publishing platforms and associated infrastructure) means that a&amp;nbsp;nationally&amp;nbsp;coherent top-down approach is required, often involving&amp;nbsp;digital humanities collectives that draw on expertise from national&amp;nbsp;universities, libraries, central government agencies and industry. I&amp;rsquo;m particularly interested in the approach that is being taken by smaller countries like Greece. Countries like ours need to identify and then leverage our collective capabilities, to avoid excessive&amp;nbsp;competition&amp;nbsp;for scarce resources. The thing to remember is that we&amp;rsquo;re talking about engineered solutions and governance of those solutions,&amp;nbsp;which&amp;nbsp;is a major undertaking: we need to think about design, implementation, funding and&amp;nbsp;maintenance. When the time comes, the way to start will be to sit down and identify requirements, like they&amp;rsquo;ve done in Greece. I wonder what a New Zealand survey would produce for the following question?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

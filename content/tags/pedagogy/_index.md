@@ -1,0 +1,4 @@
+---
+title: "Pedagogy"
+slug: "pedagogy"
+---
