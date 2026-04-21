@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial Intelligence on jamessmithies.org</title>
-    <link>http://localhost:1313/blog/tags/artificial-intelligence/</link>
+    <link>https://www.jamessmithies.org/blog/tags/artificial-intelligence/</link>
     <description>Recent content in Artificial Intelligence on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 04 Dec 2025 16:17:45 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jamessmithies.org/blog/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ATLAS: Enabling Open Methods and Technical Transparency in AI</title>
-      <link>http://localhost:1313/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</link>
+      <link>https://www.jamessmithies.org/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</link>
       <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</guid>
+      <guid>https://www.jamessmithies.org/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</guid>
       <description>&lt;p&gt;Slides of my talk &amp;#39;ATLAS: Enabling Open Methods and Technical Transparency in AI&amp;#39;, delivered on behalf of co-authors&amp;nbsp;Glen Berman, Karaitiana Taiuru, Roxanne Missingham, Barbara McGillivray, Martin Spychal, and John Moore at Digital Humanities Australasia, 04 December, 2025.&lt;/p&gt;&#xD;&#xA;&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vT5REjNlhLDNdKsSEMPuxGwsV1Pmvh5rVwsMWr0D5wRMq3QeenmhNcQf9HduDC_5g/pubembed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;480&#34; height=&#34;299&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project</title>
-      <link>http://localhost:1313/blog/2025/11/20/evaluating-ai-an-overview-of-the-ai-as-infrastructure-aiinfra-project/</link>
+      <link>https://www.jamessmithies.org/blog/2025/11/20/evaluating-ai-an-overview-of-the-ai-as-infrastructure-aiinfra-project/</link>
       <pubDate>Thu, 20 Nov 2025 16:12:17 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/11/20/evaluating-ai-an-overview-of-the-ai-as-infrastructure-aiinfra-project/</guid>
+      <guid>https://www.jamessmithies.org/blog/2025/11/20/evaluating-ai-an-overview-of-the-ai-as-infrastructure-aiinfra-project/</guid>
       <description>&lt;p&gt;Slides of my talk &amp;#39;Evaluating AI: An Overview of the AI as Infrastructure (AIINFRA) Project&amp;#39; delivered on behalf of my co-author Glen Berman at the AI Meets Humanities: NTU-ANU-KCL Workshop, Nanyang Technological University, Singapore, 20 November, 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS3ElUxpTRncviascP5wIDs_E7aAnW_9T9qWh8zQAGsylkCwPPIKoUaFtPLi_uL7g/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Principles for the Operationalisation of Responsible AI in the Research and Public Sector</title>
-      <link>http://localhost:1313/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</link>
+      <link>https://www.jamessmithies.org/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</link>
       <pubDate>Wed, 22 Oct 2025 14:01:35 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</guid>
+      <guid>https://www.jamessmithies.org/blog/2025/10/22/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/</guid>
       <description>&lt;p&gt;Slides of my talk (delivered on behalf of co-authors Glen Berman and Karaitiana Taiuru), &amp;#39;Principles for the Operationalisation of Responsible AI in the Research and Public Sector&amp;#39; delivered at eResearch Australasia 2025, Brisbane, 22 October 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRBq2AMhAnqfVAgM4K1M1TkfPy7MFO11E9HIqiuT5v1WKSwAascgGU2NRi0nnNnDA/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research</title>
-      <link>http://localhost:1313/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</link>
+      <link>https://www.jamessmithies.org/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</link>
       <pubDate>Wed, 30 Jul 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</guid>
+      <guid>https://www.jamessmithies.org/blog/2025/07/30/the-atlas-test-harness-evaluating-llm-rag-systems-for-humanities-research/</guid>
       <description>&lt;p&gt;Video and slides for my talk &amp;#39;The ATLAS Test Harness: Evaluating LLM-RAG Systems for Humanities Research&amp;#39;, presented at the Melbourne Data Analytics Platform (MDAP), University of Melbourne, 30 July 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pM7IxOVBnuc?si=rhs1_OGKtlR3qEDA&#34; title=&#34;YouTube video player&#34; width=&#34;560&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRaxeKT5OakcOI44iinGogSlXLjPzjGRCf_Fi5PX9Bs3tvP3xWN2kqB7gqfzQ19Jg/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Harnessing AI: Evaluating LLM-RAG Systems for Humanities Research</title>
-      <link>http://localhost:1313/blog/2025/05/22/harnessing-ai-evaluating-llm-rag-systems-for-humanities-research/</link>
+      <link>https://www.jamessmithies.org/blog/2025/05/22/harnessing-ai-evaluating-llm-rag-systems-for-humanities-research/</link>
       <pubDate>Thu, 22 May 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2025/05/22/harnessing-ai-evaluating-llm-rag-systems-for-humanities-research/</guid>
+      <guid>https://www.jamessmithies.org/blog/2025/05/22/harnessing-ai-evaluating-llm-rag-systems-for-humanities-research/</guid>
       <description>&lt;p&gt;Slides of my talk&amp;nbsp;&amp;#39;Harnessing AI: Evaluating LLM-RAG Systems for Humanities Research&amp;#39;. UC Santa Barbara Transcriptions Centre, 22 May, 2025.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;299&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRDZuNNbznxy1S63Bsr5kcWTpwFID1JVmHII68rniEcg-YWfeUjV5H0dei1_rvFIQ/pubembed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
     </item>
   </channel>

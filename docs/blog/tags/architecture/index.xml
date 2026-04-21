@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on jamessmithies.org</title>
-    <link>http://localhost:1313/blog/tags/architecture/</link>
+    <link>https://www.jamessmithies.org/blog/tags/architecture/</link>
     <description>Recent content in Architecture on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 25 May 2021 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jamessmithies.org/blog/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture and Research Software Engineering (Podcast)</title>
-      <link>http://localhost:1313/blog/2021/05/25/architecture-and-research-software-engineering-podcast/</link>
+      <link>https://www.jamessmithies.org/blog/2021/05/25/architecture-and-research-software-engineering-podcast/</link>
       <pubDate>Tue, 25 May 2021 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2021/05/25/architecture-and-research-software-engineering-podcast/</guid>
+      <guid>https://www.jamessmithies.org/blog/2021/05/25/architecture-and-research-software-engineering-podcast/</guid>
       <description>&lt;p&gt;Contribution to a &lt;a href=&#34;https://podcastindex.org/podcast/1370689&#34; target=&#34;_blank&#34;&gt;Code for Thought&lt;/a&gt; podcast, hosted by Peter Schmidt (UCL) and with Steve Crouch from the Software Sustainability Institute/Southampton (UK) and Keith Gutfreund from Elsevier, Boston (USA).&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;https://episodes.buzzsprout.com/smk0ij80n4x88amdkcsmypgcorw5?&#34; target=&#34;_blank&#34;&gt;Click here for the podcast (30:47)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distant Reading on jamessmithies.org</title>
-    <link>http://localhost:1313/blog/tags/distant-reading/</link>
+    <link>https://www.jamessmithies.org/blog/tags/distant-reading/</link>
     <description>Recent content in Distant Reading on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 25 Feb 2019 20:25:31 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/distant-reading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jamessmithies.org/blog/tags/distant-reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital History and the Digital Modern</title>
-      <link>http://localhost:1313/blog/2019/02/25/digital-history-and-digital-modern/</link>
+      <link>https://www.jamessmithies.org/blog/2019/02/25/digital-history-and-digital-modern/</link>
       <pubDate>Mon, 25 Feb 2019 20:25:31 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/02/25/digital-history-and-digital-modern/</guid>
+      <guid>https://www.jamessmithies.org/blog/2019/02/25/digital-history-and-digital-modern/</guid>
       <description>&lt;p style=&#34;text-align:center&#34;&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;389&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRhXJ5mmjhAafkSeM7wMhqJwlU2irRxelusRmRHOaVIWEocVV_9k3gaJuP-KQEwov7uS2tv2CbSXqyr/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;640&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h1 style=&#34;text-align:center&#34;&gt;&lt;span style=&#34;font-size:16pt&#34;&gt;&lt;span style=&#34;font-family:&amp;quot;Calibri Light&amp;quot;,serif&#34;&gt;&lt;span style=&#34;color:#2f5496&#34;&gt;&lt;span style=&#34;color:#000000&#34;&gt;Digital History and the Digital Modern&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p style=&#34;text-align:center&#34;&gt;Center for Digital History Aarhus (CEDHAR) Launch Keynote&lt;/p&gt;&#xD;&#xA;&lt;p style=&#34;text-align:center&#34;&gt;22 February, 2019&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;span style=&#34;color:#e74c3c&#34;&gt;&lt;em&gt;This talk was an early attempt to explore ideas that I&amp;#39;ve been pondering for some time. I&amp;#39;m conscious some areas need work. My intention is to expand it to include work by R. G. Collingwood and other writers, along with a brief history of digital history, and to provide more precision when discussing probabilistic methods.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Old Bailey Online research in New Zealand, and a full data source</title>
-      <link>http://localhost:1313/blog/2016/03/22/old-bailey-online-research-new-zealand-and-full-data-source/</link>
+      <link>https://www.jamessmithies.org/blog/2016/03/22/old-bailey-online-research-new-zealand-and-full-data-source/</link>
       <pubDate>Tue, 22 Mar 2016 09:38:02 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2016/03/22/old-bailey-online-research-new-zealand-and-full-data-source/</guid>
+      <guid>https://www.jamessmithies.org/blog/2016/03/22/old-bailey-online-research-new-zealand-and-full-data-source/</guid>
       <description>&lt;p&gt;During 2015 I was privileged to co-supervise Jasper Mackenzie&amp;rsquo;s MSc in Computational Mathematics and Statistics at the University of Canterbury, New Zealand. Raazesh Sainudiin&amp;nbsp;was lead supervisor, and Heather Wolffram from the History department co-supervised with me. Jasper led the development of a technical report in addition to his thesis, titled &amp;lsquo;&lt;a href=&#34;http://www.math.canterbury.ac.nz/~r.sainudiin/preprints/20150828_civilizingProcOBO.pdf&#34; target=&#34;_blank&#34;&gt;A nonparametric view of the civilizing process in London&amp;rsquo;s Old Bailey&lt;/a&gt;&amp;rsquo;. The goal of the research was to analyse the Old Bailey Online dataset using standard methods in computational statistics &amp;ndash; seeking robust empirically valid conclusions &amp;ndash; but to do so using tools that would align well to the values and needs of the digital humanities community. This blend is difficult to achieve, and a lot of work remains to be done: the very fact the project included two mathematicians, a historian, and a digital humanist attests to that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduce data mining to your History course in 2 minutes</title>
-      <link>http://localhost:1313/blog/2014/02/22/introduce-data-mining-to-your-history-course-in-2-minutes/</link>
+      <link>https://www.jamessmithies.org/blog/2014/02/22/introduce-data-mining-to-your-history-course-in-2-minutes/</link>
       <pubDate>Sat, 22 Feb 2014 01:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2014/02/22/introduce-data-mining-to-your-history-course-in-2-minutes/</guid>
+      <guid>https://www.jamessmithies.org/blog/2014/02/22/introduce-data-mining-to-your-history-course-in-2-minutes/</guid>
       <description>&lt;h4&gt;Background&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.mashape.com/&#34;&gt;https://www.mashape.com/&lt;/a&gt;&amp;nbsp;offers Application Programming Interfaces (APIs) that perform common text analysis tasks, including the one we&amp;rsquo;ll use for this tutorial:&amp;nbsp;&lt;a href=&#34;http://en.wikipedia.org/wiki/Named-entity_recognition&#34;&gt;Named Entity Recognition&lt;/a&gt;&amp;nbsp;(NER). Text analysis is a good way to introduce students to data mining. You can use text documents, or a URL.&lt;/p&gt;&#xD;&#xA;&lt;h4&gt;Purpose&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;To introduce non-technical historians and students to data mining. The idea is to present students with a purposefully naive example of data mining, working on the assumption it&amp;rsquo;ll prompt them to critically engage with data mining as a method. The questions they explore are in many ways more important than the results you present them with.&lt;/p&gt;</description>
     </item>
   </channel>

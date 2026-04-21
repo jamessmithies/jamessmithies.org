@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jamessmithies.org</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://www.jamessmithies.org/blog/tags/</link>
     <description>Recent content in Tags on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 04 Dec 2025 16:17:45 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jamessmithies.org/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence</title>
-      <link>http://localhost:1313/blog/tags/artificial-intelligence/</link>
+      <link>https://www.jamessmithies.org/blog/tags/artificial-intelligence/</link>
       <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/artificial-intelligence/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference Papers, Talks &amp; Seminars</title>
-      <link>http://localhost:1313/blog/tags/conference-papers-talks-seminars/</link>
+      <link>https://www.jamessmithies.org/blog/tags/conference-papers-talks-seminars/</link>
       <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/conference-papers-talks-seminars/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/conference-papers-talks-seminars/</guid>
       <description></description>
     </item>
     <item>
       <title>Theory</title>
-      <link>http://localhost:1313/blog/tags/theory/</link>
+      <link>https://www.jamessmithies.org/blog/tags/theory/</link>
       <pubDate>Fri, 01 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/theory/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/theory/</guid>
       <description></description>
     </item>
     <item>
       <title>eResearch</title>
-      <link>http://localhost:1313/blog/tags/eresearch/</link>
+      <link>https://www.jamessmithies.org/blog/tags/eresearch/</link>
       <pubDate>Thu, 01 Aug 2024 06:12:49 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/eresearch/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/eresearch/</guid>
       <description></description>
     </item>
     <item>
       <title>Postcolonialism</title>
-      <link>http://localhost:1313/blog/tags/postcolonialism/</link>
+      <link>https://www.jamessmithies.org/blog/tags/postcolonialism/</link>
       <pubDate>Wed, 23 Aug 2023 17:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/postcolonialism/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/postcolonialism/</guid>
       <description></description>
     </item>
     <item>
       <title>HR &amp; Careers</title>
-      <link>http://localhost:1313/blog/tags/hr-careers/</link>
+      <link>https://www.jamessmithies.org/blog/tags/hr-careers/</link>
       <pubDate>Wed, 23 Aug 2023 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hr-careers/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/hr-careers/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>http://localhost:1313/blog/tags/architecture/</link>
+      <link>https://www.jamessmithies.org/blog/tags/architecture/</link>
       <pubDate>Tue, 25 May 2021 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/architecture/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>http://localhost:1313/blog/tags/infrastructure/</link>
+      <link>https://www.jamessmithies.org/blog/tags/infrastructure/</link>
       <pubDate>Tue, 25 May 2021 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/infrastructure/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Archiving &amp; Preservation</title>
-      <link>http://localhost:1313/blog/tags/archiving-preservation/</link>
+      <link>https://www.jamessmithies.org/blog/tags/archiving-preservation/</link>
       <pubDate>Thu, 22 Oct 2020 18:38:54 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/archiving-preservation/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/archiving-preservation/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital GLAM</title>
-      <link>http://localhost:1313/blog/tags/digital-glam/</link>
+      <link>https://www.jamessmithies.org/blog/tags/digital-glam/</link>
       <pubDate>Tue, 02 Apr 2019 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/digital-glam/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/digital-glam/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Mining</title>
-      <link>http://localhost:1313/blog/tags/data-mining/</link>
+      <link>https://www.jamessmithies.org/blog/tags/data-mining/</link>
       <pubDate>Mon, 25 Feb 2019 20:25:31 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/data-mining/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/data-mining/</guid>
       <description></description>
     </item>
     <item>
       <title>Distant Reading</title>
-      <link>http://localhost:1313/blog/tags/distant-reading/</link>
+      <link>https://www.jamessmithies.org/blog/tags/distant-reading/</link>
       <pubDate>Mon, 25 Feb 2019 20:25:31 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/distant-reading/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/distant-reading/</guid>
       <description></description>
     </item>
     <item>
       <title>Standards &amp; Evaluation</title>
-      <link>http://localhost:1313/blog/tags/standards-evaluation/</link>
+      <link>https://www.jamessmithies.org/blog/tags/standards-evaluation/</link>
       <pubDate>Sat, 07 Sep 2013 08:20:49 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/standards-evaluation/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/standards-evaluation/</guid>
       <description></description>
     </item>
     <item>
       <title>Pedagogy</title>
-      <link>http://localhost:1313/blog/tags/pedagogy/</link>
+      <link>https://www.jamessmithies.org/blog/tags/pedagogy/</link>
       <pubDate>Thu, 16 Aug 2012 04:32:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/pedagogy/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/pedagogy/</guid>
       <description></description>
     </item>
     <item>
       <title>Archiving &amp; Preservation</title>
-      <link>http://localhost:1313/blog/tags/archiving-preservation/</link>
+      <link>https://www.jamessmithies.org/blog/tags/archiving-preservation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/archiving-preservation/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/archiving-preservation/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference Papers, Talks &amp; Seminars</title>
-      <link>http://localhost:1313/blog/tags/conference-papers-talks-seminars/</link>
+      <link>https://www.jamessmithies.org/blog/tags/conference-papers-talks-seminars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/conference-papers-talks-seminars/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/conference-papers-talks-seminars/</guid>
       <description></description>
     </item>
     <item>
       <title>GIS</title>
-      <link>http://localhost:1313/blog/tags/gis/</link>
+      <link>https://www.jamessmithies.org/blog/tags/gis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/gis/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/gis/</guid>
       <description></description>
     </item>
     <item>
       <title>HR &amp; Careers</title>
-      <link>http://localhost:1313/blog/tags/hr-careers/</link>
+      <link>https://www.jamessmithies.org/blog/tags/hr-careers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hr-careers/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/hr-careers/</guid>
       <description></description>
     </item>
     <item>
       <title>Standards &amp; Evaluation</title>
-      <link>http://localhost:1313/blog/tags/standards-evaluation/</link>
+      <link>https://www.jamessmithies.org/blog/tags/standards-evaluation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/standards-evaluation/</guid>
+      <guid>https://www.jamessmithies.org/blog/tags/standards-evaluation/</guid>
       <description></description>
     </item>
   </channel>
