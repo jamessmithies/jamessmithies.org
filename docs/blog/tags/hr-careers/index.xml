@@ -6,6 +6,70 @@
     <description>Recent content in HR &amp; Careers on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <lastBuildDate>Wed, 23 Aug 2023 15:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.jamessmithies.org/blog/tags/hr-careers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HASS Research Software Engineering (RSE) in the UK</title>
+      <link>https://www.jamessmithies.org/blog/2023/08/23/hass-research-software-engineering-rse-in-the-uk/</link>
+      <pubDate>Wed, 23 Aug 2023 15:00:00 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2023/08/23/hass-research-software-engineering-rse-in-the-uk/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;HASS Research Software Engineering (RSE) in the UK&amp;#39;, a contribution to the &amp;#39;Bridging the Digital Divide in HASS Panel&amp;#39; held at the University of Melbourne, August 23, 2023.&lt;/p&gt;&#xD;&#xA;&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS-6Wk0anaacE1niB8WRGpZlN6OK_vJcvA3G_xD8jg881cm5HNgxaO_6X9xb49uFQ/embed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;640&#34; height=&#34;389&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities</title>
+      <link>https://www.jamessmithies.org/blog/2022/09/22/the-phenomenology-of-technical-knowledge-research-software-engineering-product-development-and-digital-humanities/</link>
+      <pubDate>Thu, 22 Sep 2022 15:00:00 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2022/09/22/the-phenomenology-of-technical-knowledge-research-software-engineering-product-development-and-digital-humanities/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;The Phenomenology of Technical Knowledge: Research Software Engineering, Product Development, and Digital Humanities&amp;#39; presented via Zoom at the&amp;nbsp;Bridges (Bridges between disciplines: Gender in STEM and Social Sciences) Conference, September 16th 2022.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;389&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRhifxCOvKpxzrdqi0U9SFtzvQMFNKOPYkiPQxkQxbmF8DOt_LuWIHyfYjqVTYm8Q/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;640&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Announcing my departure from KDL: New starts, new possibilities</title>
+      <link>https://www.jamessmithies.org/blog/2021/09/06/announcing-my-departure-kdl/</link>
+      <pubDate>Mon, 06 Sep 2021 16:30:00 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2021/09/06/announcing-my-departure-kdl/</guid>
+      <description>&lt;p&gt;Cross-posted from &lt;a href=&#34;https://kdl.kcl.ac.uk/blog/smithies-departure/&#34;&gt;https://kdl.kcl.ac.uk/blog/smithies-departure/&lt;/a&gt;.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;I&amp;rsquo;ll be leaving King&amp;rsquo;s Digital Lab (KDL) this month, after 6 wonderful years, for a new role as Professor of Digital Humanities in King&amp;rsquo;s Department of Digital Humanities (DDH). Although merely a move over to the other half of Digital Humanities at King&amp;rsquo;s, and a return to a department I used to hold a fractional appointment in, it represents a significant milestone in my career. I&amp;rsquo;m grateful to the many people who have supported me to this point, in New Zealand, Australia, Jordan, and the United States, as well as the UK.&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>King’s Digital Lab as Experiment  and Lifecycle</title>
+      <link>https://www.jamessmithies.org/blog/2020/09/29/kings-digital-lab-as-experiment-and-lifecycle/</link>
+      <pubDate>Tue, 29 Sep 2020 14:39:45 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2020/09/29/kings-digital-lab-as-experiment-and-lifecycle/</guid>
+      <description>&lt;p&gt;This &lt;a href=&#34;https://sorse.github.io/&#34; target=&#34;_blank&#34;&gt;SORSE&lt;/a&gt;&amp;nbsp;talk, delivered with KDL Deputy Director Arianna Ciula,&amp;nbsp;describes King&amp;rsquo;s Digital Lab (KDL), a Research Software Engineering lab operating within the Faculty of Arts and Humanities at King&amp;rsquo;s College London (UK).&amp;nbsp; The KDL team of 18 project managers, analysts, designers, engineers, and systems managers specialise in arts &amp;amp; humanities, cultural heritage, and creative industries research and development. The talk provides a current state overview of the lab, and describes our RSE HR roles (see &lt;a href=&#34;https://zenodo.org/record/2564790&#34; target=&#34;_blank&#34;&gt;https://zenodo.org/record/2564790&lt;/a&gt;) and a relatively recent trial initiative that defines the different ways the team can contribute to research. A more technically-oriented overview of our ongoing work in refining the fundamental components of KDL Software Development Lifecycle (see https://github.com/kingsdigitallab/sdlc-for-rse/) is also&amp;nbsp;provided, including descriptions of our modelling workflows, processes, and efforts to increase sustainability, reproducibility, and research data management best practice (&lt;a href=&#34;https://zenodo.org/record/3361580#.X09x6mdKhhE&#34; target=&#34;_blank&#34;&gt;https://zenodo.org/record/3361580#.X09x6mdKhhE&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>King’s Digital Lab Research Software Engineering Career Paths</title>
+      <link>https://www.jamessmithies.org/blog/2019/09/18/kings-digital-lab-research-software-engineering-career-paths/</link>
+      <pubDate>Wed, 18 Sep 2019 19:36:37 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2019/09/18/kings-digital-lab-research-software-engineering-career-paths/</guid>
+      <description>&lt;p&gt;The slides of my talk &amp;#39;King&amp;rsquo;s Digital Lab Research Software Engineering Career Paths&amp;#39;, presented at the Russell Universities Group IT Directors Forum (RUGIT), 19 September 2019. See also&amp;nbsp;Smithies, James. &amp;lsquo;Research Software (RS) Careers: Generic Learnings from King&amp;rsquo;s Digital Lab, King&amp;rsquo;s College London&amp;rsquo;. &lt;em&gt;Zenodo&lt;/em&gt;, 7 February 2019. &lt;a href=&#34;https://doi.org/10.5281/zenodo.2564790&#34;&gt;https://doi.org/10.5281/zenodo.2564790&lt;/a&gt;.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;329&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSoPSt7rPfstkpHnzrJom2tbCgZ0mccdBCIt2qSygejvcRmtu1RiGRYRef7m4OqRg/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Software Engineering in Jordan: The MaDiH (مديح) Project</title>
+      <link>https://www.jamessmithies.org/blog/2019/09/11/research-software-engineering-jordan-madih-mdyh-project/</link>
+      <pubDate>Wed, 11 Sep 2019 18:31:58 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2019/09/11/research-software-engineering-jordan-madih-mdyh-project/</guid>
+      <description>&lt;p&gt;Slides of &amp;#39;Research Software Engineering in Jordan: The MaDiH (مديح) Project&amp;#39;, delivered at RSE2019, 18 September, 2019.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;389&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSMSTThC4nyPHoTJTeHedEvQd6XVzcH5GX5UjJdXWVcFBkTEhe5bdIuXicwk-fi-g/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;640&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Innovation at the Intersection: Using STS to enable University – Technology Sector Collaboration</title>
+      <link>https://www.jamessmithies.org/blog/2019/09/11/innovation-intersection-using-sts-enable-university-technology-sector-collaboration/</link>
+      <pubDate>Wed, 11 Sep 2019 18:23:05 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2019/09/11/innovation-intersection-using-sts-enable-university-technology-sector-collaboration/</guid>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;Innovation at the Intersection: Using STS to enable University &amp;ndash; Technology Sector Collaboration&amp;#39;, delivered at the 4S Society for the Social Studies of Science conference, New Orleans, 04 September 2019.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;329&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTA9mzE5lw17yeChMYs9V8FZEKD9jzZc0fBMOyq-QSj0lfG7YUwKMdjl3OWSZjRKA/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Software Careers: Establishing Local, National &amp; International Pathways</title>
+      <link>https://www.jamessmithies.org/blog/2018/10/18/research-software-careers-establishing-local-national-international-pathways/</link>
+      <pubDate>Thu, 18 Oct 2018 21:09:22 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2018/10/18/research-software-careers-establishing-local-national-international-pathways/</guid>
+      <description>&lt;p&gt;Slides for my talk &amp;#39;Research Software Careers: Establishing Local, National &amp;amp; International Pathways&amp;#39;, at the launch of &lt;a href=&#34;https://rslondon.ac.uk/&#34; target=&#34;_blank&#34;&gt;Research Software London&lt;/a&gt;, Imperial College London, October 18, 2018.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;329&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTvmcubY2TY_03xHrv8uXDnj0MYpa2Z4yX9IEBdbAIB6FHWmzm1Het0PtPiu3ShIyDFBjkfNtGPRVOh/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Lab to University: Towards an Institutional RSE Career Pathway</title>
+      <link>https://www.jamessmithies.org/blog/2018/09/03/lab-university-towards-institutional-rse-career-pathway-rse-2018/</link>
+      <pubDate>Mon, 03 Sep 2018 17:47:54 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/2018/09/03/lab-university-towards-institutional-rse-career-pathway-rse-2018/</guid>
+      <description>&lt;p&gt;Slides for my talk &amp;#39;From Lab to University: Towards an Institutional RSE Career Pathway&amp;#39;, delivered at &lt;a href=&#34;https://rse.ac.uk/conf2018/&#34; target=&#34;_blank&#34;&gt;Research Software Engineering 2018&lt;/a&gt;, Birmingham University, 03 September 2018.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;329&#34; src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSzvj0Ocql6lizlGVXOUIo5VDjRR76rvn4Y0V9MmpssIExhJZfh9fskg23DEJFWIaccPrSyY3QizG2c/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=&#34;480&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
