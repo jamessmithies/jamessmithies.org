@@ -6,7 +6,9 @@
     <description>Updates on blog posts on jamessmithies.org.</description>
     <atom:link href="{{ .Permalink }}feed/" rel="self"></atom:link>
     <language>en-gb</language>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- with first 1 (where .Site.RegularPages "Section" "blog") }}
+    <lastBuildDate>{{ (index . 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- end }}
     {{- range first 100 (where .Site.RegularPages "Section" "blog") }}
     <item>
       <title>{{ .Title }}</title>
