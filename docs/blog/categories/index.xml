@@ -6,12 +6,19 @@
     <description>Recent content in Categories on jamessmithies.org</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 04 Dec 2025 16:17:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.jamessmithies.org/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>History</title>
+      <link>https://www.jamessmithies.org/blog/categories/history/</link>
+      <pubDate>Mon, 12 Oct 2026 07:00:00 +0000</pubDate>
+      <guid>https://www.jamessmithies.org/blog/categories/history/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Digital HASS</title>
       <link>https://www.jamessmithies.org/blog/categories/digital-hass/</link>
-      <pubDate>Thu, 04 Dec 2025 16:17:45 +0000</pubDate>
+      <pubDate>Tue, 16 Jun 2026 07:00:00 +0000</pubDate>
       <guid>https://www.jamessmithies.org/blog/categories/digital-hass/</guid>
       <description></description>
     </item>
@@ -27,13 +34,6 @@
       <link>https://www.jamessmithies.org/blog/categories/research-software-engineering/</link>
       <pubDate>Tue, 16 Sep 2025 10:45:00 +0000</pubDate>
       <guid>https://www.jamessmithies.org/blog/categories/research-software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>History</title>
-      <link>https://www.jamessmithies.org/blog/categories/history/</link>
-      <pubDate>Fri, 01 Aug 2025 16:00:00 +0000</pubDate>
-      <guid>https://www.jamessmithies.org/blog/categories/history/</guid>
       <description></description>
     </item>
     <item>

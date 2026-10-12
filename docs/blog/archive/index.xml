@@ -6,7 +6,19 @@
     <description>Updates on blog posts on jamessmithies.org.</description>
     <atom:link href="https://www.jamessmithies.org/blog/archive/feed/" rel="self"></atom:link>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 12 Oct 2026 02:07:13 &#43;0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 18:42:27 &#43;1100</lastBuildDate>
+    <item>
+      <title>The Paradox of Digital Modernity</title>
+      <link>https://www.jamessmithies.org/blog/2026/10/12/the-paradox-of-digital-modernity/</link>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;The Paradox of Digital Modernity&amp;#39;, delivered at the ANU School of Sociology, Australian National University, 12 October, 2026.&lt;/p&gt;</description>
+      <guid>https://www.jamessmithies.org/blog/2026/10/12/the-paradox-of-digital-modernity/</guid>
+    </item>
+    <item>
+      <title>Enabling the Design of National Infrastructures for Humanities &amp; Social Science Research</title>
+      <link>https://www.jamessmithies.org/blog/2026/06/16/enabling-the-design-of-national-infrastructures-for-humanities-social-science-research/</link>
+      <description>&lt;p&gt;Slides of my talk &amp;#39;Enabling the Design of National Infrastructures for Humanities &amp;amp; Social Science Research&amp;#39;, delivered at Building Digital Platform Observatories, University of Queensland, 16 June, 2026.&lt;/p&gt;</description>
+      <guid>https://www.jamessmithies.org/blog/2026/06/16/enabling-the-design-of-national-infrastructures-for-humanities-social-science-research/</guid>
+    </item>
     <item>
       <title>ATLAS: Enabling Open Methods and Technical Transparency in AI</title>
       <link>https://www.jamessmithies.org/blog/2025/12/04/atlas-enabling-open-methods-and-technical-transparency-in-ai/</link>
